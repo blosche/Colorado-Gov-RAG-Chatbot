@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+	Benefits Application
+</title>       
+    <!-- -------------------------- -->
+    <!-- Bootstrap CSS              -->
+    <!-- -------------------------- 	
+		-->
+    <link href="/Benefits/Content/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css" href="/Benefits/Scripts/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" />
+    <!-- Bootstrap Datepicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.min.css" />
+	<link type="text/css" href="/Benefits/Benefits.css" rel="stylesheet"/>
+
+    <!-- -------------------------- -->
+    <!-- JAVASCRIPT                 -->
+    <!-- -------------------------- 
+		
+		-->
+    <script type="text/javascript" src="/Benefits/Scripts/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="/Benefits/Scripts/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="/Benefits/Scripts/popper.min.js"></script>
+    <script type="text/javascript" src="/Benefits/Scripts/bootstrap.min.js"></script> 
+    <!-- DatePicker -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="/Benefits/Scripts/Benefits.js"></script>
+
+    
+
+    <title id="tagTitle">Home</title>
+
+    <style type="text/css">
+        .picFrame {
+            border-radius: 8px;
+            /*border-color:white;*/
+            border: solid 5px #dddddd;
+        }
+
+        .parentImgHolder {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .bottomImage {
+            position: relative;
+            top: 0;
+            left: 0;
+            border: 1px solid #000000;
+        }
+
+        .topImage {
+            position: absolute;
+            top: 50px;
+            left: 320px;
+            border: 1px solid #000000;
+        }
+    </style>
+
+
+<style type="text/css">
+	/* <![CDATA[ */
+	#TabMenu img.icon { border-style:none;vertical-align:middle; }
+	#TabMenu img.separator { border-style:none;display:block; }
+	#TabMenu img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#TabMenu ul { list-style:none;margin:0;padding:0;width:auto; }
+	#TabMenu ul.dynamic { z-index:1; }
+	#TabMenu a { text-decoration:none;white-space:nowrap;display:block; }
+	#TabMenu a.static { text-decoration:none;border-style:none;padding-left:0.15em;padding-right:0.15em; }
+	#TabMenu a.popout { background-image:url("/Benefits/WebResource.axd?d=YAYach_zykzn7tRotFpEUmahGF0pJPM6_inS1giFe0mt9SuRyxCg4teSgdDxUb8_yfwXNekM-BKNN2rQjX8LMhd0jLpnpyl4jiA0ruIz8l41&t=638459608569584809");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+	#TabMenu a.static.selected { text-decoration:none;border-style:none; }
+	/* ]]> */
+</style></head>
+
+<body>
+
+    <form method="post" action="tab/Home.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/Benefits/WebResource.axd?d=fqV81KWLWhVg-lLAb4IT62m-SiBjstXT5LsoNbaIqwAX0BKC_OSlaVMq-cdJ9DIN_3o1hKeV-KM7wBzSed0QaPhR03rSBzvxWI1YAuwt6us1&amp;t=638459608569584809" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F123B395" />
+
+    <div id="wrapper">
+        <div class="benefit-main" id="MasterMainBlock">
+            <div id="ContentBlock" class="content" style="margin-top:15px; padding-top:10px;  ">
+                <div id="bannerWrapper">
+                    <div id="bannerLogo">
+                        <img src="images/co_cdle_div_work_1_cmyk.png" alt="Colorado Department of Labor and Employment" style="max-width:380px; margin-left:5px;" />
+                    </div>
+                    <div id="bannerTitle" style="text-align:center; vertical-align:top; padding-left:50px;">                    
+                        <h1>Workers' Compensation Benefits Calculator</h1>
+                        <h2 style="font-size: 15px">Welcome to the Workers' Compensation Benefits Calculator, please select from the options below</h2>
+*The information and interactive calculators are made available to you as self-help tools for your independent use.<br/>
+We can not and do not guarantee their applicability or accuracy in regards to your individual circumstances.
+                    </div>
+                </div>
+                <div id="TopMenuContainer" class="TopMenuContainer">
+                    
+                    <div class="headerMenuLink" id="TabMenu">
+	<ul class="level1">
+		<li><a title="Welcome" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/Home.aspx">Home</a></li><li><a title="List and calculate mileage expenses" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/Mileage.aspx">Mileage</a></li><li><a title="Average Weekly Wage Calculation" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/AvgWeeklyWage.aspx">Average Weekly Wage</a></li><li><a title="Temporary Total Disability" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/DateCalculator.aspx">TTD Calculator</a></li><li><a title="Annual Interest Rate Calculator" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/interest.aspx">Interest Calculator</a></li><li><a title="Offset Calculator Button" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/offsetCalc.aspx">Offset Calculator</a></li><li><a title="Permanent Partial Disability Lump Sum" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/PPDLumpSum.aspx">PPD Lump Sum</a></li><li><a class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/PPDIndemnity.aspx">PPD Indemnity</a></li><li><a title="Partial PPD Lump Sum Button" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/PPPDLumpSum.aspx">Partial PPD Lump Sum</a></li><li><a title="Permanent Total Disability Lump Sum" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/PTDLumpSum.aspx">PTD Lump Sum</a></li><li><a title="Annual Interest Rate Calculator" class="level1 mnuStaticMenuItemStyle" href="/Benefits/tab/PTDPVBenefit.aspx">Lifetime Present Value</a></li>
+	</ul>
+</div>
+                </div>
+
+                <div style="text-align:center; font-weight:bold; font-size:large; vertical-align:middle; margin-top:10px; margin-bottom:10px;">
+                    
+    <div style="display:flex; justify-content:center;">
+        <h1 style="width: 33%; font-size: 18px; padding-left:300px;">Welcome to the Benefits Calculator</h1>
+        <strong style="text-align: right; padding-left:150px">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKnsvNuOBn9yndawpiKufdssyFINSsJaKLStvM46A8b-HUqg/viewform?usp=sf_link" target="_blank">
+                <img src="images/findwhatyourelookingfor.png" alt="Find what you&#39;re looking for?" style="width: 160px; height: 24px;" /></a>
+        </strong>
+    </div>
+
+
+
+
+
+
+                </div>
+
+                <div id="divWarning" class="WarningOff" style="font-family:&#39;Open Sans&#39;; font-size:14px;"></div>
+
+                
+    <div style="width: 100%; text-align: center; vertical-align: middle;" class="parentImgHolder">
+        <img src="images/ClaimsBenefitCalculator.jpg" class="picFrame bottomImage" alt="An image of a person working" style="max-width: 900px;" />
+        <!--
+        <img src="images/Unavailable_Message.jpg" class="topImage" alt="Down for maintenance April 17th" style="width: 546px; height: 274px;" />
+        -->
+    </div>
+    <div style="text-align: center;width:100%; margin-top:3%; margin-bottom:2%;">
+        <a href="https://cdle.colorado.gov/accessibility" style="color: black; font-size: 16px;" target="_blank" alt="Colorado Office of Information Technology Accessibility Statement">Accessibility Statement</a>
+    </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+<script type='text/javascript'>new Sys.WebForms.Menu({ element: 'TabMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script></form>
+</body>
+
+</html>
+

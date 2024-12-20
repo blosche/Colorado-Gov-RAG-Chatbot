@@ -1,0 +1,1100 @@
+Service Name: Access College in Colorado planning resources
+Service URL: https://www.mycoloradojourney.com/journey
+dept Name: Department of Higher Education
+dept URL: https://cdhe.colorado.gov/
+questions: 1. How can My Colorado Journey help students?
+2. Are career planning tools available on My Colorado Journey?
+3. Can My Colorado Journey assist in finding work?
+4. Does My Colorado Journey connect users to education resources?
+5. Are personalized goals part of My Colorado Journey?
+;
+Service Name: Apply for an educator license
+Service URL: https://cool.randasolutions.com/Account/Login?ReturnUrl=/
+dept Name: Department of Education
+dept URL: https://www.cde.state.co.us/
+questions: 1. How do I apply for an educator license?
+2. What information do I need to provide?
+3. Can I check the status of my application?
+4. Are there specific qualifications required to apply?
+5. How long does the application process take?
+;
+Service Name: Apply for Health First Colorado and Child Health Plan Plus
+Service URL: https://www.colorado.gov/hcpf/how-to-apply
+dept Name: Department of Health Care Policy & Financing
+dept URL: https://hcpf.colorado.gov/
+questions: 1. How to apply for Health First Colorado?
+2. Where to apply for Child Health Plan Plus?
+3. Can I check my application status?
+4. What are my Health First Colorado options?
+5. How to apply for Child Health Plan Plus?
+;
+Service Name: Apply for the College Opportunity Fund
+Service URL: https://cof.college-assist.org/
+dept Name: Department of Higher Education
+dept URL: https://cdhe.colorado.gov/
+questions: 1. How do I apply for the College Opportunity Fund?
+2. What are the eligibility requirements for COF?
+3. How much is the stipend for COF?
+4. Can I transfer my COF to a new college?
+5. Can I receive COF at multiple colleges?
+;
+Service Name: Apply online for a Work Opportunity Tax Credit
+Service URL: https://cdle.colorado.gov/work-opportunity-tax-credit
+dept Name: Department of Labor & Employment
+dept URL: https://cdle.colorado.gov/
+questions: 1. How do I qualify for WOTC credits?
+2. Where can I apply for WOTC online?
+3. Who are the targeted WOTC groups?
+4. What forms are needed for WOTC?
+5. Can I contact WOTC staff for help?
+;
+Service Name: Apply to be a methamphetamine labs cleanup instructor or training provider
+Service URL: https://cdphe.colorado.gov/methlabcleanup
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How can I become a meth lab cleanup instructor?
+2. Where can I apply for meth lab cleanup training?
+3. What are the requirements for meth lab cleanup certification?
+4. How do I get certified to clean meth-affected properties?
+5. Can I provide meth lab cleanup training services?
+;
+Service Name: Begin health facility licensing process
+Service URL: https://cdphe.colorado.gov/health-facilities-licensure-certification-and-registration
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How to start health facility licensing process?
+2. What is Medicare and Medicaid certification process?
+3. Where to find Medicare and Medicaid guidelines?
+4. How to file a health facility complaint?
+5. Can I apply for a mandatory vaccination waiver?
+;
+Service Name: Bid on work with the state
+Service URL: https://osc.colorado.gov/spco/accesscolorado
+dept Name: Department of Personnel & Administration
+dept URL: https://dpa.colorado.gov/
+questions: 1. How do I register on ColoradoVSS for solicitations?
+2. Where can I find State agency contacts?
+3. What are the Three Steps for suppliers?
+4. Where can I access State price agreements?
+5. How can I research past agency purchases?
+;
+Service Name: Center for Health and Environmental Data
+Service URL: https://cdphe.colorado.gov/center-for-health-and-environmental-data
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. What data does CHED provide for health? 
+2. How can I access CoHID resources? 
+3. What surveys are available on CHED? 
+4. Which registries does CHED offer data from? 
+5. Where can I find cancer statistics data?
+;
+Service Name: Check the status of a tax refund
+Service URL: https://tax.colorado.gov/where-is-my-refund
+dept Name: Department of Revenue
+dept URL: https://tax.colorado.gov/
+questions: 1. How do I check my refund status?
+2. Where's my refund check in the mail?
+3. Why was my direct deposit changed?
+4. Does an identity verification letter delay refunds?
+5. How can I get a refund reissued?
+;
+Service Name: Colorado Child Support Services Application
+Service URL: https://childsupport.state.co.us/siteuser/do/general/application/eAppforservices
+dept Name: Department of Human Services
+dept URL: https://cdhs.colorado.gov/
+questions: 1. How to apply for child support services online?
+2. When can we expect the county review?
+3. What if I'm receiving TANF benefits?
+4. Are printable applications available in Spanish?
+5. Why should I complete the online application?
+;
+Service Name: Colorado Cold Case Database
+Service URL: https://apps.colorado.gov/apps/coldcase/index.html
+dept Name: Colorado Bureau of Investigation
+dept URL: https://cbi.colorado.gov/
+questions: 1. "How can I submit a tip?"
+2. "What types of cases are listed?"
+3. "Can I view solved cases?"
+4. "Which agencies can I contact?"
+5. "Are missing persons cases included?"
+;
+Service Name: Search for convicted sex offenders in the state of Colorado
+Service URL: https://www.colorado.gov/apps/cdps/sor/search-agreement.jsf
+dept Name: Department of Public Safety
+dept URL: https://publicsafety.colorado.gov/
+questions: 1. How can I search for sex offenders?
+2. Can I find sex offenders in Colorado?
+3. Are there convicted sex offenders in Colorado?
+4. How can I get sex offender information?
+5. Where can I find sex offender records?
+;
+Service Name: Colorado Division of Professions and Occupations Online Services Portal
+Service URL: https://apps.colorado.gov/dora/licensing/Default.aspx
+dept Name: Department of Education
+dept URL: https://www.cde.state.co.us/
+questions: 1. How can I renew my professional license?
+2. How do I apply for a new license?
+3. Can I reinstate an expired license online?
+4. How do I update my contact information?
+5. How can I track my application progress?
+;
+Service Name: Colorado Courts
+Service URL: https://www.courts.state.co.us/
+dept Name: Colorado Judicial Branch
+dept URL: https://www.courts.state.co.us/
+questions: 1. How do I find my court date?
+2. How can I pay fines online?
+3. Where to find Virtual Courtrooms?
+4. What are Colorado's Trial Courts specialties?
+5. Who serves on Colorado Supreme Court?
+;
+Service Name: Colorado Law Help
+Service URL: https://lawhelp.colorado.gov/
+dept Name: Colorado Judicial Branch
+dept URL: https://www.courts.state.co.us/
+questions: 1. "How can I find a lawyer?"
+2. "Where can I learn about legal topics?"
+3. "How do I access legal materials?"
+4. "How can I find free legal events?"
+5. "Where can I get in-person legal help?"
+;
+Service Name: Colorado Nutrition Portal
+Service URL: https://co.cnpus.com/Colorado/Splash.aspx
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How do I access CACFP claim due dates?
+2. When are SFSP Applications for PY24 open?
+3. How can I submit a new SFSP site?
+4. What information is needed for CACFP applications?
+5. Who approves data collected in the portal?
+;
+Service Name: Colorado PEAK
+Service URL: https://peak--coloradopeak.force.com/peak/s/peak-landing-page?language=en_US
+dept Name: Colorado Department of Health Care Policy & Financing
+dept URL: https://hcpf.colorado.gov/contact-hcpf
+questions: 1. How to apply for Colorado PEAK benefits?
+2. What are Colorado PEAK eligibility requirements?
+3. How to renew benefits on Colorado PEAK?
+4. Can I check my Colorado PEAK application status?
+5. Where can I get help with Colorado PEAK?
+;
+Service Name: Colorado QuitLine
+Service URL: https://www.coquitline.org/
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How can I enroll in Colorado QuitLine?
+2. What resources are available for quitting tobacco?
+3. Can I receive free coaching and quit medications?
+4. Is lung cancer screening offered by QuitLine?
+5. How can QuitLine help me quit smoking?
+;
+Service Name: Colorado Shines
+Service URL: https://www.coloradoshines.com
+dept Name: Department of Human Services
+dept URL: https://cdhs.colorado.gov/
+questions: 1. How can I improve my child's early learning?
+2. What resources are available for child care providers?
+3. How can I find quality child care?
+4. Are there costs for Colorado Shines services?
+5. What support does Colorado Shines offer families?
+;
+Service Name: Colorado Volunteer Mobilizer
+Service URL: https://covolunteers.state.co.us/
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How to register for Colorado Volunteer Mobilizer?
+2. What types of volunteers does CVM need?
+3. How does CVM verify licenses and background?
+4. What kind of emergencies could CVM respond to?
+5. How does CVM notify volunteers during emergencies?
+;
+Service Name: Connect for Health Colorado
+Service URL: http://www.connectforhealthco.com/
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. When can I buy insurance?
+2. Can someone help me enroll?
+3. Where can I find my 1095-A form?
+4. How do I change my information?
+5. What events qualify for special enrollment?
+;
+Service Name: Connecting Colorado
+Service URL: https://www.connectingcolorado.com/
+dept Name: Department of Labor and Employment
+dept URL: https://cdle.colorado.gov/
+questions: 1. How can I post my rÃ©sumÃ© on ConnectingColorado?
+2. What is the process to apply for a job through ConnectingColorado?
+3. How can employers post job openings on ConnectingColorado?
+4. Can ConnectingColorado help employers connect with qualified workers?
+5. Is ConnectingColorado accessible on mobile devices?
+;
+Service Name: Control noxious weeds
+Service URL: https://ag.colorado.gov/conservation/noxious-weeds
+dept Name: Department of Agriculture
+dept URL: https://ag.colorado.gov/
+questions: 1. How do I control noxious weeds?
+2. What is the purpose of the Noxious Weeds Program?
+3. How can I prevent invasive species?
+4. What funding is available for weed management?
+5. How does the program educate about weeds?
+;
+Service Name: Division of Local Government
+Service URL: https://cdola.colorado.gov/local-government
+dept Name: Colorado Department of Local Affairs
+dept URL: https://cdola.colorado.gov/
+questions: 1. How can I access affordable housing funding?
+2. What resources are available for local governments?
+3. Where can I find technical assistance programs?
+4. How does the agency support disaster recovery?
+5. What educational opportunities are offered for local officials?
+;
+Service Name: Driver License and ID Card Renewal
+Service URL: https://mydmv.colorado.gov/
+dept Name: Department of Revenue
+dept URL: https://cdor.colorado.gov/
+questions: 1. How can I renew my driver's license?
+2. What is the process for ID card renewal?
+3. Where can I go for license renewal?
+4. How often do I need to renew?
+5. Can I renew my license online?
+;
+Service Name: EMS Provider Certification
+Service URL: https://cdphe.colorado.gov/emergency-care/emergency-medical-services/ems-providers/ems-provider-certification
+dept Name: Department of Regulatory Agencies
+dept URL: https://dora.colorado.gov/
+questions: 1. How do I apply for EMS provider certification?
+2. What are the initial certification requirements for EMS providers?
+3. How can I renew my EMS provider certification?
+4. What is the process for upgrading EMS certification level?
+5. What should I do to reinstate my EMS certification?
+;
+Service Name: Explore and file business forms
+Service URL: https://www.sos.state.co.us/pubs/business/forms_main.html
+dept Name: Department of State
+dept URL: https://www.sos.state.co.us/
+questions: 1. How do I file a Statement of Trade Name Renewal?
+2. Where can I find a Statement of Change form?
+3. What is the process to Register as a Limited Liability Limited Partnership?
+4. How do I correct the Address for Service of Process on a Trademark?
+5. Can I file a Certificate of Good Standing online?
+;
+Service Name: Explore solid waste forms and applications
+Service URL: https://cdphe.colorado.gov/swforms
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov
+questions: 1. How to compost at home?
+2. What is e-waste recycling?
+3. Where to recycle waste tires?
+4. How to dispose of medical waste?
+5. How to apply for solid waste user fee?
+;
+Service Name: Explore the Colorado Fishing Atlas
+Service URL: http://ndismaps.nrel.colostate.edu/fishingatlas/
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How do I access the Colorado Fishing Atlas?
+2. Can I find fishing locations on the Atlas?
+3. Are there regulations listed on the Atlas?
+4. Can I view fishing reports on the Atlas?
+5. Is the Colorado Fishing Atlas free to use?
+;
+Service Name: Explore the Colorado Hunting Atlas
+Service URL: http://ndismaps.nrel.colostate.edu/huntingatlas
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How do I access the Hunting Atlas?
+2. What information is available on the Atlas?
+3. Can I find hunting regulations on the Atlas?
+4. Are there interactive maps on the Atlas?
+5. Is the Hunting Atlas mobile-friendly?
+;
+Service Name: Explore veterans employment resources
+Service URL: https://vets.colorado.gov/employment-0
+dept Name: Department of Military and Veterans Affairs
+dept URL: https://vets.colorado.gov/
+questions: 1. Do veterans receive priority in job services?
+2. How can veterans get one-on-one career coaching?
+3. What types of workshops do Workforce Centers offer?
+4. Where can veterans find vocational rehabilitation services?
+5. What are the contact details for veterans' employment services?
+;
+Service Name: Explore veterans employment resources
+Service URL: https://cdle.colorado.gov/jobs-training/veterans
+dept Name: Department of Labor and Employment
+dept URL: https://cdle.colorado.gov/
+questions: 1. How do veterans access employment assistance services?
+2. What services are offered to eligible spouses?
+3. Where can veterans get help with resume writing?
+4. Can veterans receive vocational guidance at Workforce Centers?
+5. Are veteran services provided free of charge?
+;
+Service Name: File a fraud report form
+Service URL: https://www.stopfraudcolorado.gov/about-consumer-protection/report-fraud.html
+dept Name: Department of Law
+dept URL: https://coag.gov/
+questions: 1. How to file a complaint with Attorney General?
+2. What types of complaints can be filed?
+3. Can I file a complaint about data breach?
+4. How to report Medicaid fraud and abuse?
+5. Can I file a complaint about insurance fraud?
+;
+Service Name: File an online crash report
+Service URL: https://mydmv.colorado.gov/?Link=AccidentCounterReport
+dept Name: Department of Revenue
+dept URL: https://dmv.colorado.gov/
+questions: 1. Can I file a CO crash report online?
+2. How to submit a CO crash report?
+3. What information do I need for the online crash report?
+4. Is the online crash report process fast?
+5. Are online crash reports accepted statewide?
+;
+Service Name: File your state income taxes online
+Service URL: http://www.colorado.gov/RevenueOnline
+dept Name: Department of Revenue
+dept URL: https://tax.colorado.gov/
+questions: 1. How do I file Colorado state taxes online?
+2. Can I e-file my state income taxes?
+3. What are the benefits of Revenue Online?
+4. Is Revenue Online secure for tax filings?
+5. Are there resources for state tax assistance?
+;
+Service Name: Find a child car seat fitting station by county
+Service URL: https://www.codot.gov/safety/carseats/car-seat-fit-recommendations
+dept Name: Department of Transportation
+dept URL: https://www.codot.gov/
+questions: 1. Where can I find a child car seat fitting station?
+2. How can I ensure my child's seat meets safety standards?
+3. Are there specific size requirements for car seats?
+4. How do I know if my child's seat is installed correctly?
+5. Who can I speak to about car seat recalls?
+;
+Service Name: Find a DMV location
+Service URL: https://dmv.colorado.gov/driver-license-office-locations
+dept Name: Department of Revenue
+dept URL: https://dmv.colorado.gov/
+questions: 1. Where are Driver License Office Locations?
+2. Which services are provided at DMV locations?
+3. How do I renew my driver license?
+4. What are the hours of operation?
+5. Can I schedule an appointment online?
+;
+Service Name: Find a driving class
+Service URL: https://www.coloradosafedriver.org/
+dept Name: Department of Public Safety
+dept URL: https://csp.colorado.gov/
+questions: 1. How long is the Alive at 25 course?
+2. What age group is the Attitudinal Dynamics of Driving course for?
+3. What is the duration of the Distracted Driving course?
+4. Can I take the DDC Online course in Spanish?
+5. How many modules are in the Defensive Driving program?
+;
+Service Name: Find a WIC Clinic
+Service URL: https://www.coloradowic.gov/find-wic-clinic
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. "How do I find a WIC Clinic?"
+2. "What services does WIC Clinic offer?"
+3. "Are WIC Clinics open on weekends?"
+4. "Can I apply for WIC benefits online?"
+5. "Which WIC Clinic is nearest to me?"
+;
+Service Name: Find a workforce center
+Service URL: https://cdle.colorado.gov/wfc
+dept Name: Department of Labor and Employment
+dept URL: https://cdle.colorado.gov/
+questions: 1. Where can I find job listings?
+2. How do I get career counseling?
+3. Are there free training programs available?
+4. Can employers get tax credits?
+5. What are Workforce Center's hours of operation?
+;
+Service Name: Find active water rights calls
+Service URL: https://dwr.state.co.us/Tools/AdministrativeCalls/Active
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. "How to find active water rights calls?"
+2. "What are futile water rights calls?"
+3. "Can I search for nonconsumptive water calls?"
+4. "Where to locate water source call analysis?"
+5. "How to view historical structure call analysis?"
+;
+Service Name: Find an Inmate
+Service URL: http://www.doc.state.co.us/oss/
+dept Name: Department of Corrections
+dept URL: https://cdoc.colorado.gov/
+questions: 1. How can I search for an inmate?
+2. What information do I need to search?
+3. Can I search by DOC number?
+4. How do I find an inmate's name?
+5. What inmate details can I access?
+;
+Service Name: Find and Compare Health Facilities
+Service URL: https://cdphe.colorado.gov/find-and-compare-facilities
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How to find health facility vaccination reporting?
+2. Where to compare Medicare-certified health facilities?
+3. How to verify QMAP in health facilities?
+4. Where to file complaints about health facilities?
+5. How to access health care facility guidelines?
+;
+Service Name: Find health facilities by type and by city or county
+Service URL: https://cdphe.colorado.gov/find-and-compare-facilities
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. "How to find health facilities by city?"
+2. "Where can I compare health facilities?"
+3. "How to locate health facilities by type?"
+4. "Can I search for facilities by county?"
+5. "Where to find city-specific health facilities?"
+;
+Service Name: Find out if a site is contaminated
+Service URL: https://cdphe.colorado.gov/if-site-contaminated
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How to check if a site is contaminated?
+2. How to find contaminated site information?
+3. How to locate leaking petroleum storage tanks?
+4. How to review hazardous waste inspection reports?
+5. How to get information on radioactive materials sites?
+;
+Service Name: Get copies of occupational school student transcripts
+Service URL: https://highered.colorado.gov/DPOS/Payments/Transcript_Request.aspx
+dept Name: Department of Higher Education
+dept URL: https://cdhe.colorado.gov/
+questions: 1. How to request DHE student transcripts?
+2. Where to select occupational school for request?
+3. How to obtain student records from DPOS?
+4. How to begin transcript request process?
+5. What are DPOS student record options?
+;
+Service Name: Get Vaccinated
+Service URL: https://cdphe.colorado.gov/immunizations/get-vaccinated
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. Where can I get free vaccines?
+2. How to find vaccine clinics for kids?
+3. Are vaccines covered by my insurance?
+4. How to locate a flu vaccine?
+5. Where can I get a COVID-19 vaccine?
+;
+Service Name: HIV Linkage to Care
+Service URL: https://cdphe.colorado.gov/living-with-hiv
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. What is Linkage to Care?
+2. How to find a Linkage to Care Specialist?
+3. What is case management for people with HIV?
+4. How to get help covering medication costs?
+5. How to find an Infectious Disease Provider?
+;
+Service Name: Learn about animal importing
+Service URL: https://ag.colorado.gov/animals/import-requirements
+dept Name: Department of Agriculture
+dept URL: https://ag.colorado.gov/
+questions: 1. What are Colorado's animal import rules?
+2. How can I obtain an import permit?
+3. What are Approved Tagging Sites in Colorado?
+4. How do veterinarians get entry permits?
+5. How can I learn regulations for moving livestock?
+;
+Service Name: Learn About WIC
+Service URL: https://www.coloradowic.gov/about
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How can I apply for WIC benefits?
+2. What kind of food does WIC provide?
+3. Can WIC help with breastfeeding support?
+4. What kind of nutrition education does WIC offer?
+5. Are there additional services beyond WIC benefits?
+;
+Service Name: License a measurement standards device
+Service URL: https://ag.colorado.gov/ics/measurement-standards
+dept Name: Department of Agriculture
+dept URL: https://ag.colorado.gov/
+questions: 1. How do I certify measuring devices?
+2. What is the method of sale enforcement?
+3. What happens during label inspections?
+4. Who conducts price verification inspections?
+5. What are the unit pricing requirements?
+;
+Service Name: Locate Medicaid and Child Health Plan Plus providers
+Service URL: https://www.colorado.gov/hcpf/find-doctor
+dept Name: Department of Health Care Policy & Financing
+dept URL: https://hcpf.colorado.gov/
+questions: 1. How do I find Medicaid providers?
+2. Does Child Health Plan Plus cover pharmacies?
+3. Where can I search for Health First Colorado doctors?
+4. Can I locate behavioral health services providers?
+5. How can I find a new doctor?
+;
+Service Name: Make a camping reservation
+Service URL: https://www.cpwshop.com/campinghome.page
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How do I reserve a camping spot?
+2. Is camping available this weekend?
+3. Can I book a day-use site?
+4. What are the camping reservation options?
+5. Where can I find a campground?
+;
+Service Name: Make a Department of Corrections request for records
+Service URL: https://cdoc.colorado.gov/news-and-records/cora/ccjra
+dept Name: Department of Corrections
+dept URL: https://cdoc.colorado.gov/
+questions: 1. How do I request Department of Corrections records?
+2. What information do I need to provide?
+3. Where should I send my email request?
+4. How will my request be responded to?
+5. Is there a specific email for record requests?
+;
+Service Name: Make a hazardous materials public records request
+Service URL: https://cdphe.colorado.gov/hmwmd-records-review
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. How can I request hazardous waste records?
+2. What type of records does HMWMD maintain?
+3. When will HMWMD respond to record requests?
+4. Are there fees for file reviews?
+5. Can I submit a records review request online?
+;
+Service Name: Manage livestock brands
+Service URL: https://ag.colorado.gov/brands
+dept Name: Department of Agriculture
+dept URL: https://ag.colorado.gov/
+questions: 1. How to search for livestock brands?
+2. Can I request a brand inspection?
+3. Where to report missing livestock?
+4. What are the laws on livestock brands?
+5. How to contact the Brand Inspection Division?
+;
+Service Name: Manage my tax account
+Service URL: https://tax.colorado.gov/ROL-help
+dept Name: Department of Revenue
+dept URL: https://tax.colorado.gov/
+questions: 1. How do I set up my tax account online?
+2. Can I manage my tax payments through this?
+3. What options are available for tax refunds?
+4. How can I access online tax forms?
+5. How can I check my tax payment status?
+;
+Service Name: Manage or renew your real estate license
+Service URL: https://dre.colorado.gov/
+dept Name: Department of Regulatory Agencies
+dept URL: https://dre.colorado.gov/
+questions: 1. How do I renew my real estate license?
+2. Can I manage my real estate license online?
+3. Where can I apply for real estate license renewal?
+4. What are the steps for license renewal?
+5. How do I check my license status?
+;
+Service Name: Manage your insurance producer license
+Service URL: https://www.sircon.com/landingPages/states/colorado/content.jsp
+dept Name: Department of Regulatory Agencies
+dept URL: https://dora.colorado.gov/
+questions: 1. How can I renew my insurance license?
+2. Can I change my agency email address?
+3. Where can I check license application status?
+4. What's the process for changing agency associations?
+5. How do I print a license online?
+;
+Service Name: MyBizColorado
+Service URL: https://mybiz.colorado.gov/
+dept Name: Department of State
+dept URL: https://www.sos.state.co.us/
+questions: 1. How do I register my business online?
+2. Can I file my business taxes online?
+3. Where can I find resources for hiring?
+4. How do I renew my business license?
+5. What services does MyBizColorado offer business owners?
+;
+Service Name: Notify gaming officials of an arrest
+Service URL: https://sbg.colorado.gov/arrest-notification-form
+dept Name: Department of Revenue
+dept URL: https://cdor.colorado.gov/
+questions: 1. How do I notify gaming officials of an arrest?
+2. What should I do after getting arrested?
+3. How can I report a criminal conviction?
+4. Where should I send arrest-related documentation?
+5. What can happen if I don't report an arrest?
+;
+Service Name: Pay a City of Denver parking ticket
+Service URL: https://www.denvergov.org/Government/Agencies-Departments-Offices/Parking-Division/Tickets-and-Towing/Pay-a-Parking-Ticket
+dept Name: City and County of Denver
+dept URL: https://www.denvergov.org/Home
+questions: 1. How can I pay a Denver parking ticket online?
+2. What payment methods are accepted for parking tickets?
+3. Can I dispute a Denver parking citation online?
+4. What happens if I don't pay my parking ticket within 20 days?
+5. How do I contact the Parking Violations Bureau?
+;
+Service Name: Pay a debt owed to the State of Colorado
+Service URL: https://tax.colorado.gov/collections
+dept Name: Department of Personnel & Administration
+dept URL: https://dpa.colorado.gov/
+questions: 1. How to make a tax payment?
+2. Can I set up a payment plan?
+3. What happens if I owe taxes?
+4. How do I dispute a tax bill?
+5. What are refund interception options?
+;
+Service Name: Pay taxes online
+Service URL: https://tax.colorado.gov/pay
+dept Name: Department of Revenue
+dept URL: https://tax.colorado.gov
+questions: 1. How can I pay my taxes online?
+2. What payment methods are accepted online?
+3. Can I set up a payment plan?
+4. Are there options for international payments?
+5. How do I check my refund status?
+;
+Service Name: Pay your boiler inspection invoice online
+Service URL: https://joportal.com/CO
+dept Name: Department of Labor and Employment
+dept URL: https://cdle.colorado.gov/
+questions: 1. How can I pay my boiler inspection invoice online?
+2. Where can I find unpaid invoices to pay?
+3. What actions can I take with my invoices?
+4. Can I search for boiler locations online?
+5. How do I register for the eCommerce site?
+;
+Service Name: Pay your petroleum tank invoice online
+Service URL: https://www.colorado.gov/apps/cdle/ops/payment/storagetanks/index.jsf
+dept Name: Department of Labor and Employment
+dept URL: https://cdle.colorado.gov/
+questions: 1. How can I pay my petroleum tank invoice online?
+2. What information do I need to provide for payment?
+3. Can I select which invoices to pay online?
+4. Is there a way to dispute any errors?
+5. How do I contact support for additional assistance?
+;
+Service Name: Purchase a fishing license online
+Service URL: https://cpw.state.co.us/buyapply/Pages/Fishing.aspx
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How can I buy a fishing license?
+2. Can I purchase a license online?
+3. What are the payment options for licenses?
+4. Are there different types of fishing licenses?
+5. Where can I go to buy licenses in person?
+;
+Service Name: Purchase a hunting license online
+Service URL: https://cpw.state.co.us/buyapply/pages/hunting.aspx
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. Where can I buy a hunting license in person?
+2. How can I purchase a hunting license online?
+3. What are the payment options for hunting licenses?
+4. Do I need Hunter Education before buying a license?
+5. What is required to access State Wildlife Areas?
+;
+Service Name: Purchase Colorado State Parks gift certificates
+Service URL: https://www.cpwshop.com/giftcertificates.page
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How do I purchase Colorado State Parks gift certificates?
+2. Can I buy Colorado State Parks gift certificates online?
+3. Are Colorado State Parks gift certificates available for purchase?
+4. Where can I get Colorado State Parks gift certificates?
+5. How can I buy gift certificates for Colorado State Parks?
+;
+Service Name: Purchase your annual parks pass online
+Service URL: https://www.cpwshop.com/privilegepos.page
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How do I purchase a Colorado parks pass?
+2. Can I buy an annual pass online?
+3. Where can I complete my parks pass purchase?
+4. Why am I in a queue to buy a parks pass?
+5. What should I do to keep my place in line for the parks pass purchase?
+;
+Service Name: Register for electronic funds transfer
+Service URL: https://tax.colorado.gov/electronic-funds-transfer
+dept Name: Department of Revenue
+dept URL: https://tax.colorado.gov/
+questions: 1. How do I schedule future payments online?
+2. Can I view payment history online?
+3. What is the EFT Helpline phone number?
+4. How to create a Revenue Online account?
+5. Is there a Service Center appointment required?
+;
+Service Name: Register for hazardous waste workshops and training
+Service URL: https://cdphe.colorado.gov/colorado-haz-waste-reg-training
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. What is the cost of online training?
+2. Where to register for hazardous waste workshops?
+3. How can I contact Laura Gurule?
+4. When is the in-person hazardous waste training?
+5. What topics are covered in the 2023 training?
+;
+Service Name: Register for real time alerts from CDOT
+Service URL: http://subscription.cotrip.org/
+dept Name: Department of Transportation
+dept URL: https://www.codot.gov/
+questions: 1. How do I sign up for CDOT alerts?
+2. What types of alerts can I receive?
+3. How can I get specific construction updates?
+4. Are there trucker alerts available?
+5. Can I get notified about regional news?
+;
+Service Name: Renew your boat registration online
+Service URL: https://cpw.state.co.us/buyapply/Pages/BoatingRegistrations.aspx
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How do I renew my boat registration online?
+2. What is the fee for boat registration renewal?
+3. Where can I get an ANS stamp?
+4. What are the registration requirements for non-residents?
+5. Can I register my boat at CPW offices?
+;
+Service Name: Renew your OHV registration online
+Service URL: https://cpw.state.co.us/buyapply/Pages/RegistrationsOHV.aspx
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How do I renew my OHV registration online?
+2. What is needed to operate an OHV in Colorado?
+3. How long is an OHV registration valid?
+4. Where should OHV registration decals be placed?
+5. How can I get a duplicate OHV registration?
+;
+Service Name: Renew your snowmobile registration online
+Service URL: https://cpw.state.co.us/buyapply/Pages/SnowmobileRegistrations.aspx
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How do I renew my snowmobile registration?
+2. What is the annual registration fee?
+3. Where can I register my snowmobile?
+4. Do non-residents need to purchase a permit?
+5. How do I handle out-of-state snowmobiles?
+;
+Service Name: Renew your vehicle registration online
+Service URL: https://www.colorado.gov/apps/dor/dmv/vehicle/registration/renewal/welcome.jsf
+dept Name: Department of Transportation
+dept URL: https://dmv.colorado.gov/
+questions: 1. Renew vehicle registration online without delay?
+2. Can I update vehicle registration information online?
+3. Any discounts for renewing vehicle registration online?
+4. How do I renew vehicle registration digitally?
+5. Quick steps to complete vehicle registration renewal?
+;
+Service Name: Report suspicious activity
+Service URL: https://ciacco.org/default.aspx?menuitemid=61
+dept Name: Department of Public Safety
+dept URL: https://publicsafety.colorado.gov/
+questions: 1. How do I report suspicious activity online?
+2. Who should I contact for reporting fraud?
+3. Can I report suspicious claims anonymously?
+4. What type of activities should I report?
+5. Is there a way to report scams?
+;
+Service Name: Report employer fraud
+Service URL: https://cdle.colorado.gov/fraud-prevention
+dept Name: Department of Labor and Employment
+dept URL: https://cdle.colorado.gov/
+questions: 1. How do I report unemployment fraud?
+2. What steps should I take for identity theft?
+3. Where can I report employer fraud?
+4. How can I protect against fraud?
+5. Are there resources for fraud recovery?
+;
+Service Name: Request a biocontrol bug
+Service URL: https://ag.colorado.gov/conservation/biocontrol/request-a-bug
+dept Name: Department of Agriculture
+dept URL: https://ag.colorado.gov/
+questions: 1. How to join Biocontrol Request-A-Bug waitlist?
+2. Can private landowners request Dalmatian Toadflax biocontrol?
+3. What are the fees for Russian Knapweed biocontrol?
+4. Who should be contacted for Puncturevine biocontrol?
+5. Are Tamarisk beetles available for public land managers?
+;
+Service Name: Request a military retirement letter from the Governor
+Service URL: https://www.colorado.gov/governor/letter-request
+dept Name: Office of the Governor
+dept URL: https://www.colorado.gov/governor
+questions: 1. How to request a military retirement letter?
+2. Can the Governor provide military retirement letters?
+3. Where to request military retirement letters?
+4. Need help getting a military retirement letter?
+5. How to contact Governor Polis for letters?
+;
+Service Name: Request public records through the Colorado Open Records Act
+Service URL: https://cdor.colorado.gov/cora-request-form
+dept Name: Department of Revenue
+dept URL: https://cdor.colorado.gov/
+questions: 1. How do I request public records?
+2. What is the Colorado Open Records Act?
+3. What type of information can I request?
+4. How are requested reports delivered?
+5. Which personal information is redacted?
+;
+Service Name: Revenue Online
+Service URL: https://www.colorado.gov/revenueonline
+dept Name: Department of Revenue
+dept URL: https://cdor.colorado.gov/
+questions: 1. How can I file taxes online?
+2. What types of payments can be made?
+3. Are business taxes supported on Revenue Online?
+4. Is there a deadline for tax filing?
+5. Can I find previous tax returns online?
+;
+Service Name: Review Colorado Department of Public Safety rules in development
+Service URL: https://publicsafety.colorado.gov/get-involved/rules-and-regulations
+dept Name: Department of Public Safety
+dept URL: https://publicsafety.colorado.gov/
+questions: 1. How can I participate in CDPS rulemaking?
+2. Where are upcoming CDPS rule hearings?
+3. How do I submit comments on rules?
+4. Who should I contact for rule info?
+5. What are upcoming CDPS rule updates?
+;
+Service Name: Review limited license draw results and preference point status
+Service URL: http://cpw.state.co.us/thingstodo/Pages/DrawResults_PreferencePoints.aspx
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. When are limited license draw results posted?
+2. What happens if I miss the payment deadline?
+3. How can I check my preference points?
+4. How can I report incorrect information?
+5. Where can I find hunting statistics data?
+;
+Service Name: Review resources for commercial pesticide applicators
+Service URL: https://ag.colorado.gov/plants/pesticides
+dept Name: Department of Agriculture
+dept URL: https://ag.colorado.gov/
+questions: 1. How do I find licensed commercial applicators?
+2. What are the requirements for dicamba training?
+3. How can I file a complaint about pesticide misuse?
+4. What are the neonicotinoid limited-use pesticides?
+5. How do I apply for the Pesticide Sensitive Registry?
+;
+Service Name: Safe2Tell
+Service URL: https://safe2tell.org/
+dept Name: Department of Law
+dept URL: https://coag.gov/
+questions: 1. How can I report anonymously to Safe2Tell?
+2. What kind of concerns can I report?
+3. How can I submit a report?
+4. What happens after I make a report?
+5. Who receives the reports at Safe2Tell?
+;
+Service Name: Schedule a DMV appointment
+Service URL: https://dmv.colorado.gov/AppointmentScheduling
+dept Name: Department of Revenue
+dept URL: https://dmv.colorado.gov/
+questions: 1. How can I schedule a DMV appointment?
+2. What services can I access online?
+3. Do I need an appointment for DMV services?
+4. How do I cancel a DMV appointment?
+5. Can I check my license status online?
+;
+Service Name: SchoolView
+Service URL: https://www.cde.state.co.us/schoolview
+dept Name: Department of Education
+dept URL: https://www.cde.state.co.us/
+questions: 1. "How to search for a public school?"
+2. "Can I view district financial transparency?"
+3. "What data is included in SchoolView?"
+4. "Where can I find educator talent data?"
+5. "How to access assessment information?"
+;
+Service Name: Search for business records
+Service URL: http://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do
+dept Name: Department of State
+dept URL: https://www.sos.state.co.us/
+questions: 1. How can I search for a business?
+2. What information can I find through search?
+3. Can I search businesses by ID number?
+4. How do I check a business' trademark?
+5. Can I search for business survey information?
+;
+Service Name: Search for oil and gas drilling permits
+Service URL: https://cogcc.state.co.us/permits/
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. Where can I search for Oil & Gas Development Plans (OGDP)?
+2. How can I find pending Oil & Gas Location Assessments?
+3. Which counties have approved Oil & Gas Location Assessments?
+4. What is the process for Form 2C Completeness Review?
+5. How can I locate Form 2As approved recently?
+;
+Service Name: Search for Veterans Service Officers by county
+Service URL: https://vets.colorado.gov/services/county-veterans-service-offices
+dept Name: Department of Military and Veterans Affairs
+dept URL: https://vets.colorado.gov/
+questions: 1. "How can I contact County Veterans Service Offices?"
+2. "When are County Veterans Service Offices open?"
+3. "What assistance do County Veterans Service Officers provide?"
+4. "Which county has a Veterans Service Office?"
+5. "Do County Veterans Service Offices offer appeals assistance?"
+;
+Service Name: Search the Colorado State Publications Library catalog
+Service URL: https://athena.cde.state.co.us/screens/opacmenu_s1.html
+dept Name: Department of Education
+dept URL: https://www.cde.state.co.us/
+questions: 1. How do I search the State Publications Library catalog?  
+2. What type of materials can I find?  
+3. Can I search by author or subject?  
+4. How can I find specific government documents?  
+5. Is the catalog accessible to all users?
+;
+Service Name: Search water diversions data
+Service URL: https://dwr.state.co.us/Tools/Structures
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How can I access water diversions data?
+2. Where can I find diversion record details?
+3. Can I search water diversion records by date?
+4. How do I view water source call alerts?
+5. Is there a way to analyze water source calls?
+;
+Service Name: Search water rights data
+Service URL: https://dwr.state.co.us/Tools/WaterRights/Transactions
+dept Name: Department of Natural Resources
+dept URL: https://dnr.colorado.gov/
+questions: 1. How to search water rights data?
+2. What are water rights transactions?
+3. Can I view well permits information?
+4. How to check water diversion records?
+5. Where can I find water source data?
+;
+Service Name: Second Chance
+Service URL: http://www.secondchancetobacco.org/
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. What is Second Chance rental assistance program?
+2. How can I qualify for Second Chance program?
+3. Does Second Chance offer financial support for rent?
+4. How do I apply for Second Chance help?
+5. Can Second Chance assist with housing stability?
+;
+Service Name: State of Colorado Job Opportunities
+Service URL: https://www.governmentjobs.com/careers/Colorado
+dept Name: Department of Personnel & Administration
+dept URL: https://dpa.colorado.gov/
+questions: 1. How do I view State of Colorado job opportunities?
+2. What are the State of Colorado job categories?
+3. Can I apply for State of Colorado job promotions?
+4. What are the requirements for State job applications?
+5. Where can I find State of Colorado job descriptions?
+;
+Service Name: Subscribe to receive tax news
+Service URL: https://tax.colorado.gov/email-sign-up
+dept Name: Department of Revenue
+dept URL: https://tax.colorado.gov/
+questions: 1. How do I sign up for tax news alerts?
+2. Can I receive tax information by email?
+3. What types of tax alerts are available?
+4. How can I subscribe to multiple lists?
+5. How can I prevent email alerts from spam?
+;
+Service Name: Subscribe to Safe2Tell
+Service URL: https://visitor.r20.constantcontact.com/manage/optin?v=001c5nCkPxO9LdrF0AG4XP7-6Erx-M58_jKOd8BjN0900AQE9q4hTBHSH8DoS4MApkLFGMOfWiCOC-Yh9Q_au5aXVJ88rMjEwNN
+dept Name: Department of Law
+dept URL: https://coag.gov/
+questions: 1. How can I subscribe to Safe2Tell emails?
+2. What information is needed for Safe2Tell subscription?
+3. How do I stay updated with Safe2Tell?
+4. Can I receive Safe2Tell communications by text?
+5. Is there an option for Safe2Tell newsletters?
+;
+Service Name: Access TobaccoFreeCO resources
+Service URL: http://www.tobaccofreeco.org/
+dept Name: Department of Public Health & Environment
+dept URL: https://cdphe.colorado.gov/
+questions: 1. Where can I find free quit resources?
+2. How can I support someone quitting?
+3. How do I talk to youth about vaping?
+4. What tobacco use resources are available?
+5. How can I access coaching and patches?
+;
+Service Name: Transparency Online Project
+Service URL: https://data.colorado.gov/Government/Transparency-Online-Project-TOPS-State-Government-/rifs-n6ib
+dept Name: Department of Personnel & Administration
+dept URL: https://dpa.colorado.gov/
+questions: 1. What information does TOPS provide about Colorado's revenue?
+2. How does TOPS track Colorado's budget expenditures?
+3. Is TOPS still operational for revenue data?
+4. Can I find detailed expense breakdowns on TOPS?
+5. Does TOPS show current Colorado financial data?
+;
+Service Name: Vehicle Registration Renewal
+Service URL: http://www.colorado.gov/renewplates
+dept Name: Department of Revenue
+dept URL: https://cdor.colorado.gov/
+questions: - How do I renew my vehicle registration?
+- When is my vehicle registration due?
+- What documents do I need to renew?
+- Can I renew my registration online?
+- Where can I get my new registration?
+;
+Service Name: View information for truckers
+Service URL: https://cotrip.org/truckers.htm
+dept Name: Department of Transportation
+dept URL: https://www.codot.gov
+questions: - What trucker information is available on COtrip?
+- How can truckers access updates on COtrip?
+- Are there specific services for truckers on COtrip?
+- Where can truckers find route information on COtrip?
+- How does COtrip assist truck drivers?
+;
+Service Name: View road conditions throughout the state
+Service URL: https://cotrip.org/map.htm#/roadConditions
+dept Name: Department of Transportation
+dept URL: https://www.codot.gov/
+questions: 1. What are current road conditions in Colorado?
+2. How can I check road conditions statewide?
+3. Where can I find real-time traffic updates?
+4. Is there a way to view road closures?
+5. How do I access COtrip traveler information?
+;
+Service Name: View road conditions throughout the state
+Service URL: https://cotrip.org/map.htm#/roadConditions
+dept Name: Department of Transportation
+dept URL: https://www.codot.gov/
+questions: 1. How to view COtrip road conditions?
+2. Where are COtrip travel updates shown?
+3. How to check COtrip highway status?
+4. Where can I see COtrip traffic info?
+5. How to access COtrip road updates?
+;
+Service Name: View road work throughout the state
+Service URL: https://cotrip.org/map.htm#/roadWork
+dept Name: Department of Transportation
+dept URL: https://www.codot.gov/
+questions: 1. "Where can I view road work status?"
+2. "How to track statewide road construction?"
+3. "Can I see ongoing state road projects?"
+4. "How to check road work updates?"
+5. "Where to find Colorado road work information?"
+;
+Service Name: View speeds throughout the state
+Service URL: https://cotrip.org/map.htm#/speed
+dept Name: Department of Transportation
+dept URL: https://www.codot.gov/
+questions: 1. "How can I view Colorado travel speeds?"
+2. "Where can I check Colorado highway speeds?"
+3. "How to access COtrip traveler speed information?"
+4. "What speeds can I view across Colorado?"
+5. "How to see statewide speeds on COtrip?"
+;
+Service Name: View travel alerts throughout the state
+Service URL: https://cotrip.org/travelAlerts.htm#?roadId=
+dept Name: Department of Transportation
+dept URL: https://www.codot.gov/
+questions: 1. How do I view travel alerts in Colorado?
+2. Where can I find state travel updates?
+3. Can I access travel info statewide?
+4. What alerts are available for travelers?
+5. How can I check Colorado travel updates?
+;
+Service Name: View where your tax dollars go with Colorado Tax Tracks
+Service URL: https://apps.colorado.gov/apps/treasury/taxpayer/profile/
+dept Name: Department of Revenue
+dept URL: https://www.colorado.gov/taxtracks/
+questions: 1. How can I view my state tax breakdown?
+2. What is Annual Adjusted Money Income used for?
+3. Where do I find where my tax dollars go?
+4. Can I see a breakdown of tax allocations?
+5. How high does the income limit go?
+;

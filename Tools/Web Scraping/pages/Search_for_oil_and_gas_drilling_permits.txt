@@ -1,0 +1,86 @@
+Applications for Oil & Gas Development Plans (OGDPs) and Oil & Gas Locations (Form 2As)
+Search statewide or by county for pending and approved applications for Oil & Gas Development Plans (OGDP) and for Oil & Gas Locations (Form 2As).
+Oil & Gas Development Plans (OGDPs)
+OGDP Certifications (Form 2Cs) in Completeness Review:
+All Counties
+Adams
+Arapahoe
+Cheyenne
+Garfield
+Lincoln
+Rio Blanco
+Washington
+Weld
+Form 2C is In Process. Related Form 2B and Form 2A(s) have not yet passed completeness.
+Pending Applications for Oil & Gas Development Plans (OGDPs):
+All Counties
+Adams
+Arapahoe
+Broomfield
+Elbert
+Garfield
+Las Animas
+Lincoln
+Mesa
+Rio Blanco
+Weld
+Form 2B and Form 2A(s) have passed completeness and are In Process, undergoing technical review. Form 2C has been approved.
+Approved Applications for Oil & Gas Development Plans (OGDPs):
+All Counties
+Adams
+Arapahoe
+Cheyenne
+Delta
+Elbert
+Garfield
+Gunnison
+Jackson
+Kit Carson
+La Plata
+Larimer
+Las Animas
+Lincoln
+Mesa
+Moffat
+Rio Blanco
+Washington
+Weld
+The search is limited to those OGDPs approved within the last 12 months.
+For OGDPs approved more than 12 months ago search “OGDP” as the Facility Type in the
+COGIS Database
+.
+Oil & Gas Location Assessments (Form 2As)
+Pending Oil & Gas Location Assessments (Form 2As):
+All Counties
+Adams
+Arapahoe
+Garfield
+Las Animas
+Lincoln
+Mesa
+Rio Blanco
+Weld
+Approved Oil & Gas Location Assessments (Form 2As):
+All Counties
+Adams
+Arapahoe
+Cheyenne
+Delta
+El Paso
+Elbert
+Garfield
+Jackson
+Kit Carson
+La Plata
+Larimer
+Las Animas
+Lincoln
+Mesa
+Moffat
+Rio Blanco
+Washington
+Weld
+The search is limited to those Form 2As approved within the last 12 months.
+For Form 2As approved more than 12 months ago search “LOCATION” as the Facility Type in the
+COGIS Database
+.

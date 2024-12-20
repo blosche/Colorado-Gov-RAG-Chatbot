@@ -1,0 +1,42 @@
+COOL | Account
+Register
+Login
+Public Educator Search
+Colorado Online Licensing
+Notifications
+There are no notifications.
+Login
+Username or Email
+Password
+Login
+Forgot Username?
+Forgot Password?
+Create an account
+CDE
+|
+Title IX
+|
+Accessibility
+|
+Disclaimer
+|
+Privacy
+|
+Non Educator
+� 2024 Colorado Department of Education
+All rights reserved.
+Technical Support
+Online Support Form
+(877) 314-1412
+Licensing Support Requests
+Online Support Form
+(720) 739-3304
+PROD
+CDEA2
+N01CLP
+Modal title
+×
+Modal body text goes here.
+Comments:
+Confirm
+Close

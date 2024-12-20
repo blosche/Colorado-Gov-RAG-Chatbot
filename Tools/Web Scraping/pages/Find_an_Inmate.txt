@@ -1,0 +1,23 @@
+CDOC Offender Search
+Please Wait . . .
+User ID:
+Password:
+Login
+Return to DOCNet
+Colorado Department of Corrections
+Saturday, July 20, 2024, 3:56 pm
+New Search
+Par. Board
+Search Tips
+Disclaimer
+SUBMIT
+Please enter your search criteria into one or more of the following fields:
+DOCNO:
+LAST NAME:
+FIRST NAME:
+GENDER:
+ALL
+MALE
+FEMALE
+Please count the number of
+and type the answer below:

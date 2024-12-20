@@ -1,0 +1,43 @@
+Health First Colorado Add-A-Baby Emergent Request Form
+JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.
+Health First Colorado Add-A-Baby Emergent Request Form
+This page is for providers to submit an Emergent Request to add a baby to an existing Health First Colorado (Colorado’s Medicaid program) case. An Emergent Request is only for babies who need intensive medical attention for Border, Synagis, or Neonatal Intensive Care Unit (NICU).
+Providers, before submitting an Emergent Request:
+Verify with the parent(s) that a request to add a newborn has not been submitted to the county and/or submitted via PEAK or the Health First Colorado Mobile App.
+If a request has already been submitted by the parent(s) to the county and/or by the parent through PEAK or the Health First Colorado App:
+Do not submit an Emergent Request using the Add-A-Baby Request Form, as this may cause a delay in approval of benefits and a delay in provider payments.
+Do not submit a request to obtain the newborns Member ID only.
+Please check the Provider Web Portal, contact the parent(s) and/or the county to obtain the Member ID.
+Providers can verify a newborn’s eligibility through the Provider Web Portal. Providers can search with two of the following: Name, SSN, DOB. This information can be found on the Eligibility Verification section in the Provider Web Portal (see Verifying Member Eligibility Quick Guide)
+Please inform the parent(s) you are submitting a request to add the baby, so parents will not submit a duplicate request. Duplicate requests will cause delays.
+For all non-emergent requests, please contact the parent’s county department of human services. The parent can also contact their county department of human services or use PEAK or the Health First Colorado App to add the newborn.
+Instructions
+DO NOT SUBMIT A DUPLICATE REQUEST. If the newborn baby is not showing as eligible within 7 business days after submitting a request, send an email to
+hcpf_add-a-baby@state.co.us
+.
+Complete all fields in the form below. Fields with * are required. If mandatory fields are not completed, the request form will not submit.
+Complete the "Add Additional Baby" section on the request form if you are adding twins/triplets.
+CHECK FOR ACCURACY BEFORE SUBMITTING THE REQUEST. Errors may delay the ability to process your request.
+IF YOU ARE NOT A MEDICAL PROVIDER, DO NOT USE THIS REQUEST FORM and do not send an email. The request will not be processed.
+Sign in to Google
+to save your progress.
+Learn more
+* Indicates required question
+Check box if you are a medical provider.
+*
+Yes
+Required
+Check box if this is an EMERGENT REQUEST.
+*
+Yes
+Required
+Next
+Clear form
+Never submit passwords through Google Forms.
+This content is neither created nor endorsed by Google.
+Report Abuse
+-
+Terms of Service
+-
+Privacy Policy
+Forms

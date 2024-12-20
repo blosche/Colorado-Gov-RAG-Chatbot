@@ -1,0 +1,624 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<!-- Loaded: Friday, July 19, 2024 at 8:32 AM; Instance: LIC-APP-BTRSI2023; Revision: 24.6.1.0; Enterprise: 458FB065-AE50-42E0-B07E-EDE5A979D4D8; Reloaded: false -->
+<title>Public Portal</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta content="noindex, nofollow" name="robots">
+<link rel="canonical" href="https://colorado.emsbridge.com/licensure/public/colorado/" />	
+<script type="text/javascript">
+        var SiteLocationForLogging = {
+            apiLocation: 'https://colorado.emsbridge.com/licensure/api/'
+        };
+</script>
+<style>
+    .public-portal-header-main {
+        margin-top: 0;
+        margin-bottom: 10px;
+        background-color: #eeeeee;
+        padding: 10px 15px 0px 15px;
+    }
+
+    .public-portal-header-main h1 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+    }
+</style>
+
+
+    <link rel="shortcut icon" href='controller.cfm?method=fileUtil.renderImage&fileID=724E3343%2D7640%2DE411%2DB15D%2DACE5C52E2EF9' />
+
+<link href="https://colorado.emsbridge.com/licensure/assets/images/logos/mobile.png" rel="apple-touch-icon"/> 
+
+<link type="text/css" rel="stylesheet" href="https://colorado.emsbridge.com/licensure//assets/css/jquery-ui/jquery-ui-1.13.3.custom.css?v=24_6_1_0" media="all">
+<link type="text/css" rel="stylesheet" href="https://colorado.emsbridge.com/licensure/assets/css/license_public_standard.css?v=24_6_1_0" media="all">
+<link type="text/css" rel="stylesheet" href="https://colorado.emsbridge.com/licensure//minerva/public/assets/css/timepicker.css?v=24_6_1_0" media="all"> <script type="text/javascript" src="https://colorado.emsbridge.com/licensure//assets/js/jquery/jquery-1.12.4.min.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure//assets/js/jquery/jquery-migrate-1.4.1.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure//assets/js/jquery/jquery-3.0.0.min.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure//assets/js/jquery/jquery-migrate-3.3.0.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure//assets/js/jquery/jquery-3.7.1.min.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure//assets/js/jquery-ui/jquery-ui-1.13.3.custom.min.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure/minerva/public/assets/js/jquery.json.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure/minerva/public/assets/js/jquery.minerva.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure/assets/js/jquery.autocomplete.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure/minerva/public/assets/js/timepicker.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure/assets/js/system.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure/assets/js/display.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure/assets/js/modals.js?v=24_6_1_0"></script>
+<script type="text/javascript" src="https://colorado.emsbridge.com/licensure/assets/js/validation.js?v=24_6_1_0"></script> <link type="text/css" rel="stylesheet" href="https://colorado.emsbridge.com/licensure/assets/css/licensure_public_portal.css?v=24_6_1_0" media="all"> <script type="text/javascript" src="https://colorado.emsbridge.com/licensure/assets/js/licensure_public_portal.js?v=24_6_1_0"></script> <script type="text/javascript" src="https://colorado.emsbridge.com/licensure/assets/js/angular.min.js?v=24_6_1_0"></script> <script type="text/javascript" src="https://colorado.emsbridge.com/licensure/app/views/angularUtils/AngularHelpers.js?v=24_6_1_0"></script>
+<!-- Remove newline from warning text -->
+
+
+<script type="text/javascript">
+    angular.module('publicPortal', ['angular.helpers']);
+
+    var Site = {
+        views: '',
+        controllers: 'controller.cfm',
+            
+            sessionTimeoutSpan: '30010',
+        
+        sessionTimeoutWarningLength: '20000',
+        sessionTimeoutWarningMessage: 'Caution: The current session is approaching the idle timeout limit. To remain logged in, click the button below.',
+        logoutURLID: '458FB065-AE50-42E0-B07E-EDE5A979D4D8',
+        apiLocation: 'https://colorado.emsbridge.com/licensure/api/',
+        sessionId: '595859D0-D74C-4DAE-8424-D151BE3A2D27'
+    };
+    
+    jQuery(document).ready(function(){
+        licensure.init();
+    });
+
+    document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState === 'visible') {
+            var url = Site.apiLocation + 'api/session/IsSessionAlive?id=' + Site.sessionId;
+
+            new jQuery.ajax(url, {
+                success: function(session){
+                    if (!session) {
+                        //If user was inactive and their session is expired, log them out
+                        window.location = Site.controllers + '?method=siteController.logout&logoutURLID='+Site.logoutURLID;
+                    }
+                }
+            });
+        }
+    });
+</script>
+
+<style>
+			
+				#licensure .gutter ul li.active a, #licensure .gutter a:hover {
+					border-bottom:3px solid #E0921B;
+				}
+				#licensure .navigation ul.selected li.level_0, #licensure .navigation li.level_0.selected, 
+				#licensure .navigation li.level_0:hover {
+					border-left:5px solid #E0921B;
+				}
+				#licensure .license_container td.highlighted {
+					border-left: 2px solid #E0921B;
+				}
+			
+				body{background:#bdb9b2;}
+			
+			#licensure_wrapper, #portal_preview_section{
+				background: #ffffff; /* Old browsers */
+				background: -moz-linear-gradient(top, #ffffff 0%, #bdb9b2 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#bdb9b2)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,#ffffff 0%,#bdb9b2 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #ffffff 0%,#bdb9b2 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #ffffff 0%,#bdb9b2 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #ffffff 0%,#bdb9b2 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bdb9b2',GradientType=0 ); /* IE6-8 */
+			}
+			
+			#licensure input[type="button"],
+			#licensure input[type="submit"],
+			#licensure input[type="reset"],
+			#licensure span.button {
+				background-color: #69737B;
+				border: 1px solid #bdb9b2;
+				background: -moz-linear-gradient(top, #bdb9b2 0%, #69737B 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bdb9b2), color-stop(100%,#69737B)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #bdb9b2 0%,#69737B 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #bdb9b2 0%,#69737B 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #bdb9b2 0%,#69737B 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #bdb9b2 0%,#69737B 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdb9b2', endColorstr='#69737B',GradientType=0 ); /* IE6-8 */
+			}
+			
+			#licensure .menu {
+				background: #37657F; /* Old browsers */
+				background: -moz-linear-gradient(top,  #37657F 0%, #37657F 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#37657F), color-stop(100%,#37657F)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #37657F 0%,#37657F 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #37657F 0%,#37657F 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #37657F 0%,#37657F 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #37657F 0%,#37657F 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37657F', endColorstr='#37657F',GradientType=0 ); /* IE6-8 */
+			}
+			
+				#licensure header{
+					background-color: Transparent;
+				}
+			
+		</style> <script type="text/javascript" src="https://colorado.emsbridge.com/licensure/assets/js/timeout.js?v=24_6_1_0"></script> <link type="text/css" rel="stylesheet" href="https://colorado.emsbridge.com/licensure/assets/css/timeout.css?v=24_6_1_0" media="all"> <div id="timeout" class="ui-corner-all">
+				<div class="timeout_content ui-corner-all">
+					<div class="timeout_title">
+					</div>
+					<div id="timeout_loading">
+					</div>
+					<div id="timeout_messages">
+						<div id="timeout_flash" class="message" style="display:none;"></div>
+						<div id="timeout_validation" class="validation" style="display:none;"></div>
+					</div>
+					<div id="timeout_content">
+						
+
+<div id="timeout_form " style="z-index:6;">
+	<div class="header ui-corner-all" >	
+		Session Timeout 
+	</div>
+	<div id="container_timeout" > 
+		<div id="timeout_icon">
+			
+	<img alt="Clock icon for countdown" src="https://colorado.emsbridge.com/licensure/assets/images/timeout/timer_32.png" />
+
+		</div>
+		<div id="timeout_message">
+			Caution: The current session is approaching the idle timeout limit. To remain logged in, click the button below. 
+			<div id="countdown">&nbsp;</div>
+		</div>
+	</div>
+	
+	<div id="timeout_buttons">
+		<span class="button_container ">
+				<span class="button" id="button_button">
+					<input type="button" id="button" name="button" value="Remain Logged In" title="Remain Logged In" class="button button_ " onclick="Timeout.returnPing();" />
+				</span>
+			</span> <span class="button_container ">
+				<span class="button" id="button_button">
+					<input type="button" id="button" name="button" value="Log Out" title="Log Out" class="button button_ " onclick="Timeout.logout();" />
+				</span>
+			</span>
+	</div>
+</div>
+
+<script type="text/javascript">
+	
+		Timeout.ignoreCountdown();
+	
+</script>
+
+					</div>
+				</div>
+			</div>
+
+			<script language="JavaScript">
+				Timeout.positionTimeout();
+				Timeout.completeTimeout();
+			</script> 
+        <script type="text/javascript">
+            (
+                function () {
+                    var walkme = document.createElement('script');
+                    walkme.type = 'text/javascript';
+                    walkme.async = true;
+                    walkme.src = 'https://cdn.walkme.com/users/b1ed88b735954a5380f40e4f9272c40a/walkme_b1ed88b735954a5380f40e4f9272c40a_https.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(walkme, s);
+                    window._walkmeConfig = { smartLoad: true };
+                }
+            )();
+        </script>
+    
+
+    <script type="text/javascript"> 
+        //Walk Me Analytics
+        window.SessionInformation = {
+            UserName: '',
+            UserExternalIdentifier: '00000000-0000-0000-0000-000000000000',
+            SiteCode: 'Colorado',
+            SiteExternalIdentifier: '458FB065-AE50-42E0-B07E-EDE5A979D4D8'
+        };
+    </script>
+
+
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+				toggleLookup();
+			});	
+			searchLookup = function(){
+				var action = $('#lookup_action').val();
+				Validation.removeValidation();
+				Validation.clearMessages('form');
+				licensure.validateForm();
+				if (Validation.hasMessages('form')) {
+					Validation.showMessages('form');
+				} else {					
+					var redirect_link = 'https://colorado.emsbridge.com/licensure/public/colorado/'+action+'?'+$('#form input:visible, #form select:visible').serialize();
+					if( $('#date_of_birth').length){
+						redirect_link += "&date_of_birth=" + $('#date_of_birth').val();
+					}
+					window.location = redirect_link;
+				}
+				return false;
+			}
+			toggleLookup = function(){
+				var selected_value = $('#lookup_action').val();
+				selected_value = selected_value.replace('/','_');
+				$("#licensure #form .container").hide();
+				$("."+selected_value).parent().parent().show();
+			}
+		</script>
+	</head>
+<body>
+<div><div>
+<div id="licensure_wrapper" ng-app="publicPortal">
+<div id="licensure" class="container">
+    <header>
+        
+            <div class="logo"><img src='controller.cfm?method=fileUtil.renderImage&fileID=81C1798E%2D38E5%2DE911%2D80D7%2D001DD8B72402' alt="COEMS OATH" title="COEMS OATH" /></div>
+        
+        <div id="header" ></div>
+    </header>
+    <div class="menu mobile"><ul><li><a href="javascript:licensure.toggleMenu()"><span class="ADA_link">Mobile Menu</span><div class="icon menu_icon"></div></a></li></ul></div>
+    <div class="menu desktop"></div>
+        <div class="main">
+            <div class="navigation" role="navigation"></ul>
+							<ul class="../Login ">
+							
+							
+								
+								<li id="menu_511F4E56-E615-4230-96FD-E8C9DE83F507" class="level_0 " >
+									
+										<a href="https://colorado.emsbridge.com/licensure/public/colorado/portal#/login" />
+									Account Login 
+											<span class="icon Login expand"></span>
+										
+									</a>
+								</li>
+							
+						</ul>
+							<ul class="../lookup current selected">
+							
+							
+								
+								<li id="menu_99044712-E10B-4B14-97A1-30DE272BA441" class="level_0 selected" >
+									
+										<a href="https://colorado.emsbridge.com/licensure/public/colorado/portal#/lookup" />
+									Lookup 
+											<span class="icon lookup "></span>
+										
+									</a>
+								</li>
+							
+							
+							
+								
+								<li id="menu_17F4130B-D206-4413-8F18-4DB67991336C" class="level_1 " >
+									
+										<a href="https://colorado.emsbridge.com/licensure/public/colorado/portal#/lookup/user" />
+									Personnel 
+									</a>
+								</li>
+							
+							
+							
+								
+								<li id="menu_545A4775-7A41-404D-AFD3-96BDD0FCE57B" class="level_1 " >
+									
+										<a href="https://colorado.emsbridge.com/licensure/public/colorado/portal#/lookup/service" />
+									Services 
+									</a>
+								</li>
+							
+						
+					<!-- Goes to exam session page if exams module is on, exam session page is on, and user is examiner or exam coordinator -->
+					<!-- Else, goes to manage courses page if education module is on, manage courses page is on, and user is instructor or coordinator -->
+					<!-- Else, tab is hidden -->
+					
+			</ul>
+		</div>
+            <div class="content" role="main">
+                	
+                    <div class="block custom public-portal-header-main">
+                        
+                            <h1>Public Lookup <a class="mobile icon filter" href="#" onclick="$('.filters').toggle();"><span class="ADA_link">Mobile Filter</span></a></h1>
+                        	
+                    </div>
+                    <div class="page_content"><p><span style="font-family:courier new,courier,monospace; font-size:16px"><span style="color:rgb(224, 146, 27)"><strong>TIP:</strong></span></span><span style="font-size:16px">&nbsp;</span><span style="font-size:14px"><span style="color:#000000"><span style="font-family:trebuchet ms,helvetica,sans-serif">You can use this Public Lookup to find individual providers, specific agencies/facilities or to view all agencies/facilities for certain types.</span></span></span></p><p><br></p><p><span style="font-size:14px"><span style="color:#000000"><span style="font-family:trebuchet ms,helvetica,sans-serif">EMS Providers/EMR/Medical Directors: To verify the certification/license/registration of an individual, select "Personnel" from the Type dropdown menu and fill out the First and Last Name fields.&nbsp;</span></span></span></p><p><br></p><p><span style="font-size:14px"><span style="color:#000000"><span style="font-family:trebuchet ms,helvetica,sans-serif">Air Ambulance Agencies: To verify the license of an air ambulance agency, select "Service" from the Type dropdown menu and fill out the Name field. For a complete listing of all air ambulance agencies, type "Air" in the Name field.</span></span></span></p><p><br></p><p><span style="font-size:14px"><span style="color:#000000"><span style="font-family:trebuchet ms,helvetica,sans-serif">Education Programs: To verify the recognition of an EMS education program, select "Service" from the Type dropdown menu and fill out the Name field. For a complete listing of all EMS education programs, type "Education" in the Name field.&nbsp;&nbsp;</span></span></span></p><p><br></p><p><span style="color:#000000"><span style="font-family:trebuchet ms,helvetica,sans-serif; font-size:14px">Ground Ambulance Services: To verify the license of a ground ambulance service, select "Service" from the Type dropdown menu and fill out the License Level field. For a complete listing of all ground ambulance services, select "Licensed Ground Ambulance Service" for the License Level.</span></span></p><p><br></p><p><span style="font-size:14px"><span style="color:#000000"><span style="font-family:trebuchet ms,helvetica,sans-serif">Trauma Facilities: To find general information for a trauma facility, select "Service" from the Type dropdown menu and fill out the Name field. For a complete listing of all trauma facilities, type "Trauma" in the Name field.</span></span></span></p><p><br></p></div> <fieldset>
+			<legend><span style="display:none;"></span></legend>
+			<div class="section">
+				
+				<div class="section_container"> 
+		<div id="form_validation" class="validation" style="display:none;">
+			<h2>Validation</h2><ul id="form_validation_messages" class="messages">
+		</div>
+		<div class="container" id="container_lookup_action">
+					<div class="label">
+						<label id="label_for_lookup_action" for="lookup_action" title="Type">
+							Type:
+						</label>
+					</div>
+					<div class="field">
+						<select name="lookup_action" id="lookup_action" title="Type" onchange="toggleLookup();">
+				<option title="Personnel" value="lookup/personnel">Personnel</option> <option title="Services" value="lookup/public_services">Services</option> 
+			</select> 
+					</div>
+				</div> 
+	<form action="https://colorado.emsbridge.com/licensure/" method="post" name="form" id="form" class="form" enctype="multipart/form-data" onsubmit="return searchLookup();">
+		<div class="container" id="container_primary_license_number">
+					<div class="label">
+						<label id="label_for_primary_license_number" for="primary_license_number" title="Primary Certification Number">
+							Primary Certification Number:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="primary_license_number" id="primary_license_number" size="35" class="lookup_personnel" value="" title="Primary Certification Number" /> 
+					</div>
+				</div> <div class="container" id="container_primary_license_number">
+					<div class="label">
+						<label id="label_for_primary_license_number" for="primary_license_number" title="License Number">
+							License Number:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="primary_license_number" id="primary_license_number" size="35" class="lookup_personnel" value="" title="License Number" /> 
+					</div>
+				</div> <div class="container" id="container_service_name">
+					<div class="label">
+						<label id="label_for_service_name" for="service_name" title="Name">
+							Name:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="service_name" id="service_name" size="35" class="lookup_personnel" value="" title="Name" /> 
+					</div>
+				</div> <div class="container" id="container_date_of_birth">
+					<div class="label">
+						<label id="label_for_date_of_birth" for="date_of_birth" title="Birth Date">
+							Birth Date:
+						</label>
+					</div>
+					<div class="field">
+						<script type="text/javascript">
+						jQuery(document).ready(function(){
+							
+							jQuery("#date_of_birth_1").bind('keyup',function(){
+								var input = jQuery(this).val();
+								
+								if(input != "" && input != "0" && input != "1"){
+									
+									var dayLong = "0"+input;
+									var day = dayLong.substring(dayLong.length-2);
+									
+									jQuery(this).val(day);
+									Display.goToDate(this,2,2,"date_of_birth");
+								}
+							});
+							
+							jQuery("#date_of_birth_2").bind('keyup',function(){
+								var input = jQuery(this).val();
+								
+								if(input != "" && input != "0" && input != "1" && input != "2" && input != "3"){
+									
+									var dayLong = "0"+input;
+									var day = dayLong.substring(dayLong.length-2);
+									
+									jQuery(this).val(day)
+									Display.goToDate(this,3,2,"date_of_birth");
+								}
+							});
+							
+						});
+					</script>
+					
+					<input  type="text" class="calendarSelectDate lookup_personnel" name="date_of_birth_1" placeholder="mm" id="date_of_birth_1" value="" size="2" title="Birth Date - Please enter in mm/dd/yyyy format." alt="Birth Date" true  onBlur="Display.blurYear('date_of_birth');" onKeyPress="Display.setHiddenDate('date_of_birth');" />
+					/
+					<input  type="text" class="calendarSelectDate lookup_personnel" name="date_of_birth_2" placeholder="dd" id="date_of_birth_2" value="" size="2" title="Birth Date - Please enter in mm/dd/yyyy format." alt="Birth Date" true  onBlur="Display.blurYear('date_of_birth');" onKeyPress="Display.setHiddenDate('date_of_birth');" />
+					/
+					<input  type="text" class="calendarSelectDate lookup_personnel" name="date_of_birth_3" placeholder="yyyy" id="date_of_birth_3" value="" size="4" maxlength="4" title="Birth Date - Please enter in mm/dd/yyyy format." alt="Birth Date" true  onBlur="Display.blurYear('date_of_birth');" onKeyPress="Display.setHiddenDate('date_of_birth');" />
+					<input type="text" style="display:none;" class="calendarSelectDate lookup_personnel" name="date_of_birth" id="date_of_birth" value="" />
+				<div class="calendar_wrapper" id="date_of_birth__calendar_wrapper"></div>
+
+			<script type="text/javascript">
+
+				calendar_date_of_birth = jQuery('#date_of_birth_3').datepicker({
+					beforeShow: function(input, inst) {
+						if(!jQuery(inst.dpDiv).parent().is('.datepicker')) {
+							jQuery(inst.dpDiv).wrap('<div class="datepicker" />');
+						}
+					},
+					
+					onSelect: function(dateText, inst){
+						  var pieces = dateText.split('/');
+						  
+						  	jQuery("#date_of_birth").val(dateText);
+						  
+					        jQuery("#date_of_birth_1").val(pieces[0]);
+					        jQuery("#date_of_birth_2").val(pieces[1]);
+					        jQuery("#date_of_birth_3").val(pieces[2]);
+							
+							
+					},
+					
+					
+						showOn: "button",
+						buttonImageOnly: true,
+						buttonImage: 'https://colorado.emsbridge.com/licensure/assets/images/calendar.gif',
+						showAnim: "slideDown",
+
+					
+						changeMonth: false,
+						changeYear: false,
+						dateFormat: 'mm/dd/yy',
+						dayNamesMin: ['S','M','T','W','T','F','S'],
+						duration: '',
+						firstDate: '0',
+						yearRange: '2019:2034'
+						
+				});
+
+				
+			</script> 
+					</div>
+				</div> <div class="container" id="container_first_name">
+					<div class="label">
+						<label id="label_for_first_name" for="first_name" title="First Name">
+							First Name:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="first_name" id="first_name" size="35" class="lookup_personnel" value="" title="First Name" /> 
+					</div>
+				</div> <div class="container" id="container_certification_level_id">
+					<div class="label">
+						<label id="label_for_certification_level_id" for="certification_level_id" title="License Level">
+							License Level:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="certification_level_id" id="certification_level_id" size="35" class="lookup_personnel" value="" title="License Level" /> 
+					</div>
+				</div> <div class="container" id="container_last_name">
+					<div class="label">
+						<label id="label_for_last_name" for="last_name" title="Last Name">
+							Last Name:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="last_name" id="last_name" size="35" class="lookup_personnel required" value="" title="Last Name" /> 
+					</div>
+				</div> <div class="container" id="container_training_levels">
+					<div class="label">
+						<label id="label_for_training_levels" for="training_levels" title="Training Levels">
+							Training Levels:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="training_levels" id="training_levels" size="35" class="lookup_personnel" value="" title="Training Levels" /> 
+					</div>
+				</div> <div class="container" id="container_suffix">
+					<div class="label">
+						<label id="label_for_suffix" for="suffix" title="Suffix">
+							Suffix:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="suffix" id="suffix" size="35" class="lookup_personnel" value="" title="Suffix" /> 
+					</div>
+				</div> <div class="container" id="container_services.name">
+					<div class="label">
+						<label id="label_for_services.name" for="services.name" title="Name">
+							Name:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="services.name" id="services.name" size="35" class="lookup_public_services" value="" title="Name" /> 
+					</div>
+				</div> <div class="container" id="container__id">
+					<div class="label">
+						<label id="label_for__id" for="_id" title="Number">
+							Number:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="_id" id="_id" size="35" class="lookup_public_services lookup_training_report" value="" title="Number" /> 
+					</div>
+				</div> <div class="container" id="container_services.municipality">
+					<div class="label">
+						<label id="label_for_services.municipality" for="services.municipality" title="City">
+							City:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="services.municipality" id="services.municipality" size="35" class="lookup_public_services" value="" title="City" /> 
+					</div>
+				</div> <div class="container" id="container_services.county">
+					<div class="label">
+						<label id="label_for_services.county" for="services.county" title="County">
+							County:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="services.county" id="services.county" size="35" class="lookup_public_services" value="" title="County" /> 
+					</div>
+				</div> <div class="container" id="container_services.permit_level">
+					<div class="label">
+						<label id="label_for_services.permit_level" for="services.permit_level" title="Service Permit Level">
+							Service Permit Level:
+						</label>
+					</div>
+					<div class="field">
+						<select name="services.permit_level" id="services.permit_level" class="lookup_public_services" title="Service Permit Level" >
+				
+					<option value="" style="font-style:italic">Select Service Permit Level</option>
+				<option title="First Responder" value="36F1C957-517B-E911-80D7-001DD8B72402">First Responder</option> <option title="Emergency Medical Responder (EMR)" value="2FC8802B-517B-E911-80D7-001DD8B72402">Emergency Medical Responder (EMR)</option> <option title="Emergency Medical Technician (EMT)" value="78368331-517B-E911-80D7-001DD8B72402">Emergency Medical Technician (EMT)</option> <option title="Advanced Emergency Medical Technician (AEMT)" value="5C342BE9-507B-E911-80D7-001DD8B72402">Advanced Emergency Medical Technician (AEMT)</option> <option title="EMT-Intermediate" value="6ADAD258-D7A8-E911-80D7-001DD8B72402">EMT-Intermediate</option> <option title="Paramedic" value="360FE949-517B-E911-80D7-001DD8B72402">Paramedic</option> <option title="Paramedic with Critical Care Endorsement" value="121A4F7F-517B-E911-80D7-001DD8B72402">Paramedic with Critical Care Endorsement</option> <option title="Paramedic with Community Paramedic Endorsement" value="CD70398D-517B-E911-80D7-001DD8B72402">Paramedic with Community Paramedic Endorsement</option> <option title="Nurse" value="0A63EDB2-517B-E911-80D7-001DD8B72402">Nurse</option> <option title="Physician" value="49BB8077-517B-E911-80D7-001DD8B72402">Physician</option> 
+			</select> 
+					</div>
+				</div> <div class="container" id="container_services.service_classification_id">
+					<div class="label">
+						<label id="label_for_services.service_classification_id" for="services.service_classification_id" title="Class">
+							Class:
+						</label>
+					</div>
+					<div class="field">
+						<select name="services.service_classification_id" id="services.service_classification_id" class="lookup_public_services" title="Class" >
+				
+					<option value="" style="font-style:italic">Select Class</option>
+				<option title="Education Program" value="15784422-326F-EC11-AAE9-0A420C80A604">Education Program</option> <option title="Licensed/Recognized Air Ambulance Agency" value="C7DD6ACC-E902-ED11-AAE9-0A420C80A604">Licensed/Recognized Air Ambulance Agency</option> <option title="Licensed Ground Ambulance Agency" value="5468D7D5-E902-ED11-AAE9-0A420C80A604">Licensed Ground Ambulance Agency</option> <option title="Other EMS Service Agency" value="7526DFE7-E902-ED11-AAE9-0A420C80A604">Other EMS Service Agency</option> <option title="Trauma Facility" value="15A1FCF1-E902-ED11-AAE9-0A420C80A604">Trauma Facility</option> 
+			</select> 
+					</div>
+				</div> <div class="container" id="container_services.training_level_id">
+					<div class="label">
+						<label id="label_for_services.training_level_id" for="services.training_level_id" title="Training Level">
+							Training Level:
+						</label>
+					</div>
+					<div class="field">
+						<select name="services.training_level_id" id="services.training_level_id" class="lookup_public_services" title="Training Level" >
+				
+					<option value="" style="font-style:italic">Select Training Level</option>
+				<option title="EMR Education Group" value="2B65FD51-0B8B-E611-80D3-001DD8B71CE2">EMR Education Group</option> <option title="EMR Education Center" value="6702B544-0B8B-E611-80D3-001DD8B71CE2">EMR Education Center</option> <option title="EMT Education Group" value="BEEBD463-F0FC-E111-9D83-CB5C586EC439">EMT Education Group</option> <option title="EMT Education Center" value="96B56A4E-39C2-E211-9D83-CB5C586EC439">EMT Education Center</option> <option title="EMT IV Therapy Group" value="56D57B3F-39C2-E211-9D83-CB5C586EC439">EMT IV Therapy Group</option> <option title="AEMT Education Group" value="EDC98370-F0FC-E111-9D83-CB5C586EC439">AEMT Education Group</option> <option title="AEMT Education Center" value="79092056-39C2-E211-9D83-CB5C586EC439">AEMT Education Center</option> <option title="EMT-I Education Group" value="F0C98370-F0FC-E111-9D83-CB5C586EC439">EMT-I Education Group</option> <option title="EMT-I Education Center" value="C6CC345C-39C2-E211-9D83-CB5C586EC439">EMT-I Education Center</option> <option title="Paramedic Education Group" value="8EA98998-435F-E211-9D83-CB5C586EC439">Paramedic Education Group</option> <option title="Paramedic Education Center" value="95C4F26B-39C2-E211-9D83-CB5C586EC439">Paramedic Education Center</option> 
+			</select> 
+					</div>
+				</div> <div class="container" id="container_search">
+					<div class="label">
+						<label id="label_for_search" for="search" title="Training">
+							Training:
+						</label>
+					</div>
+					<div class="field">
+						<input type="text" name="search" id="search" size="35" class="lookup_training_courses" value="" title="Training" /> 
+					</div>
+				</div> <span class="button" id="button_search"><input type="submit" name="search" id="search" value="Search" title="Search" class="submit button_ "  /></span>  
+	</form>
+</div></div></fieldset> 
+                            </div>
+                            <div class="clearBoth"></div>
+                        </div>
+                        <div class="copyright" role="complementary" >
+                            <span>&copy; 2024 <a href="http://www.imagetrend.com/" title="ImageTrend, Inc." target='_blank'>ImageTrend, Inc.</a></span>
+                        </div>
+                    </div>
+                    <footer id="footer" class="footer"><p><span style="font-size:12px"><strong>EMS Operations Sections</strong></span></p>
+
+<p><span style="font-size:12px"><span style="font-family:arial,helvetica,sans-serif"><strong>Emergency Medical and Trauma Services Branch</strong><br />
+Colorado Department of Public Health and Environment<br />
+4300 Cherry Creek Drive South<br />
+Denver, CO 80246<br />
+&nbsp;<br />
+303-691-4932 | 303-691-7720 FAX</span><br />
+<a href="http://www.coems.info" target="_blank"><span style="color:rgb(51, 102, 153)">www.coems.info</span></a> | <a href="mailto:cdphe.emtcert@state.co.us"><span style="color:rgb(51, 102, 153)">cdphe.emtcert@state.co.us</span></a></span></p>
+</footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

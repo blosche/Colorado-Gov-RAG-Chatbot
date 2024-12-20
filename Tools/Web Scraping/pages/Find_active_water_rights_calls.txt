@@ -1,0 +1,303 @@
+Active Calls
+Welcome
+,
+Sign out
+Welcome Guest,
+Click here to Login
+Administrative Calls - Active
+Navigation
+DWR Home
+CDSS Home
+Dashboard
+Administrative Calls
+Active
+Historical
+Structure Call Analysis
+Water Source Call Analysis
+Call Alerts
+Climate Stations
+Dam Safety
+Dams
+Livestock Water Tank and Erosion Control
+Groundwater
+Geophysical Logs
+Water Levels
+Water Level Reports
+Stations
+Current and Historical
+Current Conditions
+Stations Lite -
+mobile friendly
+Structures
+Tools
+Location Converter
+Distance Calculator
+Water Rights
+Instream Flow and Natural Lake Levels
+Net Amounts
+Transactions
+Well Permits
+Map Viewer
+Tools
+Aquifer Determination
+Denver Basin Aquifers - Specific Location
+Denver Basin Aquifers - Tract of Land
+Dakota/Cheyenne Aquifer
+Information Marketplace
+Data Submittal
+Reporting Submittal
+Diversion Records
+Meter Readings
+Water Levels
+My Stations
+My Stations
+My Alerts
+Location Tools
+Location Converter
+Distance Calculator
+REST Web Services
+Administrative Calls - Active
+DWR Home
+CDSS Home
+Dashboard
+Administrative Calls
+Active
+Historical
+Structure Call Analysis
+Water Source Call Analysis
+Call Alerts
+Climate Stations
+Dam Safety
+Dams
+Livestock Water Tank and Erosion Control
+Groundwater
+Geophysical Logs
+Water Levels
+Water Level Reports
+Stations
+Current and Historical
+Current Conditions
+Stations Lite -
+mobile friendly
+Structures
+Tools
+Location Converter
+Distance Calculator
+Water Rights
+Instream Flow and Natural Lake Levels
+Net Amounts
+Transactions
+Well Permits
+Map Viewer
+Tools
+Aquifer Determination
+Denver Basin Aquifers - Specific Location
+Denver Basin Aquifers - Tract of Land
+Dakota/Cheyenne Aquifer
+Information Marketplace
+Data Submittal
+Reporting Submittal
+Diversion Records
+Meter Readings
+Water Levels
+My Stations
+My Stations
+My Alerts
+Location Tools
+Location Converter
+Distance Calculator
+REST Web Services
+Export
+Help
+Login
+My Account
+Account Details
+Change Password
+My Subscriptions
+Web Service Token Manager
+Portal Home
+Sign out
+×
+Export: Administrative Calls
+Administrative calls search result
+Record count:
+116
+Export
+Cancel
+Hide
+Search Fields
+Geographic Location
+Water Division
+All Divisions
+1 - South Platte
+2 - Arkansas
+3 - Rio Grande
+4 - Gunnison
+5 - Colorado
+6 - Yampa/White
+7 - San Juan/Dolores
+From
+To
+More Options
+Select
+Admin Scenario
+Location Structure Name
+Location WDID
+Priority Admin No
+Priority Date
+Priority Structure Name
+Priority WDID
+Water Source
+Include Tributaries
+AUTHORIZED DIVERSION
+CALL
+FUTILE CALL
+NONCONSUMPTIVE CALL
+From
+To
+(Optional)
+Include Associated Water Rights
+Equals
+Starts With
+Contains
+Ends With
+From
+To
+(Optional)
+Include Associated Water Rights
+Equals
+Starts With
+Contains
+Ends With
+From
+To
+=
+>
+>=
+<
+<=
+Equals
+Greater than
+Greater than or equal to
+Less than
+Less than or equal to
+Search
+Additional Resources
+About Colorado Water Administration
+Active Calls
+Historical Calls
+Structure Call Analysis
+Water Source Call Analysis
+Colorado Information Marketplace
+DWR Web Services
+DNR Portal
+.
+×
+Map Options
+Label Field
+Admin Scenario
+Date Time Set
+Date Time Released
+Water Source
+Location WDID
+Location Structure Name
+Priority WDID
+Priority Structure Name
+Priority Admin No
+Priority Date
+Priority No
+Location Structure Name (WDID)
+Priority Date (Admin No)
+Hover Field
+Admin Scenario
+Date Time Set
+Date Time Released
+Water Source
+Location WDID
+Location Structure Name
+Priority WDID
+Priority Structure Name
+Priority Admin No
+Priority Date
+Priority No
+Location Structure Name (WDID)
+Priority Date (Admin No)
+>>
+Refreshing Map...
+Legend
+Show Legend
+Admin Scenario
+Date Time Set
+Date Time Released
+Water Source
+Stream Mile
+Location WDID
+Location Structure Name
+Call Priority WDID
+Priority Structure Name
+Priority Admin No
+Priority Date
+Priority No
+Bounding WDID
+Bounding Structure Name
+Set Comments
+Release Comments
+1
+1
+10
+100
+500
+1000
+1500
+items per page
+No items to display
+No Results Yet
+Try performing a new search.
+No Results Found
+Try performing another search.
+×
+About Administrative Calls
+Description
+Division of Water Resources Active Calls. The Call is a term used by the state engineer to effectively communicate the administrative status of the natural stream. The Call communicates the priority required during a specified period of time for a water right located within a specific stream or stream segment to divert under the Prior Appropriation Doctrine. The basic purpose of the Call is to “call out” water rights that are not in priority in order to make water available to the senior water right that is diverting less than its decreed amount of water that it could beneficially use.
+Resources
+User Guide
+Data Dictionary (Administrative Calls)
+Administrative Calls Standard
+Ask DWR: Other Questions About Administrative Calls
+Subscribe to email list
+×
+Subscribe to CDSS Online Email Notifications
+Email:
+Verify Email:
+Please verify that you are not a robot.
+Subscribe
+Cancel
+×
+Success
+Hallelujah
+Close
+Close
+×
+Log out:
+You have been inactive for too long and will be automatically logged out in
+To stay signed in longer, sign out, then sign back in after selecting the "Stay signed in" option.
+Click here to stay signed in
+Close
+Confirm logout
+×
+Select "Sign out" below if you are ready to end your current session.
+Sign out
+Cancel
+CWCB
+|
+DWR
+|
+DNR
+|
+Colorado.gov
+|
+Terms of Use
+|
+Accessibility & Accommodations
+|
+Privacy Policy

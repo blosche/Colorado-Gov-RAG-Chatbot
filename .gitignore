@@ -1,0 +1,9 @@
+.venv
+.env
+app/.cache
+__pycache__/
+*.pyc
+.cache/
+notes
+Chatbot/app/.env
+.python-version

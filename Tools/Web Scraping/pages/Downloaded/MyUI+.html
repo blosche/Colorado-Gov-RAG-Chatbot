@@ -1,0 +1,1353 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="ctl00_ctl00_Head1"><title>
+	Claimant Login | CDLE
+</title><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-store" /><meta http-equiv="Cache-control" content="no-cache" /><meta http-equiv="Expires" content="Mon, Jan 1 1990 00:00:00 GMT" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="The Colorado Department of Labor & Employment"/>
+    <meta name="author" content="CDLE"/>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Core/Styles/upgrade/bootstrap.min.css" type="text/css" /><link href="/Core/Styles/upgrade/css/main.css" rel="stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/general.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/top-bar.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/navigation.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/main-content.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/ui-elements.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/chart.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/general.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/tables.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/forms.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/components.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/dataTables.responsive.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/chosen.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/ModalPopup.css" rel="Stylesheet" type="text/css" /><link href="/Core/Styles/ui_print.css" rel="stylesheet" type="text/css" media="print" /><link rel="stylesheet" href="/core/styles/jquery-ui.css" /><link type="text/css" href="/Core/Styles/upgrade/css/skins/darkblue.css" rel="stylesheet" /><link type="text/css" href="/Core/Styles/upgrade/datatables/buttons.dataTables.min.css" rel="Stylesheet" /><link type="text/css" href="/Core/Styles/upgrade/datatables/responsive.dataTables.min.css" rel="Stylesheet" /><link type="text/css" href=" https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css" rel="Stylesheet" />
+
+    <!-- CC Changes -->
+    <link type="text/css" href="/Core/Styles/upgrade/step-form-wizard-all.css" rel="Stylesheet" />
+
+ <!-- Replaced the below CDN references with local CSS reference as these are getting blocked with recent google chrome changes -->
+ 
+
+     <link type="text/css" href="/Core/Styles/jquery.mCustomScrollbar.min.css" rel="Stylesheet" /><link type="text/css" href="/Core/Styles/bootstrap-fs-modal.css" rel="Stylesheet" />
+
+        <!-- CSS for demo style switcher. you can remove this -->
+    <link href="/Core/Styles/upgrade/demo-style-switcher/assets/css/style-switcher.css" rel="stylesheet" type="text/css" /><link href="/Core/Styles/ControlLibrary.css" rel="stylesheet" type="text/css" /><link href="/Core/Styles/jquery.maxlength.css" rel="stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/new_Calendar.css" rel="stylesheet" type="text/css" /><link href="/Core/Styles/upgrade/css/CCUpgrade.css" rel="Stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="/Core/Styles/upgrade/daterangepicker.min.css" />
+     <script type="text/javascript" src="/Core/Scripts/upgrade/jquery-3.3.1.min.js"></script>
+ <script type="text/javascript" src="/Core/Scripts/upgrade/jquery-ui.min.js"></script>
+ <script type="text/javascript" src="/Core/Scripts/jquery.maxlength.min.js"></script>
+ <script type="text/javascript" src="/Core/Scripts/app-library.js"></script>
+<link rel="shortcut icon" href="/images/static/favicon.ico" /><link rel="icon" href="/images/static/favicon.ico" type="image/x-icon" />
+
+ <!-- R45 -INC# -272012 removed integrity and crossorigin to prevent the blockage of reference with recent google chrome changes-->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
+
+
+    <style type="text/css">
+    #wrap {
+        max-width: 50em;
+        margin: 2em auto;
+    }
+
+    legend {
+        white-space: normal;
+    }
+    #term:focus{
+        box-shadow:0 0 0 0.15rem rgba(26, 115, 232, 1) !important;
+    }		
+    #dialog1 {
+        background: white;
+        border: 2px solid #333;
+        border-radius: 10px;
+        padding: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+    }
+    #overlay {
+        background: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+    @media (min-width:900px){
+        .navigationbutton{
+            display:none;
+        }
+    }
+</style>
+<!--[if IE]>
+
+<style type="text/css">
+
+    		legend,
+
+		legend span {float:left;}
+
+		.fieldset-content {clear:both;}
+
+	</style>
+
+<![endif]-->
+    
+    
+
+    </head>
+ <span id="announce" hidden="hidden">Column Headers with buttons are sortable, Press Enter key on the column headers or buttons to sort Ascending/Descending</span>
+<div id="CopyText" aria-live="polite" class="sr-only"></div>
+<div id="CopyText1" aria-live="polite" class="sr-only"></div>
+<div id="resetAriaLive" aria-live="polite" class="sr-only"></div>
+<div id="tabletext" class="sr-only" aria-hidden="true">button</div>
+<div id="DatePlaceholder" class="sr-only" aria-hidden="true">MM/DD/YYYY</div>
+    <div id="Notescaption" class="sr-only" aria-hidden="true">Notes</div>
+    <p class="sr-only" id="contains">More about Search (opens a dialog)</p>
+<body class="dashboard">
+    <form name="aspnetForm" method="post" action="./Login.ASPX" id="aspnetForm" data-parsley-errors-container="#parsleyErrorDiv">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=odnl-DaBVoSS4gkln3wKcNdo1uLYXDvJ05wTFbfgGrqtaT4ejbnz5x6Oqg-o67O3ifjLJxP4qzlNHU8XRYv6pFc-OJVlWu1UMT3GE2GGyr81&amp;t=638459608569584809" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=3p4olL1fw_YK1h7sIsC76JdPWe7WvfjwXtm9mdxCzAwnWpq4uXsFpuXbEFxDYEDJjV70AOoCLf5A-nU_y5BeRlcm4UUVUqPCMBN6nW-a6sQ1&amp;t=638459608569584809" type="text/javascript"></script>
+        <div class="wrapper">
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row" role="banner">
+                        <a class="skipToContent d-sm-none d-xs-none d-md-none d-lg-block d-xl-block" href="#main-row" id="Skip1">Skip to main content</a>
+                         <!-- logo -->
+                        <div class="col-md-2 logo">                                
+                                       <img  id="logouFacts" src="/images/core/ufacts_logo.png" class="img-fluid"
+                                           alt="Colorado Department of Labor and Employment" />
+                   
+                        </div>
+                         <!-- end logo -->
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-4">
+								 	<!-- responsive menu bar icon -->
+				
+                                   
+                                    <!-- end search box -->
+                                </div>
+                                <div class="col-md-8">
+								
+              					<div class="top-bar-right">
+
+                                      
+                                                <a  class="headerLink" style="color:black;text-decoration:none;" href="/Claimant/Core/Navigate.ASPX?Go=Core.Login">Logon</a>
+                                                
+								</div>
+
+                                </div>
+                            </div>
+                              <!-- /row -->
+                        </div>
+                        <div class="navigationbutton">&nbsp;&nbsp;&nbsp;&nbsp;
+      						<a href="#" aria-label="left nav bar" aria-expanded="false" id="navbutton" role="button" class="hidden-md hidden-lg main-nav-toggle"><i class="fa fa-bars fa-3x" title="left nav bar"></i></a>
+                          </div>
+                    </div>
+                     <!-- /row -->
+                </div>
+                 <!-- /container -->
+            </div>
+            <!-- /top -->
+            
+            
+
+ <style type="text/css">
+      #LogoffDiv, #LogoffDiv2, #LogoffDiv1{
+         position: fixed;
+         top: 45%;
+         left: 30%;
+         margin-top: -50px;
+         margin-left: -10%;
+         z-index: 1000;
+         margin-right : 10%;
+     }
+     
+    #ForceLogoffDiv, #ForceLogoffDivPostTime {
+        position: fixed;
+        top: 50%;
+        left: 30%;
+        margin-top: -50px;
+        margin-left: -10%;
+        z-index: 1000;
+        margin-right : 10%;
+    }
+
+    .PII{
+        text-align: center;
+        background-color: #F9F9F9 ;
+        color: #DD0000;
+    }
+
+
+    select.form-control + .chosen-container .chosen-search input[type=text] {
+        border-color: #266cb0;
+    }
+
+    #footer_2 ul li{
+        display: inline-block;
+    }
+
+    #footer_2 ul li a{
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    </style>
+     <script type="text/javascript"> 
+        $(window).on('load', function () {            
+            $("#btnWfGroup").attr("role", "list");
+            $('#btnWfGroup td[role="listitem"]').not(':has(input[type="button"])').removeAttr('role');            
+        });
+    </script>
+
+    <script type="text/javascript" src="/Core/Scripts/SessionTimeOut.js">
+    </script>
+    <script type="text/javascript">
+        var ValidChars = [];
+        $(document).ready(function () {            
+            ValidChars.FirstAndLast = [8, 9, 16, 17, 32, 39, 45, 46, 222, 189];
+             
+                        $('#ctl00_ctl00_cphMain_ULinkButton6').hide()
+             
+        });
+        //Start of TFS 560
+        function CheckNumeric(e) {
+            if ((e.keyCode < 48 || e.keyCode > 57)) {
+                //if ((e.keyCode < 48 || e.keyCode > 57) && e.keyCode != 46) (Use this to allow numbers with decimals)
+                e.preventDefault();
+                return false;
+            }
+        }
+        //End of TFS 560
+
+    //Start of TFS Incident #9004
+    function CheckNameSplChars(e) {           
+        var charCode = (e.which) ? e.which : e.keyCode;
+        if ((charCode >= 48 && charCode <= 57) || (charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122) || ($.inArray(charCode, ValidChars.FirstAndLast) != -1)) {
+            return true;
+        } else {
+            e.preventDefault();
+            return false;
+        }
+    }
+    //End of TFS Incident #9004
+
+    var userNameLogged = '';
+
+    var sessionTimeout = "60";
+    var hour = "21";
+    var minutes = "30";
+    var end30Hour = "21";
+    var end30Minutes = "45";
+    var end15Hour = "21";
+    var end15Minutes = "59";
+    var endHour = "22";
+    var endMinutes = "0";
+    var starthours = "20";
+    var startminutes = "0";
+    
+    
+  </script>   
+
+  <script type="text/javascript" src="/Core/Scripts/Print.js?v=1">
+  </script>
+
+  <script src="/Core/Scripts/blockUI.js?v=1" type="text/javascript"></script>
+
+  <script type="text/javascript">
+   
+    
+    var userNav = 'Claimant.Login.Home';
+    
+
+    var userId = '';
+
+    var javaScriptVal = '';
+
+    // get day function
+    function gt(y, m, d) {
+        return new Date(y, m - 1, d).getTime();
+    }
+
+    var wagedata;
+    var wagedata1;
+    var wagedata2;
+    var PieProcessData;
+    var PieData;
+
+    var visitInitialClaimsY;
+    var visitInitialClaimsW;
+    var visitContClaimsY;
+    var visitContClaimsW;
+
+    var enableParsley = true;
+
+    var showWarningWindow = 'False';
+    var showLogOutWindow = 'False';
+    var userLoggedIn = 'False';
+    var userTp = '/Claimant';
+
+        function clearradio(radiobutton, txtBoxList) {
+        cleartextboxes(txtBoxList);
+        var elementRef = document.getElementById(radiobutton);
+        var inputElementArray = elementRef.getElementsByTagName('input');
+        for (var i = 0; i < radiobutton.length; i++) {
+            var inputElement = inputElementArray[i];
+
+            inputElement.checked = false;
+        }
+    }
+
+    function clearradiogroup(radiobutton, txtBoxList) {
+        cleartextboxes(txtBoxList);
+        var inputElementArray = document.getElementsByName(radiobutton);
+        for (var i = 0; i < inputElementArray.length; i++) {
+            if (inputElementArray[i].checked) {
+                inputElementArray[i].checked = false;
+            }
+        }
+    }
+
+    function cleartextboxes(txtBoxList) {
+
+        if (txtBoxList != "") {
+            var arr = txtBoxList.split(";");
+            for (x = 0; x < arr.length; x++) {
+                var elementRef = document.getElementById(arr[x]);
+                elementRef.value = "";
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+    function divexpandcollapse(divname) {
+        var div = document.getElementById(divname);
+        var img = document.getElementById('img' + divname);
+        if (div.style.display == "none") {
+            div.style.display = "inline";
+            img.src = "/Images/static/minus.gif";
+        } else {
+            div.style.display = "none";
+            img.src = "/Images/static/plus.gif";
+        }
+    }
+    function divexpandcollapseChild(divname) {
+        var div1 = document.getElementById(divname);
+        var img = document.getElementById('img' + divname);
+        if (div1.style.display == "none") {
+            div1.style.display = "inline";
+            img.src = "/Images/static/minus.gif";
+        } else {
+            div1.style.display = "none";
+            img.src = "/Images/static/plus.gif";;
+        }
+    }
+
+    function LogOffExternalStaff() {
+        window.location.href = userTp + "/Core/Navigate.aspx?Go=Core.Logoff&External=1";
+    }
+
+    function RestartSession() {
+        
+        window.location.href = 'https://myui.clouduim.cdle.state.co.us/Claimant//Core/Login.aspx?Logoff=1&Relogin=1&RedirURL=http://myui.clouduim.cdle.state.co.us//Claimant/Core/Login.aspx';
+        console.log(redirectURL);
+    }
+</script>
+    
+    
+    <div id="LogoffDiv" style="display: none">
+        <table width="100%" style="background-color: white" role="presentation">
+            <tbody>
+                <tr>
+                    <td colspan="2" class="sectHead">User Inactivity Warning</td>
+                </tr>
+                <tr>
+                    <td colspan="2">For your protection and security you are about to be automatically logged out of your online account. Any information could possibly be lost due to inactivity.
+                        <br />
+                        <center>
+                            Please click "Resume" below to resume activity
+                            , or, "Logoff" to safely logout.
+                            
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <a href="javascript:ContinueSession()" role="button" aria-label="Resume Session" class="btn btn-primary btn-lg">
+                            Resume Session</a>
+                            
+                            <a href="javascript:LogOff()" role="button" aria-label="Logoff Session" class="btn btn-primary btn-lg">
+                            Logoff Session</a>
+                            
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p id="newtab" class="sr-only" aria-hidden="true">click to view sample opens in new tab</p>
+    <div id="ForceLogoffDiv" style="display: none" aria-live="polite">
+        <table width="100%" style="background-color: white" role="presentation">
+            <tbody>
+                <tr>
+                    <td colspan="2" class="sectHead">User Inactivity: Session Expired</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Due to inactivity your session has timed out. Any information could possibly be lost due to inactivity.
+                        Please click logoff below to logon again.
+                             
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            
+                            <a class="btn btn-primary" href="javascript:LogOff()" role="button">Logoff</a>
+                            
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="LogoffDiv1" style="display: none">
+        <table width="100%" style="background-color: white" role="presentation">
+            <tbody>
+                <tr>
+                    <td colspan="2" class="sectHead">Warning Message</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Warning! In<span id="dynamicwarningtimediff"></span>minutes the system will be temporarily unavailable for nightly processing (from 10pm to 3am MST). You will have<span id="dynamicwarningtimediff2"></span>minutes to complete this
+                        screen. If you do not complete this screen and proceed forward in that time, you will need to restart this portion of the application once the system is available
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+
+                            <a href="javascript:ContinueSessionPostTimeDiv1()" role="button" aria-label="Logoff Session" class="btn btn-primary btn-lg" style="color:white;">
+                            Resume Session</a>
+
+                            <a href="javascript:LogOff()" role="button" aria-label="Close" class="btn btn-primary btn-lg" style="color:white;">
+                        Close</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="LogoffDiv2" style="display: none">
+        <table width="100%" style="background-color: white" role="presentation">
+            <tbody>
+                <tr>
+                    <td colspan="2" class="sectHead">Warning Message</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Warning! In 30 minutes the system will be temporarily unavailable for nightly processing (from 10pm to 3am MST). You will have 30 minutes to complete this
+                        screen. If you do not complete this screen and proceed forward in that time, you will need to restart this portion of the application once the system is available.
+                                
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+
+                            <a href="javascript:ContinueSessionPostTime()" role="button" aria-label="Logoff Session" class="btn btn-primary btn-lg" style="color:white;">
+                            Resume Session</a>
+
+                            <a href="javascript:LogOff()" role="button" aria-label="Close" class="btn btn-primary btn-lg" style="color:white">
+                            Close</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="ForceLogoffDivPostTime" style="display: none">
+        <table width="100%" style="background-color: white" role="presentation">
+            <tbody>
+                <tr>
+                    <td colspan="2" class="sectHead">Logoff Message</td> 
+                </tr>
+                <tr>
+                    <td colspan="2">The system is currently going offline and will be temporarily unavailable for nightly processing (from 10pm to 3am MST). You will be logged off
+                        and any unfinished information on this screen will not be saved. You will need to finish filing the application once the system is available.
+                                
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <a class="btn btn-primary" href="javascript:LogOff()" role="button" style="color:white">Logoff</a>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+        <style type="text/css">
+            .sidebar-minified {
+                display: none;
+            }
+        </style>
+    
+
+    <!-- BOTTOM: LEFT NAV AND RIGHT MAIN CONTENT -->
+    <div class="bottom">
+        <div class="container">
+
+            <!-- left sidebar -->            
+            <div class="flex-container">
+                <div id="ctl00_ctl00_cphMain_leftMenu" class="left-sidebar hidden-sm hidden-xs">
+
+                    <!-- main-nav -->                    
+                    <nav class="main-nav" aria-label="left Nav bar">
+                              <ul style = 'list-style-type: none;' class='main-menu'>
+</ul>
+
+                        </nav>
+                    <!-- /main-nav -->
+                    
+                    <div class="sidebar-minified js-toggle-minified">
+                        <i class="fa fa-angle-left fa-2x" id="accordanceicon" role="button" style="color:#555555" aria-hidden="false" title="left nav bar" aria-expanded="true" tabindex="0" ></i>
+                    </div>
+                </div>
+
+                <div class="content-wrapper" style="width:100px;">
+
+                    <div class="row">
+                        
+                    </div>
+
+                    <div data-step="1 " data-intro="Enhanced Last Staff Searches" data-position='down' style="padding-top: 7px;" role="navigation" aria-label = "Enhanced Last Staff Searches" >
+                        
+                    </div>
+                    
+
+                    <!-- main -->
+                    <div class="content">                        
+                        <div class="main-content" id="print_area" role="main" >
+                            <div id="main-row" tabindex="-1">
+                                <div>
+                                    <div>
+                                        <div id="parsleyErrorDiv" class="alert alert-danger alert-dismissable" role="alert" aria-live="polite"  style="display: none"><button class="close" aria-label="Close Errors">x</button><h2 class="h2-Size" style="font-weight:bolder;font-Size:16px;">Errors</h2>
+                                        </div>
+                                        <div class='ValidateTable' ><div class="alert alert-warning alert-dismissable" role="alert" aria-live="assertive"><h2 class="h2-Size"  style="font-weight:bolder;font-Size:16px;display:inline-block">Warnings!</h2><button class="close" aria-label="Close warnings">×</button><ul class="parsley-errors-list filled"><li class="parsley-required" id="Parsley_Id_ctl00_ctl00_cphMain_cphMain_txtUserName0"><a href='#ctl00_ctl00_cphMain_cphMain_txtUserName' aria-label="Social Security Number is required (30)" style="color:#fff">Social Security Number is required (30)</a></li><br /><li class="parsley-required" id="Parsley_Id_ctl00_ctl00_cphMain_cphMain_txtPassword1"><a href='#ctl00_ctl00_cphMain_cphMain_txtPassword' aria-label="Password is required (30)" style="color:#fff">Password is required (30)</a></li></ul></div></div>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    
+                                    
+
+
+    <style type="text/css">
+        .breadcrumb li {
+            color: white;
+        }
+    
+        /* a:hover, a:focus {
+            color: #0000FF;
+        }*/
+
+        .breadcrumb a {
+            color: white;
+        }
+
+        .claimant-panel {
+            background: white;
+            margin: 30px 0px 0px 0px;
+            overflow: hidden;
+        }
+
+        @media screen and (max-width: 768px) {
+            .med-width {
+                width: 208px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .left-nav-logo {
+                display: none;
+            }
+
+            .claimant-panel {
+                background: white;
+                margin: -42px 0px 0px 0px;
+                overflow: hidden;
+            }
+        }
+
+        .nav-right-border {
+            border-right: solid 5px #001970;
+        }
+
+        .content-wrapper {
+            background-image: url('/images/core/login_bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        #footer_2 {
+            display: none;
+        }
+
+        .left-sidebar {
+            display: none !important;
+        }
+
+        .content-wrapper {
+            margin-left: 0px !important;
+        }
+
+        a.skipToContent {
+            left: -999px;
+            position: absolute;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            z-index: -999;
+            color: #001970;
+            background-color: #fff;
+            border-radius: 2px;
+        }
+
+            a.skipToContent:focus, a.skipToContent:active {
+                left: 45px;
+                top: 0px;
+                width: 15%;
+                height: auto;
+                overflow: auto;
+                margin: 10px 35%;
+                padding: 5px;
+                text-align: center;
+                font-size: 1.0em;
+                z-index: 999;
+                color: #001970;
+                background-color: #fff;
+                border-radius: 2px;
+            }
+
+        .btn-new {
+            border-radius: 0px !important;
+            height: 40px;
+            line-height: 40px;
+            background-color: #001970 !important;
+            color: #ffff !important;
+        }
+        @media (max-width: 350px) {
+            #empbutton1 {
+                white-space: normal;
+                height:70px;
+            }
+        }
+ 
+        .btn-link-forgot {
+            border-color: #001970 !important;
+            border-radius: 10px !important;
+            background-color: #ffffff !important;
+        }
+
+        .btn-link-user {
+            border-color: #001970 !important;
+            border-radius: 10px !important;
+            background-color: #ffffff !important;
+            margin-top: 10px !important;
+        }
+
+        .btn-resources {
+            min-height: 45px;
+            height: auto;
+            line-height: 45px;
+            margin-bottom: 20px;
+            color: #001970;
+            background-color: #ffffff;
+            border-color: #001970;
+            transition: background-color 200ms ease;
+            border: solid 1px;
+            border-radius: 0px;
+            overflow-wrap: anywhere !important;
+            text-wrap: wrap;
+        }
+
+        .btn.focus, .btn:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.15rem rgba(26,115,232,1);
+        }
+
+        .rc-button-default:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.12rem rgba(26,115,232,1);
+            border: 2px solid #fff;
+        }
+
+        .col-md-2 {
+            display: none;
+        }
+
+        .top-bar-right {
+            display: none;
+        }
+        #navbutton{
+            display:none;
+        }
+        
+    </style>
+
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcgApcbAAAAAJs7LwMg35rpFurmE_gBf6iLYnia"></script>
+    <script>
+        $(document).ready(function () {
+            $("#print_area").find("div:first").removeAttr("id");
+            $("#print_area").find("div:first").removeAttr("tabindex");
+            $("#print_area").removeAttr("role");
+            $('.fa-info-circle').removeAttr("aria-hidden");
+            $('p:contains("WARNING")').replaceWith("<h3 style='font-size:12px;font-weight:bold'>" + "WARNING " + "<h3>");
+            var legend = $("h1").text(); 
+            $('h3').each(function(){
+                if($(this).text()===""){
+                    $(this).remove();
+                }
+            });
+         
+            if (legend != "") {
+                $("legend").text(legend);
+            }
+        });
+    </script>
+    <script>
+        function onSubmit(token) {
+            $(".btn-password").click();
+        }
+    </script>
+
+    <script>
+        function onSubmitForgotUserId(token) {
+            $(".btn-forgot_userid").click();
+        }
+    </script>
+
+    <script>
+        function onSubmitStaff(token) {
+            $(".btn-staff-password").click();
+        }
+    </script>
+    
+
+    <div id="ctl00_ctl00_cphMain_cphMain_UPanelSystemMessage" class="col-md-12 loginMessage" data-id="UPanelSystemMessage" style="width:100%;">
+	
+        
+	<b style="font-family: tahoma, sans-serif; font-size: small;">A claim must be fully processed, and payments are held until all pending issues are resolved. <span style="background-color:#ffff00;">While issues are pending or during appeals, you must request payment each week to avoid your claim closing</span>. The amount of time claims take to process varies and may take up to 5 to 7 weeks from the file date.&nbsp;</b>
+
+	<b style="font-family: tahoma, sans-serif; font-size: small;">If you have a Program Integrity Issue on your claim, please ensure you upload a copy of your Driver&#39;s License or ID, a picture of yourself, a picture of your Social Security Card or Birth Certificate, and a current bill reflecting your current address matching your claim information at a minimum.&nbsp; Additional documents may be requested to resolve this issue.&nbsp; If you do not provide documents requested by us, your claim may be denied.&nbsp; Uploads can be made directly into the issue in MyUI+ or on our website under the &quot;Upload Documents&quot; section at coloradoui.gov.</b>
+
+<br/>
+
+    
+</div>
+
+     
+    
+    
+    
+    
+
+    
+    
+
+    
+
+
+    <div role="dialog" tabindex="-1" id="MFASuccessModal" class="modal fade" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">Please Wait</div>
+                <div class="modal-body">
+                    MFA Validation Successful.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    
+    
+
+
+    <div id="ctl00_ctl00_cphMain_cphMain_UPanel4" class="claimant-panel" data-id="UPanel4" style="width:100%;">
+	
+        <div class="row">
+
+            <div class="col col-xl-3 col-md-4 nav-right-border pl-30 pt-4 pr-30" style="background: #f8f9fa!important">
+                <nav class="navbar navbar-expand-md navbar-light bg-light" aria-label="Left">
+                    <div class="input-group-append d-md-none">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="left nav bar"  id="ui-collapse-788">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-brand col-md-2">
+                            <img id="logouFacts" src="https://myui.clouduim.cdle.state.co.us/images/core/ufacts_logo.png" class="img-fluid" alt="Colorado Department of Labor and Employment">
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                        <div class="d-md-block col-md-12">
+                            <div class="headerLink" style="color: black; text-decoration: none;">
+                                <img class="col-md-12 pt-3 pb-5 left-nav-logo" src="https://myui.clouduim.cdle.state.co.us/images/core/ufacts_logo.png" alt="Colorado Department of Labor and Employment">
+                            </div>
+                            
+                            <a class="btn btn-resources d-flex justify-content-center" href="https://www.connectingcolorado.com/" target="_blank" title="opens in a new tab" >
+                                <span class="resources-text">Find a Job<i class="fa fa-external-link" aria-hidden="true"></i> </span> 
+                            </a>
+                            <a class="btn btn-resources d-flex justify-content-center" href="https://cdle.colorado.gov/eligibility-and-work-search-requirements" target="_blank" title="opens in a new tab">
+                                <span class="resources-text">Maintaining Eligibility<i class="fa fa-external-link" aria-hidden="true"></i></span>
+                            </a>
+                            <a class="btn btn-resources d-flex justify-content-center" href="https://cdle.colorado.gov/assistance-programs" target="_blank" title="opens in a new tab">
+                                <span class="resources-text">Other Assistance & Resources<i class="fa fa-external-link" aria-hidden="true"></i></span> 
+                            </a>
+                            
+
+                            <a class="btn btn-resources d-flex justify-content-center" href="https://cdle.colorado.gov/fraud-prevention" target="_blank"  title="opens in a new tab">
+                                <span class="resources-text">Report Fraud<i class="fa fa-external-link" aria-hidden="true"></i></span> 
+
+                            </a>
+                            <a class="btn btn-resources d-flex justify-content-center" href="https://myui.clouduim.cdle.state.co.us/Static/Benefits/Privacy.html" target="_blank"  title="opens in a new tab">
+                                <span class="resources-text">Privacy Statement<i class="fa fa-external-link" aria-hidden="true"></i></span> 
+
+                            </a>
+                            <a class="btn btn-resources d-flex justify-content-center" href="https://myui.clouduim.cdle.state.co.us/Static/Core/ViewingTips.html" target="_blank"  title="opens in a new tab">
+                                <span class="resources-text">Viewing Tips<i class="fa fa-external-link" aria-hidden="true"></i></span> 
+
+                            </a>
+                            <a class="btn btn-resources d-flex justify-content-center" href="https://myui.clouduim.cdle.state.co.us/Static/Core/Accessibility.html" target="_blank"  title="opens in a new tab">
+                                <span class="resources-text">Accessibility<i class="fa fa-external-link" aria-hidden="true"></i></span> 
+
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-md-8 col-xl-9 pl-30 pt-5 pr-30" role="main" >
+                <div class="row" id="main-row" tabindex="-1">
+                    <div class="col-md-5">
+                        <fieldset>
+                    <legend class="sr-only">CDLE Staff Login</legend>
+                        <div class="col">
+                        <div id="ctl00_ctl00_cphMain_cphMain_UPanel13" data-id="UPanel13" style="width:100%;">
+		
+                                <h1 class="h1-Size">Existing Claimants Login</h1>
+                            
+	</div>
+                            
+
+                            
+                            
+                        </div>
+                        <div data-id onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_ctl00_cphMain_cphMain_UButton4&#39;)" style="width:100%;">
+		
+                            <div >
+
+                                <div class="col">
+                                    <div class="form-group"><label class="label-reqcontrol" for="ctl00_ctl00_cphMain_cphMain_txtUserName">Social Security Number:</label><input name="ctl00$ctl00$cphMain$cphMain$txtUserName" type="password" id="ctl00_ctl00_cphMain_cphMain_txtUserName" class="form-control  is-invalidControl is-invalidControl parsley-error radio-group" labelcssclass="col-md-2" inputcssclass="col-md-10" autocomplete="off" data-parsley-required-message="Social Security Number is required" data-parsley-required="true" data-id="txtUserName" aria-required="true" aria-label /></div>
+
+                                </div>
+                                <div class="col">
+
+                                    <div class="form-group"><label class="label-reqcontrol" for="ctl00_ctl00_cphMain_cphMain_txtPassword">Password:</label><input name="ctl00$ctl00$cphMain$cphMain$txtPassword" type="password" id="ctl00_ctl00_cphMain_cphMain_txtPassword" class="form-control  is-invalidControl is-invalidControl parsley-error radio-group" labelcssclass="col-md-2" inputcssclass="col-md-10" autocomplete="current-password" data-parsley-required-message="Password is required" data-parsley-required="true" data-id="txtPassword" aria-required="true" aria-label /></div>
+                                </div>
+                           
+                        </div>
+                        
+	</div>
+                        </fieldset>
+                        <div id="ctl00_ctl00_cphMain_cphMain_UPanel8" class="col" data-id="UPanel8" style="width:100%;">
+		
+
+                            <div class="row pb-4">
+                                <div class="col">
+                                    <input type="submit" name="ctl00$ctl00$cphMain$cphMain$btnLoginLogin" value="Login" id="ctl00_ctl00_cphMain_cphMain_btnLoginLogin" class="btn btn-primary btn-new" data-id="btnLoginLogin" BlockUI="true" class="btn btn-primary btn-new btn btn-primary" />
+                                </div>
+                                <div class="col text-right">
+                                    <button class="g-recaptcha btn btn-link-forgot" style="color: black; text-decoration: underline" data-sitekey="6LcgApcbAAAAAJs7LwMg35rpFurmE_gBf6iLYnia"
+                                        data-callback='onSubmit' data-action='Password' role="link">
+                                        Forgot Password
+                                    </button>
+                                    <input type="submit" name="ctl00$ctl00$cphMain$cphMain$btnLoginReset" value="Forgot Password" id="ctl00_ctl00_cphMain_cphMain_btnLoginReset" class="btn-password" data-id="btnLoginReset" ignore-validate="true" BlockUI="true" class="btn-password btn btn-primary" style="display: none" />
+                                </div>
+                            </div>
+
+                        
+	</div>
+
+
+                        
+
+
+                    </div>
+                             
+                    <div id="ctl00_ctl00_cphMain_cphMain_uApplyBenifits" class="col-md-7" data-id="uApplyBenifits" style="width:100%;padding: 0px 30px 0px 30px">
+		
+                        
+                            <div>
+                            <h2 class="h2-Size">Apply for Benefits</h2>
+                            <br />
+                        <div class="padding-bottom-20">If you received $2,500 or more in wages on a W-2 from any employer where taxes were withheld in the last 18 months, you are likely eligible to file a claim for unemployment benefits.</div>                         
+                       <div class="padding-bottom-20">Before you proceed, gather your income-related information, such as pay stubs. Be prepared to provide information about work you have performed in the last 18 months, including the name and address of the business, dates you worked, and rate of pay</div>
+                            <a class="btn btn-primary btn-new" href="/Claimant/Core/Navigate.aspx?Go=Benefits.Claims.Initial.EstablishClaimNew" role="button">Apply for Benefits</a>
+                        </div>
+                </div>
+                
+	</div>
+
+    
+
+    
+
+    
+
+    
+
+    <div class="row mt-4 pl-30 pt-5 pr-30">
+        <div class="col-md-4 mt-3">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title1"><b>Protect Yourself from Scams</b></h3>Fraudsters often use spoofed websites - fake sites which copy an official site's 
+                            design - to trick unsuspecting victims into giving up personal or financial information. Remember: CDLE will never send you a text message with a link to log into your account. To be sure that you are accessing the official MyUI+ portal and not a fake site, access your MyUI+ account via CDLE's official website at ColoradoUI.gov.</div>
+            </div>
+
+        </div>
+        <div id="ctl00_ctl00_cphMain_cphMain_pnalNextSteps" class="col-md-4 mt-3" data-id="pnalNextSteps" style="width:100%;">
+		
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title1"><b>Next Steps After Filing Your Claim</b></h3>Once you've opened your unemployment claim, there are a few things you need to do in                             order to remain eligible for benefits and receive payments on time. You must remain able                              and available to work, and complete weekly work search activities. You're also required to                              register with your local workforce center. Finally, you must request payment each week via your                              MyUI+ account or by phone. For more information, visit the <a href="https://cdle.colorado.gov/eligibility-and-work-search-requirements" target="_blank" title="opens in a new tab">Eligibility and Work Search Requirements<i class="fa fa-external-link" aria-hidden="true"></i></a> page on our website.</div>
+            </div>
+        
+	</div>
+        <div class="col-md-4 mt-3">
+            <div class="card">
+                <div class="card-body">
+                          
+                            <h3 class="card-title1"><b>1099-G Tax Forms Available in MyUI+</b></h3>
+                        <div id="ctl00_ctl00_cphMain_cphMain_UpanelMFA26" data-id="UpanelMFA26" style="width:100%;">
+		If you received unemployment benefits in 2023, you can download a copy of your 1099-G tax form from your MyUI+ account. 
+                        Please log in and go to "View Correspondences."
+	</div>
+                    
+                                       
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="ctl00_ctl00_cphMain_cphMain_UPanel32" class="col" data-id="UPanel32" style="width:100%;">
+		
+        <div class="row mt-4">
+            <div class="col-md-4 mt-3">
+            </div>
+            <div class="col-md-4 mt-3">
+            </div>
+            <div class="col-md-4 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                         
+                         If you believe the 1099-G form you received has an error, or you received a 1099-G form in your name despite not having received
+                            unemployment benefits, please request a correction
+                        <span id="ctl00_ctl00_cphMain_cphMain_lblNote" data-id="lblNote"></span>
+                        <a href="/Claimant/Core/Navigate.aspx?Go=Benefits.Payments.ViewAndRequest1099G">here<span class="sr-only">to request a 1099 correction</span></a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+	</div>
+    <div class="col" style="font-size: 12px;">
+        <p><span><p>WARNING</p><p>        <p></p><p>            This system may contain U.S. Government information, which is restricted to authorized users ONLY. Unauthorized access, use, misuse, or modification of this computer system or of the data contained herein or in transit to/from this system constitutes a violation of Title 18, United States Code, Section 1030, and may subject the individual to Criminal and Civil penalties pursuant to Title 26, United States Code, Sections 7213, 7213A (the Taxpayer Browsing Protection Act), and 7431.</p><p>This system and equipment are subject to monitoring to ensure proper performance of applicable security features or procedures. Such monitoring may result in the acquisition, recording and analysis of all data being communicated, transmitted, processed or stored in this system by a user. If monitoring reveals possible evidence of criminal activity, such evidence may be provided to Law Enforcement Personnel.</p><p>            <p></p><p>        ANYONE USING THIS SYSTEM EXPRESSLY CONSENTS TO SUCH MONITORING.</p><p>    </span></p><p> </p>
+    </div>
+    </div>
+     </div>
+    
+</div>
+
+    
+    
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    
+    
+    
+ 
+                                </div>
+                            </div>                          
+                        <p class ="PII"><i class="fa fa-info-circle" aria-label="PII Safety Warning" style="font-size:14px;color:#DD0000;"></i> This system is for Official Use Only and contains Personally Identifiable Information (PII). Any misuse or unauthorized 
+                            disclosure of information may result in both Civil and Criminal penalties.</p> 
+                        </div>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        </div>
+    
+    <footer class="clearfix" id="footer_2" role="contentinfo">
+        <div>
+            <ul>
+                <li>
+                    <a accesskey="T" href="#Skip1" aria-labelledby="cmdBacktoTop" ><span id="cmdBacktoTop" title="">Back to Top</span></a>
+                </li>
+                <li>
+                    <a href="/Static/Core/Accessibility.html" target="_blank" class="grayLink" title="opens in a new tab"><span id="cmdContactEDD" title="">Accessibility</span> <i class="fa fa-external-link" aria-hidden="true"></i> </a>
+                </li>
+                <li>
+                    <a href="/Static/Benefits/Privacy.html" target="_blank" class="grayLink" title="opens in a new tab"><span id="cmdConditionsofUse" title="">Privacy Statement</span> <i class="fa fa-external-link" aria-hidden="true"></i> </a>
+                </li>
+                <li>
+                    <a href="/Static/Core/ViewingTips.html" target="_blank" class="grayLink" title="opens in a new tab"><span id="cmdEqualOpportunityNotice" title="">Viewing Tips</span> <i class="fa fa-external-link" aria-hidden="true"></i> </a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+          <font color="white" face="verdana" size="4">
+              © 2023 COLORADO DEPARTMENT OF LABOR AND EMPLOYMENT<span style="color: #4696BE !important;">.</span>
+        </div>
+        </footer>
+
+             <input type="hidden" name="ctl00$ctl00$hdnLangPref" id="hdnLangPref" />
+
+ 
+             
+
+                   <div id="dialog1" role="dialog"   aria-modal="true" hidden="hidden">
+                    <div class="modal-dialog" id="modaldialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button  id="btncross" aria-label="dismiss" data-dismiss="modal" class="close"  type="button" style=" color: #CFCFCF; ">x</button>
+                                      </div>
+                            <div class="modal-body">
+                                <iframe id="iframeId"  SRC="" width="100%" height = "100%"  frameBorder="0"></iframe>
+                            </div>
+                            <div class="modal-footer" id="modalfooterbtn">
+                                
+                                <a data-dismiss="modal" aria-label="Close" class="btn btn-default" role="button" style="color:blue;text-decoration:none" tabindex="0" type="button"><i class="fa fa-times-circle" aria-hidden="true" title="Close"></i>Close</a>
+                                          
+                                     </div>
+                        </div>
+                    </div>
+                  </div>
+                <div id="overlay" hidden="hidden"></div>
+
+             <div aria-hidden="true" role="dialog" tabindex="-1" id="sub-code-modal" class="modal fade" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button aria-hidden="true" aria-label="dismiss" data-dismiss="modal" class="close" role="button" type="button">x</button>
+                                     </div>
+                            <div class="modal-body">
+                              <div id="sub-code-elements">
+
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a data-dismiss="modal" aria-label="Close" class="btn btn-default" type="button" role="button"><i class="fa fa-times-circle" title="Close" aria-hidden="true"></i>Close</a>
+                                <a class="btn btn-custom-primary" aria-label="Save Changes" type="button" id="export" role="button"><i class="fa fa-check-circle" title="Save Changes" aria-hidden="true"></i>Save changes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            <div id="dialog-message" title="Session Expired" style="display: none;">
+                <p data-translate="Base.Master.SessionExpired">
+                        You have been inactive for more than system allowed time. For safety reason you have been logged out. Click ok to log in.
+                </p>
+            </div>
+
+            <div id="dialog-warning" title="System Warning" style="display: none;" class="sectHead">
+                <p>
+                    <span id="SessionWarning" style="display: none;">Unemployment system is available from 4:00 AM - 7:00 PM. You will be logged out of the system
+                    at 7:00 PM. Any unsaved data will be lost.
+                        </span>
+
+                    <span id="SessionExpired" style="display: none;" >Unemployment system is available from 4:00 AM - 7:00 PM. You have been logged out of the system.
+                    </span>
+
+                </p>
+            </div>
+
+        </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('ctl00_ctl00_cphMain_cphMain_txtUserName');//]]>
+</script>
+</form>
+
+
+    <!-- Javascript -->
+ 
+ <script type="text/javascript" src="/Core/Scripts/upgrade/bootstrap.bundle.min.js"></script>
+
+ <script type="text/javascript" src="/Core/Scripts/app-requests.js"></script>
+
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/common.js"></script>
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/raphael-2.1.0.min.js"></script>
+
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/stat/flot/jquery.flot.js"></script>
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/stat/flot/jquery.flot.resize.js"></script>
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/stat/flot/jquery.flot.time.js"></script>
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/stat/flot/jquery.flot.pie.js"></script>
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/stat/flot/jquery.flot.tooltip.js"></script>
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/stat/flot/jquery.flot.categories.js"></script>
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/stat/flot/jquery.flot.spline.js"></script>
+
+ <script type="text/javascript" src="/Core/Scripts/upgrade/jquery.dataTables.min.js"></script>
+ <script type="text/javascript" src="/Core/Scripts/upgrade/dataTables.bootstrap4.min.js"></script>
+ 
+ <script type="text/javascript" src="/Core/Styles/upgrade/js/jquery.mapael.js"></script>
+    
+    
+        <script type="text/javascript" src="/Core/Styles/upgrade/js/jquery.cropit.js"></script>
+    
+<script type="text/javascript" src="/Core/Styles/upgrade/js/jquery.masked-input.min.js"></script>
+
+    
+     
+    
+  <script type="text/javascript" src="/Core/Styles/upgrade/js/intro.js"></script>
+   
+        <script type="text/javascript" src="/Core/Styles/upgrade/datatables/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/datatables/dataTables.responsive.min.js"></script>    
+    <script type="text/javascript" src="/Core/Styles/upgrade/datatables/buttons.bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/datatables/jszip.min.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/datatables/pdfmake.min.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/datatables/vfs_fonts.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/datatables/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/datatables/buttons.print.min.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/datatables/buttons.colVis.min.js"></script>
+    <script type="text/javascript" src="/Core/Scripts/upgrade/dataTables.formatted-numbers.js"></script>
+
+    <script src="/Core/Scripts/upgrade/parsley.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                $(".skipToContent").attr('style', 'display:none;');
+            }
+        });
+    </script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/js/chosen.jquery.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/js/jquery.mark.min.js"></script>
+    <script type="text/javascript" src="/Core/Styles/upgrade/js/datatables.mark.min.js"></script>
+    
+
+    <script type="text/javascript" src="/Core/Scripts/upgrade/datePickerDialog.js"></script>   
+    <script type='text/javascript' src="/core/styles/upgrade/js/Chart.min.js"></script>
+    <script type='text/javascript' src="/core/styles/upgrade/js/charts.js"></script>
+
+    <script type='text/javascript' src="/Core/Scripts/upgrade/moment.min.js"></script>
+    <script type="text/javascript" src="/Core/Scripts/upgrade/daterangepicker.min.js"></script>
+    
+     <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/v4-shims.js"></script>
+
+    <!-- CC Changes -->
+    <script src="/Core/Scripts/upgrade/step-form-wizard.js" type="text/javascript"></script>
+        <script src="/Core/Scripts/upgrade/jquery.mCustomScrollbar.min.js" type="text/javascript"></script>
+
+        
+    <script type="text/javascript" src="/Core/Scripts/util.js"></script>
+    
+    <script type="text/javascript">
+        // $('#modalfooterbtn').on('keyup', function(event) { 
+        //    if (event.keyCode == 32) { 
+        //$("#modaldialog").modal('hide');
+        //     } 
+
+        //    });   
+        
+        //$('#modaldialog').on('keyup', function (e) {
+          //  var key = e.which;
+         //   if (key == 13 || key == 32) {
+          //      $('#btncross').click();
+          //  }
+       // });
+        
+        $(document).on('keyup', 'textarea[data-validation-type="Notes"], input[data-validation-type="Notes"], input[data-validation-type="EntityNa"]', function () {
+           var userResult = $(this).val();
+           var result = '';
+
+            
+
+            for (i = 0; i < userResult.length; i++) {
+                if (i != userResult.length - 1 && userResult[i] == '<' && userResult[i + 1] == ' ') {
+                    result += userResult[i];
+                }
+                else if (i != userResult.length - 1 && userResult[i] == '<' && userResult[i + 1] != ' ') {
+                    result += userResult[i] + ' ';
+                }
+                else if (userResult[i] == '>' && userResult[i - 1] == ' ') {
+                    result += userResult[i];
+                }
+                else if (userResult[i] == '>' && userResult[i - 1] != ' ') {
+                    result += ' ' + userResult[i];
+                }
+                else if (userResult[i] == '&' && userResult[i + 1] == '#') {
+                    result += userResult[i] + ' ';
+                }
+                else {
+                    result += userResult[i];
+                }
+            }
+            $(this).val(result);
+        });
+
+    </script>
+  
+           
+<script type="text/javascript">
+    $(document).ready(function () {
+        if ($('[id$=ddlLocalization]') != null && $('[id$=ddlLocalization]')[0] != null && $('[id$=ddlLocalization]')[0].value == "SPAN")
+        {
+            document.documentElement.lang = "es";
+        }
+        else
+        {
+            document.documentElement.lang = "en";
+        }
+        $('input[placeholder$="(mm/dd/yyyy)"]').focus(function () {
+            $('#ui-datepicker-div').css("display", "none");
+        });
+
+        // Position the dialog below the button
+        //$(".datepicker-dialog").each(function () {
+        //    $(this).css("position", "absolute");
+        //    //var buttonRect = button.getBoundingClientRect();
+        //    $(this).css("right", "-50px");
+        //});
+        $('.datepicker').each(function () {
+            var datepickerdiv = $(this).attr("date-picker-refId");
+            const inputElement = $(this).siblings("input[date-picker-id$='" + datepickerdiv + "']");
+            const inputWidth = inputElement.width();
+            if (inputWidth >= 145) {
+                inputElement.css("width", "145px");
+            }
+        });
+
+
+
+
+
+    });
+</script>   
+
+    <!-- css3-mediaqueries.js for IE less than 9 -->
+
+ <!--[if IE 8]>
+     <link href="/Core/Styles/upgrade/css/ie8.css" rel="Styleseet" type="text/css" />
+
+<![endif]-->
+
+     <!--[if lt IE 8]>
+     <link href="/Core/Styles/upgrade/css/ie7.css" rel="Stylesheet" type="text/css" />
+
+<![endif]-->
+
+
+    
+</body>
+
+
+</html>

@@ -1,0 +1,516 @@
+Student Record Request - DPOS Payment System - DPOS, DHE
+Division of Private Occupational Schools
+Student Record Request
+To begin the transcript request, please select the school from which you want to obtain a student transcript.
+First Name*
+Last Name*
+School*
+5 Star CDL Academy (Inc and LLC) (2006 to 2017)
+A Cut Above Beauty Academy
+A Perfect Ten
+AAA Midwest Beauty College
+ABC Bartending Schools
+About Face Skin Care Institute
+Academia de Belleza Californias
+Academy at Headline
+Academy of Cosmetology
+Academy of Dog Science Application
+Academy of Floral Design
+Academy of Hair
+Academy of Healing Arts
+Academy of Medical & Health Science, Inc.
+Academy of Medical Office Assistants A-Z  (1980 to 1981)
+Academy of Medical Office Assistants Trans Only
+Academy of Nails
+Achievement Real Estate Academy
+Advanced Barbering Academy
+Advanced Esthetics Institute (The)
+Advantage School of Real Estate
+Alchemy Institute, Inc.
+Alliance Real Estate School
+Altierus Career College - Colorado Springs
+Altierus Career College - Thornton
+American Bartenders & Casino Dealers School
+American Beauty College
+American Diesel and Automotive
+American Health Science University
+American Laser University
+American Real Estate College
+Americana Beauty College
+Anchor Point System, Inc.
+Anchors Away Cruise Academy
+Anthem College
+Arapahoe Dental Assisting School
+Arbachs Schools of Cosmetology
+Archetypal Academy, The
+Arts and Education Hairdressing Academy
+Assist to Succeed
+Astral Academy of Hair
+At Your Fingertips Career Center, Inc.
+Aurora Beauty College
+Aurora College
+Automation & Training Universal A-Blalock (1968 to 1978)
+Automation & Training Universal Bledsoe-Crandall (1968 to 1978)
+Automation & Training Universal Crane-Frerichs (1968 to 1978)
+Automation & Training Universal Frequez-Harris (1968 to 1978)
+Automation & Training Universal Herron-Kurz (1968 to 1978)
+Automation & Training Universal L-Moseley (1968 to 1978)
+Automation & Training Universal Mosher-Rodriguez (1968 to 1978)
+Automation & Training Universal Roe-Todd (1968 to 1978)
+Automation & Training Universal Tolar-Wynn (1968 to 1978)
+Automation & Training Universal XYZ Misc (1968 to 1978)
+Axis Academy of Hair Design
+Barnes Business College (1984 to 1992)
+Barnes Business College (microfiche) (1970 to 1983)
+Barnes Business College A-L (1993 to 1995)
+Barnes Business College M-Z (1993 to 1995)
+Barnes Professional Academy of Modeling
+Bartender's Training Academy Pueblo A-Z (1985 to 1985)
+Bartending Academy of Colorado A-Jeff Runnfeld (1981 to 1988)
+Bartending Academy of Colorado Troy Rushing-Z (1980 to 1988)
+BCI Executive Training
+Be Here Now Massage Yoga Bodywork
+Beauty Academy of Tomorrow
+Beauty Institute and Spa
+Bellazzo Institute
+Berkleys Upper Cuts
+Big E Truck Driving School
+Biosystems Institute A-Brooks (1983 to 1986)
+Biosystems Institute Attendance,Therapist/Tech Pins (1983 to 1986)
+Biosystems Institute Brown-Crowley (1983 to 1986)
+Biosystems Institute Class Rosters,blank trans (1983 to 1986)
+Biosystems Institute Cruz-Genter (1983 to 1986)
+Biosystems Institute German-Jenkinson (1983 to 1986)
+Biosystems Institute Johnson-Lyman (1983 to 1986)
+Biosystems Institute M-Morrissey (1983 to 1986)
+Biosystems Institute Moskowitz-Renner (1983 to 1986)
+Biosystems Institute Reyes-Spencer (1983 to 1986)
+Biosystems Institute Stadig-White (1983 to 1986)
+Biosystems Institute Whitley-Young (1983 to 1986)
+Birth Institute
+BL International Beauty College III
+Boulder College of Massage Therapy
+Boulder Valley Vi-Tech
+Briggs Real Estate School (1980 to 1988)
+Brightwood (contact https://kaplan.com/closedcolleges/)
+Broker Training Institute (1980 to 1988)
+Bull Locks Barber Academy
+Business Computer Academy
+Cambridge College
+Candi Johns Salon School
+Capitol City Barber College
+Career Coders
+Career School of the Rockies
+Careers World Wide
+CDL Safety School
+Center for Neuromuscular Massage Therapy
+Center of Advanced Therapeutics A-Me
+Center of Advanced Therapeutics Me-Z
+Century 21 Real Estate School (1976 to 1978)
+Certified Security Officer Trg A-Cunningham  (1985 to 1987)
+Certified Security Officer Trg Currie-Horsch (1985 to 1987)
+Certified Security Officer Trg Firearms A-Z (1985 to 1987)
+Certified Security Officer Trg Horner-Ralph Miller (1985 to 1987)
+Certified Security Officer Trg Robert Miller-Simpson (1985 to 1987)
+Certified Security Officer Trg Sinnee-Zyskowzski (1985 to 1987)
+Certified Welding School
+Champion Business Services
+Charlie Browns School of Travel
+CHC Training LLC
+Cherry Creek National Teller
+Cherry Creek School of Massage
+Cliff Mann Floral School
+CodeCraft School of Technology
+Coldwell Banker Real Estate Academy
+College for Awareness Vacations
+College of International Esthetics
+CollegeAmerica (contact https://gramarcy.com/)
+Colo. Inst. of Law Enforcement
+Colo. School of Travel Lakewood
+Colorado Aerotech (contact DEN.RegAccred@Spartan.edu)
+Colorado Auto Sales Training
+Colorado Barber College
+Colorado Beauty College
+Colorado Business Technology Inst A-Z (1982 to 1984)
+Colorado Career Academy
+Colorado Casino Dealers Academy
+Colorado CDL Training School - Trinidad
+Colorado Coaching & Hypnotherapy
+Colorado Contemporary Music College
+Colorado Culinary Academy
+Colorado Dental Assisting School - Castle Rock
+Colorado Dog Grooming Academy (1980 to 1988)
+Colorado Gunsmithing Academy
+Colorado Institute of Taxidermy Training
+Colorado Locksmith College
+Colorado Real Estate Institute (1985 to 1989)
+Colorado Real Estate Institute (1981 to 1984)
+Colorado Real Estate Institute (2000 to 2006)
+Colorado Real Estate Institute (1994 to 1999)
+Colorado Real Estate Institute (1990 to 1993)
+Colorado Sales Training Institute A-Black (1964 to 1976)
+Colorado Sales Training Institute Blackburn-Cook (1964 to 1976)
+Colorado Sales Training Institute Cool-Ewing (1964 to 1976)
+Colorado Sales Training Institute F-Gween (1964 to 1976)
+Colorado Sales Training Institute H-I (1964 to 1976)
+Colorado Sales Training Institute J-Longoni (1964 to 1976)
+Colorado Sales Training Institute Lookadoo-Myles (1964 to 1976)
+Colorado Sales Training Institute N-Q (1964 to 1976)
+Colorado Sales Training Institute R-Smarts (1964 to 1976)
+Colorado Sales Training Institute Smith-Vaughn (1964 to 1976)
+Colorado Sales Training Institute Veal-Zook (1964 to 1976)
+Colorado School for Acupuncture and Oriental Med.
+Colorado School of Dental Technology - GJ
+Colorado School of Paramedical Esthetics
+Colorado Springs Academy of Therapeutic Massage
+Colorado Springs Truck Driving Alderete-Clement (1985 to 1986)
+Colorado Springs Truck Driving Delventhal-Gordon (1985 to 1986)
+Colorado Springs Truck Driving Haine-Lynch (1985 to 1986)
+Colorado Springs Truck Driving Magerl-Shaw (1985 to 1986)
+Colorado Springs Truck Driving Taschler-Zymowski (1985 to 1986)
+Colorado Training Institute
+Colorado Transportation School
+Colorado Welding A-Z (1983 to 1985)
+Colorado Welding Transcripts Only
+Colorado Wig Academy
+Columbine College
+Columbine FlyFishing Guide School
+Commercial Vehicle Training Center
+Comp USA – Boulder, Colorado Springs, Littleton, Westminster
+Concentric Healing Institute
+Connecting Point School of Massage and Spa Therapies
+Construction School
+Cortiva Institute - Aurora/Westminster (previously DSMT)
+Cortiva Institute - Colorado
+Cosmetology College
+Cottonwood School of Massage Therapy
+CourtReps Realtime Institute
+Crazy Horse Int’l Hair Design & Training Center
+Crazy Horse International Salon & Training Center
+Crestone Healing Arts Center
+Crown of Splendor Institute, LLC
+CSS (Computer Sharing Services) Transcripts Only
+DanielleLee Beauty Academy
+DATS/Academy School of Dental Assisting
+Day of Miracles – School of Integrative Healing
+Dell Institute of America (1980 to 1988)
+Dent – Temp Careers
+Dental Assistant Training Academy (Loveland/Niwot)
+Dental Assistant Training School
+Dental Careers Foundation
+Denver Academy of Court Reporting/Prince Institute
+Denver Business College (contact https://remington360.com/document-request/)
+Denver College of Dental Careers
+Denver Institute of Technology
+Denver Learning Institute
+Denver Pharmacy School
+Denver School of Hypnotherapy
+Denver School of Massage Therapy - Aurora / Cortiva Institute
+Denver School of Massage Therapy - Westminster / Cortiva Institute
+Denver School of Upholstery A-Z
+Denver Technical College (contact DeVry University)
+Dillard’s Academy of Hair and Nail Design
+Diversified Mortgage Services (1980 to 1988)
+Dog Country Grooming
+Doll Institute of America
+Don Kagy Real Estate College A-F (1976 to 1984)
+Don Kagy Real Estate College G-M (1976 to 1984)
+Don Kagy Real Estate College N-Z (1976 to 1984)
+DPT Business School
+Eastern Colorado School of Cosmetology & Related Arts
+Ecotech Institute
+Elan Institute of Cosmetology
+Electrical Technical Institute
+Elevate Salon Institute (formerly Montage Academy)
+Empire Business College
+Empire Real Estate School
+Encompass, Inc.
+Energy Careers
+Engineering Drafting School
+Englewood Beauty College
+Englewood Cosmetology Trades
+Essentials Therapeutic Massage School
+Esthetic Education Pathways LLC
+Everest College - Aurora (previously Parks College and Blair College)
+Everest College - Co Spgs (previously Parks College and Blair College)
+Everest College - Thornton (previously Parks College and Blair College)
+Everest University (Colorado Online)
+Evergreen School of Healing Arts A-Z (1982 to 1982)
+Evergreen School of Healing Arts Transcripts Only
+EWC College of Cosmetology
+FasTrack Real Estate School
+Flintlock Equestrian Center
+Floraision Academy of Floral Design
+Foothills Technical College
+Front Range School of Sonography
+Frying Pan Anglers
+Full Circle School of Massage
+Glenwood Beauty Academy
+Golden Institute of Massage
+Great Western School of Dog Grooming & Misc A-Z (1980 to 1982)
+Guild for Structural Integration, Inc.
+Hair Dynamics Edu. Center II
+Hairitage College
+Hancock Plaza Beauty School
+Hayes Training Center Inc. (1980 to 1988)
+Headliner School of Cosmetology
+Headwaters Institute
+Healing Arts Institute
+Heavy Equipment Training Academy
+Heritage College
+Herman Group Real Estate Academy (The)
+High Tech Graphics A-Z (1984 to 1985)
+Highlands Hills Beauty Academy
+Hi-Tech Graphics Transcripts Only
+Holbrook/Adelphi
+Holistic Learning Center
+Hollywood Hair Academy
+Hospitality Career Center
+Hyppo Kampos Professional Institute
+i2 School for Professional Development
+Institute for the Psychology of Eating
+Institute of Community Learning (The)
+Institute of Electrolysis Training (1980 to 1988)
+Institute of Therapeutic Massage of Western Colorado
+Inteck Institute of Technology
+Integrative Earth Medicine
+Interior Design Institute
+International Bartending A-Z
+International Congress Building Arts & Sciences
+International School of Bartending CO Springs A-R (1978 to 1984)
+International School of Bartending CO Springs S-Z (1978 to 1984)
+International Wine & Spirits Guild
+Internet Technology University
+iPro Institute
+ITI
+ITT Technical Institute - Aurora/Westminster (contact Parchment.com)
+Jack Zamora MD Aesthetic Institute
+Jay Truck A-Bieber (1984 to Present)
+Jay Truck Adams-Bird (1985 to 1986)
+Jay Truck Bickens-Cywka (1984 to Present)
+Jay Truck Bishopberger-Clagett (1985 to 1986)
+Jay Truck Cancellations Adair-Hersberger
+Jay Truck Cancellations Hines-Rose
+Jay Truck Cancellations Salsman-Zabawa
+Jay Truck Clark-Erickson (1985 to 1986)
+Jay Truck Daigle-Goetz (1984 to Present)
+Jay Truck Ervin-Harmon (1985 to 1986)
+Jay Truck Goll-Johnson, Paul (1984 to Present)
+Jay Truck Harriman-Johnson (1985 to 1986)
+Jay Truck Johnson T-Lusinger (1984 to Present)
+Jay Truck Johnson-Lynch (1985 to 1986)
+Jay Truck Lynch, Michael-McGuire (1985 to 1986)
+Jay Truck Lyons-Murrow (1984 to Present)
+Jay Truck McGuire, Pat-Quinn (1985 to 1986)
+Jay Truck Musser-Ritchey (1984 to Present)
+Jay Truck Raines-Schmit (1985 to 1986)
+Jay Truck Rivera-Smith, Ray (1984 to Present)
+Jay Truck Schumacher-Stine (1985 to 1986)
+Jay Truck Songer-Washington (1984 to Present)
+Jay Truck Stirgwolt-Watrous (1985 to 1986)
+Jay Truck Trans A-Songer (1984 to Present)
+Jay Truck Trans Songer-Warthen-Zimmerman (1984 to Present)
+Jay Truck Webb-Zgak (1985 to 1986)
+Jeanines School of Modeling
+John Hacketts School of Floral Design
+John Robert Powers  A-Bo
+John Robert Powers  Br-C
+John Robert Powers  D-G
+John Robert Powers  H-J
+John Robert Powers  K-Ma
+John Robert Powers  Mc-O
+John Robert Powers  P-R
+John Robert Powers  S
+John Robert Powers  T-Z
+Josh Lyons, LLC
+Kaplan College (contact https://kaplan.com/closedcolleges/)
+Kristi’s Modeling
+La Vonne’s
+La Vonne’s Academy of Beauty
+Lani Grant Centers (enroll) A-Z
+Lash Blvd
+Lashed5280
+Lavonnes BTY Colleges
+Life Line College of Health
+Littleton Academy of Hair Design
+Longmont Beauty College
+Mansfield
+Marquis Institute
+Masami Yoga, LLC
+Massage Therapy Institute of Colorado
+Media Technology Institute & General Info A-Z
+Media Technology Transcripts Only
+Medical Massage International
+Michael Taylor Institute
+Michael Taylors
+Midwest Bus Coll/Rocky Mountain Bus Coll A-Sm (1972 to 1978)
+Midwest Bus Coll/Rocky Mountain Bus Coll Sm-Z (1972 to 1978)
+Mile Hi College
+Mile Hi Drafting
+Mile High Medical Academy (2007 to 2010)
+Mile High Modern Beauty Academy
+MJM Institute of Cosmetology
+Mountain Massage Institute
+Mountain Sanctuary Day Spa
+MountainHeart School of Bodywork and Transformation
+MPS Educational Services (1980 to 1988)
+Mr. K's Floral Design School of Denver
+MTA
+MTA – all locations A-Z
+Nail Pro Academy
+Naomi’s Mile Hi Beauty College
+National Academy for Paralegal
+National Academy of Nannies
+National Beauty College
+National Camera
+National Cooking Institute
+National Institute of First Assisting, Inc.
+National Institute of first Assisting, Inc.
+National Truck Driving School A-L
+National Truck Driving School M-Z
+Nationwide Vocational Training School A-Z (1978 to 1978)
+Nationwide Vocational Training Transcripts Only
+Natural Therapeutics School of Massage
+New Rampart School (transcripts) (1985 to 1986)
+New Star Beauty School
+Noble School of Cosmetology
+Nueva Imagen Beauty School
+Office Edge Learning Center
+Online Trading Academy
+Oxford College of Health and Medical Sciences
+P.C. Flyers
+Palmer School of Floral Design (1980 to 1988)
+Paralegal Training Center
+Parelli Natural Horsemanship University
+Path Home Shamanic Arts School
+Pathways Travel Service Inc. A-Z (1983 to 1983)
+Pathways Travel Trans Only
+Paula's Academy of Beauty Culture
+Peak Technical Institue
+People Skills (1980 to 1988)
+Permanent Makeup Academy of the Southwest
+Personalized Training Academy
+Pharmacy Technician Institute
+Pickens Technical Center
+Pikes Peak Institute/PPI (contact IBMC - Ft. Collins)
+Prairie Winds Equine Massage Therapy College
+Prince Institute
+Pro Filers Nail Academy
+Professional Learning Centers A-Z (1983 to 1984)
+Professional Technology Institute
+Programming Simplicity
+Pueblo School of Nail Tech
+QS Academy
+Randy Lopez CDL Testing & Training
+Real Estate Training Center
+Real Estate Training Ctr (Gr Jct;Wh Rdg)(Court Rec) (1980 to 1981)
+Realty Master/Spiers R.E. College
+Redstone College (contact DEN.RegAccred@Spartan.edu)
+RefactorU
+Regency Beauty Institute (all Colorado locations)
+Rinker School of Real Estate A-Z
+Rinker School Real Estate Transcripts Only
+Rocky Mountain Beauty College
+Rocky Mountain Bus Coll/Midwest Bus Coll A-Sm (1972 to 1978)
+Rocky Mountain Bus Coll/Midwest Bus Coll Sm-Z (1972 to 1978)
+Rocky Mountain Center for Botanical Studies A-Z
+Rocky Mountain College of Art & Design (1984 to 1991)
+Rocky Mountain Dental Assisting Institute - Broomfield
+Rocky Mountain Institute of Healing Arts
+Rocky Mountain Real Estate College – North Campus
+Rocky Mountain Security Institute A-L (1981 to 1986)
+Rocky Mountain Security Institute M-V (1981 to 1986)
+Rocky Mtn School of Floral Art
+Roffler Academy
+Ron Bailie School-Broadcasting
+Roni’s Academy of Hair Design
+Ruseto College
+Salon de Belle Day Spa and Private Academy
+School of Zen Shiatsu
+SeedPaths
+Seible School of Drafting Gr Jct Transcripts Only
+Seible School of Drafting Inc.(Denver & Gr Jct) M-Z (1981 to 1984)
+Seible School of Drafting Inc.(Gr Jct) A-Lujan (1981 to 1984)
+Seven Bowls School of Nutrition, Nourishment and Healing
+Sharon Doran’s Academy
+Sharp Professional Talent
+Shwayder Real Estate Academy (1980 to 1982)
+Signature Beauty College
+Silver Sword
+Solar Technology (Technical College) A-Z
+Soulworks Hypnotherapy A-Z
+Southwest Academy of Natural Therapies
+Southwest School of Massage
+Spark Classes
+Spring Talent
+Springs Truck Driving School
+SST Travel School
+Stillwater College Denver and Lakewood
+Stillwater College of Allied Health
+Stone Clan Education Center School of Massage
+Studio Two Training Center
+Style Shoppe School of Cosmetology
+Superior Laser and Aesthetics Institute
+Synergy CDL Solutions
+T.A.I. Travel Academy
+Talismae College for Holistic Medical Spa Careers
+Talismae Holistic College
+Tech Skills, LLC
+TechWise Training, LLC
+TEKsystems TEKnology Training Services
+Teller Training Institute Aaron-Bright (1979 to 1988)
+Teller Training Institute Brunage-Comstock (1979 to 1988)
+Teller Training Institute Corley-Erickson (1979 to 1988)
+Teller Training Institute Ervin-Gutierrez (1979 to 1988)
+Teller Training Institute Hadley-Jodoin (1979 to 1988)
+Teller Training Institute Johnson-Lynn (1979 to 1988)
+Teller Training Institute Macomber-McNeal (1979 to 1988)
+Teller Training Institute Nagy-Rogonese (1979 to 1988)
+Teller Training Institute Reyes-Schall (1979 to 1988)
+Teller Training Institute Siedzick-Vigil (1979 to 1988)
+Teller Training Institute Villanueva-Zorm (1979 to 1988)
+The Anchor Point System Inc.
+The Anchor Point System, Inc.
+The Broker Academy
+The Looking Glass School of Permanent Cosmetics
+The Salon Academy and Spa
+The Salon Professional Academy - Grand Junction
+The School of Floral Arts, LLC
+The School of Tennis Management
+Top of the Nation Flight School (1973 to 1974)
+Travel School (The)
+Travel Tech
+Travel Trade Sch. of Co Springs
+Travel Trade School Boulder
+Travel Trade School of Pueblo A-Z (1992 to 1994)
+Travel Trade School, Inc.
+Trendsetters Beauty Academy
+Trim International Floral School, Ltd.
+Turning Point Hypnotherapy Academy
+TX Talent A-Dor (1988 to 1993)
+TX Talent A-Z Dropped, cancelled, or rescheduled (1988 to 1993)
+TX Talent Dra-Hug (1988 to 1993)
+TX Talent Hum-Moh (1988 to 1993)
+TX Talent Mon-Tea (1988 to 1993)
+TX Talent Tem-Zim (1988 to 1993)
+Ultima School of Cosmetology
+United Schools (1984 to 1986)
+United Training Academy
+Visual Merchandising A-Z (1981 to 1983)
+Visual Merchandising Transcripts Only
+Vogue College of Cosmetology
+Wall Street Training Institute A-Z
+Wendy Heifetz Inc. A-Z (1983 to 1988)
+Western Colorado Real Estate Coll (Court Rec) A-Z (1981 to Present)
+Westline Academy of Barbering
+Westwood College - Aurora/Denver
+Westwood College of Aviation Technology (contact DEN.RegAccred@Spartan.edu)
+White River Body Spa, Inc.
+Winning Strategies Books & Seminars
+Workplace Language Programs Career College
+World Taekwondo College
+Yesenia's Beauty Salon and School
+Zuri Hair Institute
+The State of Colorado is committed to providing equitable access to our services to all Coloradans. Our ongoing accessibility effort works towards being in line with the Web Content Accessibility Guidelines (WCAG) version 2.2, level AA criteria. We welcome comments on how to improve this website’s accessibility for users with disabilities and for requests for accommodations to any State of Colorado services. Please submit
+questions via this form
+.

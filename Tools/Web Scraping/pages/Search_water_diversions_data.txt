@@ -1,0 +1,591 @@
+Structures
+Welcome
+,
+Sign out
+Welcome Guest,
+Click here to Login
+Structures
+Navigation
+DWR Home
+CDSS Home
+Dashboard
+Administrative Calls
+Active
+Historical
+Structure Call Analysis
+Water Source Call Analysis
+Call Alerts
+Climate Stations
+Dam Safety
+Dams
+Livestock Water Tank and Erosion Control
+Groundwater
+Geophysical Logs
+Water Levels
+Water Level Reports
+Stations
+Current and Historical
+Current Conditions
+Stations Lite -
+mobile friendly
+Structures
+Tools
+Location Converter
+Distance Calculator
+Water Rights
+Instream Flow and Natural Lake Levels
+Net Amounts
+Transactions
+Well Permits
+Map Viewer
+Tools
+Aquifer Determination
+Denver Basin Aquifers - Specific Location
+Denver Basin Aquifers - Tract of Land
+Dakota/Cheyenne Aquifer
+Information Marketplace
+Data Submittal
+Reporting Submittal
+Diversion Records
+Meter Readings
+Water Levels
+My Stations
+My Stations
+My Alerts
+Location Tools
+Location Converter
+Distance Calculator
+REST Web Services
+Structures
+DWR Home
+CDSS Home
+Dashboard
+Administrative Calls
+Active
+Historical
+Structure Call Analysis
+Water Source Call Analysis
+Call Alerts
+Climate Stations
+Dam Safety
+Dams
+Livestock Water Tank and Erosion Control
+Groundwater
+Geophysical Logs
+Water Levels
+Water Level Reports
+Stations
+Current and Historical
+Current Conditions
+Stations Lite -
+mobile friendly
+Structures
+Tools
+Location Converter
+Distance Calculator
+Water Rights
+Instream Flow and Natural Lake Levels
+Net Amounts
+Transactions
+Well Permits
+Map Viewer
+Tools
+Aquifer Determination
+Denver Basin Aquifers - Specific Location
+Denver Basin Aquifers - Tract of Land
+Dakota/Cheyenne Aquifer
+Information Marketplace
+Data Submittal
+Reporting Submittal
+Diversion Records
+Meter Readings
+Water Levels
+My Stations
+My Stations
+My Alerts
+Location Tools
+Location Converter
+Distance Calculator
+REST Web Services
+Help
+Login
+My Account
+Account Details
+Change Password
+My Subscriptions
+Web Service Token Manager
+Portal Home
+Sign out
+×
+Export: Structures
+Spreadsheets
+List of selected structures with metadata
+Record count:
+0
+Export to CSV
+Detailed Report
+Structure Detail Report (coming soon)
+Generate PDF
+Cancel
+Hide
+Search Fields
+Geographic Location
+County
+Designated Basin
+Management District
+Water District
+Water Division
+All Counties
+ADAMS
+ALAMOSA
+ARAPAHOE
+ARCHULETA
+BACA
+BENT
+BOULDER
+BROOMFIELD
+CHAFFEE
+CHEYENNE
+CLEAR CREEK
+CONEJOS
+COSTILLA
+CROWLEY
+CUSTER
+DELTA
+DENVER
+DOLORES
+DOUGLAS
+EAGLE
+EL PASO
+ELBERT
+FREMONT
+GARFIELD
+GILPIN
+GRAND
+GUNNISON
+HINSDALE
+HUERFANO
+JACKSON
+JEFFERSON
+KIOWA
+KIT CARSON
+LA PLATA
+LAKE
+LARIMER
+LAS ANIMAS
+LINCOLN
+LOGAN
+MESA
+MINERAL
+MOFFAT
+MONTEZUMA
+MONTROSE
+MORGAN
+OTERO
+OURAY
+PARK
+PHILLIPS
+PITKIN
+PROWERS
+PUEBLO
+RIO BLANCO
+RIO GRANDE
+ROUTT
+SAGUACHE
+SAN JUAN
+SAN MIGUEL
+SEDGWICK
+SUMMIT
+TELLER
+WASHINGTON
+WELD
+YUMA
+All Divisions
+1 - South Platte
+2 - Arkansas
+3 - Rio Grande
+4 - Gunnison
+5 - Colorado
+6 - Yampa/White
+7 - San Juan/Dolores
+All Water Districts
+1 - South Platte: Greeley to Balzac
+2 - South Platte: Denver Gage to Greeley
+3 - Cache La Poudre River
+4 - Big Thompson River
+5 - St. Vrain Creek
+6 - Boulder Creek
+7 - Clear Creek
+8 - South Platte Cheesman to Denver Gage
+9 - Bear Creek
+10 - Fountain Creek
+11 - Arkansas: Headwaters to Salida
+12 - Arkansas: Salida to Portland
+13 - Wet Mountain Valley
+14 - Arkansas: Portland to Fowler
+15 - Saint Charles
+16 - Cucharas River
+17 - Arkansas: Fowler to Las Animas
+18 - Apishapa River
+19 - Purgatoire River
+20 - Rio Grande
+21 - Alamosa La Jara
+22 - Conejos Creek
+23 - Upper South Platte
+24 - Culebra Creek
+25 - San Luis Creek
+26 - Saguache Creek
+27 - Carnero Creek
+28 - Tomichi Creek
+29 - San Juan River Basin
+30 - Animas River Basin
+31 - Los Pinos River Basin
+32 - McElmo Creek Basin
+33 - La Plata River Basin
+34 - Mancos River Basin
+35 - Trinchera Creek
+36 - Blue River Basin
+37 - Eagle River Basin
+38 - Roaring Fork River Basin
+39 - Rifle/Elk/Parachute Creeks
+40 - North Fork/Tribs.
+41 - Lower Uncompahgre River
+42 - Lower Gunnison River
+43 - White River Basin
+44 - Lower Yampa River
+45 - Divide Creek
+46 - Navajo Reservoir
+47 - North Platte River Basin
+48 - Laramie River
+49 - Republican River
+50 - Muddy/Troublesome Creeks
+51 - Upper Colorado/Fraser Rivers
+52 - Piney/Cottonwood Creeks
+53 - Tribs. North of Colorado River
+54 - Slater/Timberlake Creeks
+55 - Little Snake River
+56 - Green River Basin
+57 - Middle Yampa River
+58 - Upper Yampa River
+59 - East River Basin
+60 - San Miguel River Basin
+61 - Paradox Creek
+62 - Upper Gunnison River
+63 - Dolores River Basin
+64 - South Platte: Balzac to Stateline
+65 - Arikaree River
+66 - Cimarron River Basin
+67 - Arkansas: Las Animas to Stateline
+68 - Upper Uncompahgre River
+69 - Disappointment Creek Basin
+70 - Roan Creek Basin
+71 - West Dolores Creek/Tribs.
+72 - Lower Colorado River
+73 - Little Dolores River
+76 - Sand Creek
+77 - Navajo River Basin
+78 - Piedra River Basin
+79 - Huerfano River
+80 - North Fork of South Platte
+All Management Districts
+ARIKAREE
+CENTRAL YUMA
+EAST CHEYENNE
+FRENCHMAN
+LOST CREEK
+MARKS BUTTE
+NORTH KIOWA-BIJOU
+PLAINS
+SAND HILLS
+SOUTHERN HIGH PLAINS
+UNKNOWN
+UPPER BIG SANDY
+UPPER BLACK SQUIRREL
+UPPER CROW CREEK
+W - Y
+All Basins
+NORTHERN HIGH PLAINS
+KIOWA-BIJOU
+SOUTHERN HIGH PLAINS
+UPPER BLACK SQUIRREL CREEK
+LOST CREEK
+CAMP CREEK
+UPPER BIG SANDY
+UPPER CROW CREEK
+User Association
+All
+AGUA
+CWPDA
+LAWMA
+UAWCD
+RGWCD SD1
+RGWCD SD2
+RGWCD SD3
+RGWCD SD4
+RGWCD SD5
+RGWCD SD6
+HCWUA
+MISC
+MISCMJ
+MOUSE
+MISCDAP
+S PLATTE
+REPUBLICAN
+DIV1EXEMPT
+CAA
+TRINCH SD7
+SLVWCD
+CONEJO WCD
+SWA
+AGRA
+Structure Type
+All
+Aquifer NNT/NT Reservation
+Augmentation/Replacement Plan
+Basin Determination
+Ditch
+Ditch System
+Entity
+Erosion Control Dam
+Exchange Plan
+Livestock Water Tank
+Measuring Point
+Mine
+Minimum Flow
+Other
+Pipeline
+Power Plant
+Pump
+Reach
+Reach (Aggregating)
+Recharge Area
+Recharge Area Group
+Reservoir
+Reservoir System
+Seep
+Spring
+Stream Confluence
+Stream Gage
+Well
+Well Field
+Well Group
+Having diversion record dates (optional)
+From
+To
+More Options
+Select
+Address
+Case Number
+Coordinates Buffer
+Contact Name
+Meter Serial
+Permit Number
+PLSS
+Structure Name
+Water Source
+WDID
+Address
+Within
+Miles
+Feet
+Equals
+Starts With
+Contains
+Ends With
+Include Diligence Cases
+Equals
+Starts With
+Contains
+Ends With
+Equals
+Starts With
+Contains
+Ends With
+From
+To
+(Optional)
+Suffix
+Equals
+Is Empty
+Is Not Empty
+Replacement
+Equals
+Is Empty
+Is Not Empty
+Q10
+NE
+NW
+SE
+SW
+Q40
+NE
+NW
+SE
+SW
+Q160
+NE
+NW
+SE
+SW
+Section
+U
+Township
+N
+S
+Range
+E
+W
+PM
+B
+C
+N
+S
+U
+Equals
+Starts With
+Contains
+Ends With
+Include Structure AKAs
+Include Tributaries
+From
+To
+Include Associated Water Rights
+UTM
+Lat/Long
+UTM Easting (x)
+UTM Northing (y)
+Within
+Miles
+Feet
+Latitude
+Longitude
+Within
+Miles
+Feet
+Search
+Additional Resources
+About Colorado Water Administration
+Colorado Information Marketplace
+DWR Map Viewers
+DWR Web Services
+DNR Portal
+.
+×
+Map Options
+Label Field
+CIU Code
+Structure Name
+Structure Name (WDID) (WDID)
+Structure Type
+Water Source
+WDID
+Hover Field
+CIU Code
+Structure Name
+Structure Name (WDID) (WDID)
+Structure Type
+Water Source
+WDID
+>>
+Refreshing Map...
+Legend
+Show Legend
+WDID
+Structure Name
+Structure Name AKAs
+CIU Code
+Structure Type
+Water Source
+GNIS ID
+Stream Mile
+Associated Case Numbers
+Associated Permits
+Associated Meters
+Contacts
+User Assocation
+POR Start
+POR End
+Div
+WD
+County
+Designated Basin
+Management District
+Q10
+Q40
+Q160
+Section
+Township
+Range
+PM
+Distance E/W
+Direction E/W
+Distance N/S
+Direction N/S
+UTM X
+UTM Y
+Latitude
+Longitude
+Location Accuracy
+Modified
+1
+1
+10
+100
+500
+1000
+1500
+items per page
+No items to display
+No Results Yet
+Use the controls on the left to perform a structure search.
+No Results Found
+Try performing another search.
+×
+About Structures
+Description
+Administrative structures are a variety of things -- see the data dictionary for a list of structure types -- used for diverting, storing, releasing, measuring or managing water. Structures may be on-stream of off-stream, and are associated with a specific water source.
+Diversion Records are associated with Structures. See guidance document
+How to Get Structure Diversion Records from CDSS
+.
+Resources
+User Guide
+Data Dictionary (Structures)
+Diversion Record Standard
+Ask DWR: Other Questions About Structures
+Subscribe to email list
+×
+Subscribe to CDSS Online Email Notifications
+Email:
+Verify Email:
+Please verify that you are not a robot.
+Subscribe
+Cancel
+×
+Success
+Hallelujah
+Close
+Close
+×
+Log out:
+You have been inactive for too long and will be automatically logged out in
+To stay signed in longer, sign out, then sign back in after selecting the "Stay signed in" option.
+Click here to stay signed in
+Close
+Confirm logout
+×
+Select "Sign out" below if you are ready to end your current session.
+Sign out
+Cancel
+CWCB
+|
+DWR
+|
+DNR
+|
+Colorado.gov
+|
+Terms of Use
+|
+Accessibility & Accommodations
+|
+Privacy Policy

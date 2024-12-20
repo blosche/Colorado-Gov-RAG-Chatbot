@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<script type="text/javascript" src="/scripts/elcontent.js">
+</script>
+<script type="text/javascript" src="/scripts/common.js">
+</script>
+
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/scope6.css" />
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+<script type="text/javascript" src="/scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/features.js"></script>
+<script type="text/javascript" src="/scripts/webbridge.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="/screens/cospl.ico" />
+	<title>Colorado State Publications Library Catalog</title>
+	<style type="text/css">
+		.log-out{float:left;}
+		.patron{float:right;text-transform:uppercase;text-align:right;}
+		.opac-menu{font-weight:bold;}
+		.opac-menu ul{padding:0;margin:0;list-style:none;}
+		.opac-menu li{display:inline;padding:0 0.5em;}
+		.opac-search{margin:1em 0;text-align:center;}
+		.opac-search .text-control{width:30%;}
+		.opac-categories{font-size:0.8em;margin:3em 0 1.5em 0;text-align:center;}
+		.opac-additional{font-size:0.7em;margin:0 0 20em 0;min-height:1px;}
+		.opac-additional{float:left;position:relative;left:20%;}
+
+		#more-info{float:left;position:relative;left:-50%;}
+		#more-info,#more-info ul{padding:0;margin:0;list-style:none;}
+		#more-info a,#more-info div{margin:0 10px;display:block;width:auto;cursor:pointer;}
+		#more-info li{float:left;width:auto;}
+		#more-info li ul{position:absolute;background-color:#fff;width:15em;left:-999em;}
+		#more-info li:hover ul,#more-info li.sfhover ul{left:auto;}
+		#search-options li{width:15em;}
+		#search-options a{padding:3px 5px;}
+		#search-options a:hover{background-color:#f6f6f6;}
+	</style>
+	<script type="text/javascript">
+		sfHover=function(){var sfEls=document.getElementById("more-info").getElementsByTagName("LI");for(var i=0;i<sfEls.length;i++){sfEls[i].onmouseover=function(){this.className+=" sfhover";}sfEls[i].onmouseout=function(){this.className=this.className.replace(new RegExp(" sfhover\\b"),"");}}}
+		if(window.attachEvent)window.attachEvent("onload",sfHover);
+	</script>
+</head>
+<body onLoad="document.qs.searcharg.focus();">
+
+<div id="cospl-header">
+
+	<!--<div id="menu-01-block">
+		<ul id="menu-01">
+			<li><a href="http://ucsd.worldcat.org/">Melvyl</a></li>
+			<li><a href="http://circuit.sdsu.edu/">Circuit</a></li>
+			<li><a href="http://www.cde.state.co.us/stateinfo/">CoSPL Home</a></li>
+		</ul>
+	</div> -->
+
+	<div class="branding cosplContainer">
+		<img src="/screens/CSPL_header256x1048.jpg" alt="CoSPLlogo">
+		
+		
+	<!--	<h2>Colorado State Publications Library</h2> -->
+	</div>
+	<div id="menu-02-block">
+		<ul id="menu-02">
+<li>Pandora: The Library Catalog</li>
+	</ul>
+	</div>
+	<div id="menu-03-block">
+		
+		<ul id="menu-03">
+			<li><a href="/search~S1/X">Advanced Search</a></li>
+			<li><a href="http://www.cde.state.co.us/stateinfo/">CoSPL Home</a></li>
+			<li><a href="http://www.cde.state.co.us/stateinfo/slstpask.asp">Ask A Question</a></li>
+			<li><a href="http://prospectorhome.coalliance.org/">Search Prospector</a></li>
+			<li><a href="https://spl.cde.state.co.us/artemis/accessibility.html">Accessibility</a></li>
+			<li><a href="/screens/help_01.html">Help</a></li>
+			
+		</ul>
+		
+	</div>
+
+</div><!-- /cospl-header -->
+
+
+
+	<div class="cospl-body">
+
+		<div class="log-out">
+		</div>
+
+		<div class="patron">
+		</div>
+
+		<div style="clear:both;"></div>
+		
+
+
+		<!--<div class="opac-categories opac-menu">
+			<ul>
+				<li>All</li>
+				<li><a href="/search~S10">Audio</a></li>
+				<li><a href="/search~S11">Books</a></li>
+				<li><a href="/search~S5">Digital Images</a></li>
+				<li><a href="/search~S7">Electronic Materials</a></li>
+				<li><a href="/search~S3">Films &amp; Videos</a></li>
+				<li><a href="/search~S2">Journals &amp; Serials</a></li>
+				<li><a href="/search~S8">Maps &amp; Atlases</a></li>
+			</ul>
+		</div> -->
+<p>&nbsp</p>
+		<div class="opac-search">	
+			<form name="qs" method="get" action="/search/a?a">
+				<select name="searchtype">
+					<option value="X" selected="selected">Keyword</option>
+<option value="t">Title</option>
+<option value="a">Author</option>
+<option value="d">Subject</option>
+<option value="g">Government Document #</option>
+<option value="o">Control #</option>
+
+
+				</select>
+				<input name="searcharg" size="30" class="text-control" />
+				<input type="hidden" name="searchscope" value="1" />
+				<input type="hidden" name="SORT" value="D" />
+				<input type="submit" name="Search" value="Search" />
+			</form>
+		</div>
+
+		
+			
+				
+<p>
+<div class="search-tips">
+<table class="search-tips">
+        <colgroup>
+		<col id="search-type" style="background-color: #eaeaea"  />
+		<col id="example" />
+		<col id="search-type2" style="background-color: #eaeaea" />
+		<col id="example2" />
+		</colgroup>
+        <thead>
+		<tr>
+          <th scope="col" >Search Type</th>
+          <th scope="col">Example</th>
+		  <th scope="col">Search Type</th>
+          <th scope="col">Example</th>
+        </tr>
+		</thead>
+		<tbody>
+
+        <tr>
+          <td class="s-type">Keyword*</td>
+          <td>bilingual education<br>
+mine** resources<br>statistics<br>
+west nile virus AND mosquitoes
+          </td>
+          <td class="s-type">Government<br>
+			Documents No.</td>
+          <td>HED1/10.1<br>ED15/50.2/C74/2005<br>GOV11.2</td>
+        </tr>
+        <tr>
+          <td class="s-type">Author</td>
+          <td>colorado dept of natural resources<br>colorado division of insurance<br>abbott, carl<br>conference for veterinary technicians</td>
+          <td class="s-type">Periodical Title</td>
+          <td>journal of the western slope<br>american music research center journal<br>colorado close up</td>
+        </tr>
+        <tr>
+          <td class="s-type">Title</td>
+          <td>crime in colorado<br>annual report<br>colorado history</td>
+          <td class="s-type">Subject Headings</td>
+          <td>water quality colorado<br>early childhood education<br>economic development</td>
+        </tr>
+		</tbody>
+		<caption>
+		*search assumes adjacency between words; for other options click on "advanced search"<br>
+		** truncated to include mines or mineral 
+		</caption>
+       </table>
+</div>
+		
+		
+		<div style="clear:both;"></div>
+
+	</div><!-- /cospl-body -->
+
+
+<div class="cospl-footer">
+
+	<div class="assistance">
+		<p>For assistance please call the State Publications Library staff at <strong>(303) 866-6603</strong> <br>or email <a href="mailto:spl@cde.state.co.us">spl@cde.state.co.us</a> </p>
+		</p>
+	</div>
+
+	<!--<div class="menu">
+		<ul>
+			<li><a href="/feeds">RSS Feeds <img src="/screens/rss_small.gif" /><br /><span class="note">New Books, Videos, etc.</span></a></li>
+			<li><a href="/ftlist">Featured Lists<br/><span class="note">New Books, Videos, etc.</span></a></li>
+			<li><a href="http://libraries.ucsd.edu/collections/help-build-our-collections/recommend-a-purchase.html">Recommend Purchases<br/><span class="note">Suggest a title for purchase</span></a></li>
+			<li><a href="/screens/help_01.html">Help<br/><span class="note">View Roger help topics</span></a></li>
+		</ul>
+	</div> -->
+</div><!-- /cospl-footer -->
+<div class="CoSPLaddress">
+<p align="center">Colorado State Publications Library, 180 Sheridan Blvd, Denver, CO 80223-8101<br>
+Phone: 303-866-6603 | Hours: Monday - Friday, 9:00am to 4:00pm or by appointment
+</p>
+</div>
+<script type="text/javascript" src="/screens/sms.js"></script>
+
+
+	<div style="display:none;">
+
+</body>
+</html>
+
+<!--this is customized <screens/opacmenu_s1.html>-->

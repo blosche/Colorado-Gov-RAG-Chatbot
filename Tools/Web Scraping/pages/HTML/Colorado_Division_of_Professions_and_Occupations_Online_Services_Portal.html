@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="ctl00_Head1"><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1, ,maximum-scale=1.0, viewport-fit=cover" /><title>
+	Colorado Division of Professions and Occupations Online Services
+</title><link href="Assets/css/generated/kendo.min.css?ver=25508" rel="stylesheet" /><link href="Assets/css/generated/styles.min.css?ver=25508" rel="stylesheet" />
+	<script type="text/javascript">
+		function mask() {
+			document.getElementById("overlay").style.display = "block";
+		}
+		function unmask() {
+			document.getElementById("overlay").style.display = "none";
+		}
+		//SF60668:Fixing the issue for i9 as javascript is not working in IE9
+		if (!window.console) {
+		    var console = {
+		        log: function () { },
+		        warn: function () { },
+		        error: function () { },
+		        time: function () { },
+		        timeEnd: function () { }
+		    }
+		}
+	</script>
+<script type="text/javascript" src="/DORA/licensing/Master.js?ver=25508"></script><link href="/DORA/licensing/WebResource.axd?d=7QhzNS-LlSOi2t1YptLI8AbhUTfyqiB1IbyDPCAjkh_-zo4OUwGRN4Wqu68koY4bJKQV8piUadQCBW8ToHBO3kLwRuNTlz0J8d3wHVyz-qVdN8DNKQESrI3O9I8pYigHmjLK0EEkveesTJUMzTxHrtvwZcdA_2oHGUcyJiprdms1&amp;t=636123966153800387" type="text/css" rel="stylesheet" /></head>
+
+<!-- ********** Common Part with Empty.Master ********** -->
+<body id="MasterBody" onload='loadMasterPage(-1, false, "ctl00_MainContentPlaceHolder");'>
+
+	
+		<style type="text/css">
+			section.cover { /* License found: http://commons.wikimedia.org/wiki/File:Colorado_rocky_mtns.JPG */
+				background: url(/DORA/licensing/Images/Colorado_rocky_mtns.JPG) no-repeat center center fixed !important;
+			}
+		</style>
+	
+
+	<a href="#MainContent" style="position: fixed; left: -5000px;">Skip to Main Content</a>
+	<form name="aspnetForm" method="post" action="./default.aspx" id="aspnetForm" style="height: 100%">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTcxNzQwNTY1NA8WAh4KY3VycmVudFRhYgUBMRYCZg9kFgRmD2QWBAIEDxYCHgRocmVmBSxBc3NldHMvY3NzL2dlbmVyYXRlZC9rZW5kby5taW4uY3NzP3Zlcj0yNTUwOGQCBQ8WAh8BBS1Bc3NldHMvY3NzL2dlbmVyYXRlZC9zdHlsZXMubWluLmNzcz92ZXI9MjU1MDhkAgEPZBYOAgIPDxYCHgtOYXZpZ2F0ZVVybAUoL0RPUkEvbGljZW5zaW5nL0FjY291bnQvVXNlckFjY291bnQuYXNweGRkAgQPFgIeB1Zpc2libGVoZAIGDxYCHwNoZAIHD2QWDGYPZBYCAgEPZBYEAgEPZBYCZg8QDxYCHwNoZA8WAWYWARAFGSZuYnNwO0FjY291bnQmbmJzcDsmbmJzcDsFATBnFgBkAgQPZBYCAgEPZBYCZg9kFgYCBQ8PFgIeD1ZhbGlkYXRpb25Hcm91cAURVmFsaWRHcm91cExvZ2luXzBkZAIJD2QWAgIBDw8WAh8CBSd+L0FjY291bnQvUGFzc3dvcmRSZWNvdmVyeVZpYUVtYWlsLmFzcHhkZAILD2QWAgIBDw8WAh8CBSV+L0FjY291bnQvVXNlcklEUmVjb3ZlcnlWaWFFbWFpbC5hc3B4ZGQCBA8WAh4EVGV4dAXkCjxmb250IGNvbG9yPSIjNDY4MkI0Ij48SDI+PHAgc3R5bGU9InRleHQtYWxpZ246Y2VudGVyOyI+PEI+Q29sb3JhZG8gRGl2aXNpb24gb2YgUHJvZmVzc2lvbnMgYW5kIE9jY3VwYXRpb25zIE9ubGluZSBTZXJ2aWNlczwvQj48L2ZvbnQgY29sb3I9IiM0NjgyQjQiPjwvcCBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij48L0gyPg0KPEhSPg0KDQo8Yj5XZWxjb21lIHRvIHRoZSBEaXZpc2lvbiBvZiBQcm9mZXNzaW9ucyBhbmQgT2NjdXBhdGlvbnMgT25saW5lIFNlcnZpY2VzIFBvcnRhbDwvYj48cD4NCg0KVG8gYWNjZXNzIGFsbCBPbmxpbmUgU2VydmljZXMgaW5jbHVkaW5nIE9ubGluZSBOZXcgQXBwbGljYXRpb25zLCBPbmxpbmUgTGljZW5zZSBSZW5ld2FsKiwgT25saW5lIFJlaW5zdGF0ZW1lbnQgb3IgT25saW5lIEFkZHJlc3MgQ2hhbmdlLCBwbGVhc2UgbG9nIGluIG9uIHRoZSBsZWZ0IGhhbmQgc2lkZSBtb2R1bGUuPHA+DQo8Yj4qTm90ZTo8L2I+IE9ubGluZSBMaWNlbnNlIFJlbmV3YWwgZG9lcyBub3Qgb3BlbiB1bnRpbCBhcHByb3hpbWF0ZWx5IDQtNiB3ZWVrcyBwcmlvciB0byB5b3VyIGV4cGlyYXRpb24gZGF0ZS48cD4NCg0KVG8gYWNjZXNzIE9ubGluZSBMaWNlbnNlIFZlcmlmaWNhdGlvbiwgT25saW5lIFJvc3Rlci9EaXNjaXBsaW5lIERvd25sb2FkcyBvciB0byBGaWxlIGFuIE9ubGluZSBDb21wbGFpbnQsIHBsZWFzZSB1c2UgdGhlIGRyb3AgZG93biBtZW51IG9uIHRoZSB1cHBlciByaWdodCBsYWJlbGVkICJPbmxpbmUgU2VydmljZXMiLjxwPg0KDQo8Yj5JTVBPUlRBTlQgTk9USUNFOjwvYj4gT3VyIE9ubGluZSBTZXJ2aWNlcyBpcyA8dT5ub3QgY29tcGF0aWJsZTwvdT4gd2l0aCBtb2JpbGUgZGV2aWNlcy4gIFdlIHJlY29tbWVuZCB1c2luZyBhIGxhcHRvcCBvciBkZXNrdG9wIGNvbXB1dGVyIHdpdGggdGhlIG1vc3QgdXAgdG8gZGF0ZSB2ZXJzaW9uIG9mIEdvb2dsZSBDaHJvbWUgb3IgTWljcm9zb2Z0IEVkZ2UuICBBcyBtb3N0IGFwcGxpY2F0aW9ucyByZXF1aXJlIHNvbWUgdGltZSB0byByZXZpZXcgYW5kIHRoZSBhYmlsaXR5IHRvIHVwbG9hZCBkb2N1bWVudHMgKHBkZiwgZG9jeCwgcnRmLCBldGMuKSwgcGxlYXNlIDx1PmRvIG5vdDwvdT4gdXNlIGEgc21hcnRwaG9uZSBvciB0YWJsZXQgdG8gY29tcGxldGUgdGhpcyBwcm9jZXNzLjxwPg0KDQpOZWVkIGhlbHAgbG9nZ2luZyBpbj8gUmV2aWV3IG91ciAgPGEgaHJlZj0iaHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZG9jdW1lbnQvZC8xSXlKTEFvTU9tTnhCMDRYTXphTXh2b21hWDV5WDAxRG9qNENtT1JXX1hrZy9lZGl0P3RzPTVjM2QwZjY5InRhcmdldD0iX2JsYW5rIj4gT25saW5lIFNlcnZpY2VzIEFjY291bnQgQWNjZXNzIEhlbHAgU3RlcHM8L2E+LmQCBQ9kFgJmD2QWBAIBD2QWAgIBDxYCHwUF1xc8VEFCTEUgQk9SREVSPSIxIiBDRUxMU1BBQ0lORz0iMjAiIENFTExQQURESU5HPSIyMCI+DQo8Q0FQVElPTj48Zm9udCBjb2xvcj0iIzQ2ODJCNCI+PEgzPjxjZW50ZXI+PEI+Q29sb3JhZG8gRGl2aXNpb24gb2YgUHJvZmVzc2lvbnMgYW5kIE9jY3VwYXRpb25zIE9ubGluZSBTZXJ2aWNlczwvQj48L2ZvbnQgY29sb3I9IiM0NjgyQjQiPjwvSDM+PHA+DQo8cD4NCjxUUj4NCjxURCBBTElHTiA9IGNlbnRlciBXSURUSD0iMjAlIj4NCjxwPg0KPHA+PGlucHV0IHR5cGU9IkJVVFRPTiIgdmFsdWU9IlJlbmV3IFlvdXIgTGljZW5zZSIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6bGlnaHRibHVlOyBmb250LXNpemU6IGxhcmdlIiBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0naHR0cHM6Ly9hcHBzLmNvbG9yYWRvLmdvdi9kb3JhL2xpY2Vuc2luZy9BY3Rpdml0aWVzL0xpc3RpbmcuYXNweD9JRD0yMCciPjxwPg0KPHAgc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij5TZWxlY3QgdGhpcyB0byBSZW5ldyB5b3VyIGxpY2Vuc2UuDQo8L1REPg0KPFREIEFMSUdOID0gY2VudGVyIFdJRFRIPSIyMCUiPg0KPHA+DQo8cD48aW5wdXQgdHlwZT0iQlVUVE9OIiB2YWx1ZT0iQXBwbHkgZm9yIGEgTmV3IExpY2Vuc2UiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Ymx1ZTsgZm9udC1zaXplOiBsYXJnZSIgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWY9J2h0dHBzOi8vd3d3LmNvbG9yYWRvLmdvdi9kb3JhL2xpY2Vuc2luZy9BY3Rpdml0aWVzL0xpc3RpbmcuYXNweD9JRD0xMCciPjxwPg0KPHAgc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij5TZWxlY3QgdGhpcyB0byBzdGFydCBvciBjb250aW51ZSBhIE5ldyBsaWNlbnNlIGFwcGxpY2F0aW9uLg0KPC9URD4NCjxURCBBTElHTiA9IGNlbnRlciBXSURUSD0iMjAlIj4NCjxwPg0KPHA+PGlucHV0IHR5cGU9IkJVVFRPTiIgdmFsdWU9IlJlaW5zdGF0ZSBZb3VyIEV4cGlyZWQgTGljZW5zZSIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6bGlnaHRibHVlOyBmb250LXNpemU6IGxhcmdlIiBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0naHR0cHM6Ly9hcHBzLmNvbG9yYWRvLmdvdi9kb3JhL2xpY2Vuc2luZy9BY3Rpdml0aWVzL0xpc3RpbmcuYXNweD9JRD0yMTAnIj48cD4NCjxwIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+U2VsZWN0IHRoaXMgdG8gUmVpbnN0YXRlIGFuIEV4cGlyZWQgTGljZW5zZS4NCjwvVEQ+DQo8L1RSPg0KPFRSPg0KPFREIEFMSUdOID0gImNlbnRlciI+DQo8cD4NCjxwPjxpbnB1dCB0eXBlPSJCVVRUT04iIHZhbHVlPSJVcGRhdGUgWW91ciBDb250YWN0IEluZm9ybWF0aW9uIiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjpsaWdodGJsdWU7IGZvbnQtc2l6ZTogbGFyZ2UiIG9uY2xpY2s9IndpbmRvdy5sb2NhdGlvbi5ocmVmPSdodHRwczovL2FwcHMuY29sb3JhZG8uZ292L2RvcmEvbGljZW5zaW5nL0FjdGl2aXRpZXMvTGlzdGluZy5hc3B4P0lEPTQwJyI+PHA+DQo8cCBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPlNlbGVjdCB0aGlzIHRvIHVwZGF0ZSB5b3VyIGNvbnRhY3QgaW5mb3JtYXRpb24uDQo8L1REPg0KPFREIEFMSUdOID0gImNlbnRlciI+DQo8cD4NCjxwPjxpbnB1dCB0eXBlPSJCVVRUT04iIHZhbHVlPSJDaGVjayBZb3VyIEFwcGxpY2F0aW9uIFN0YXR1cyIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6bGlnaHRibHVlOyBmb250LXNpemU6IGxhcmdlIiBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0naHR0cHM6Ly9hcHBzLmNvbG9yYWRvLmdvdi9kb3JhL2xpY2Vuc2luZy9BY3Rpdml0aWVzL0xpY2Vuc2VTdGF0dXMuYXNweCciPjxwPg0KPHAgc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij5TZWxlY3QgdGhpcyB0byB2aWV3IGEgcGVuZGluZyBhcHBsaWNhdGlvbiBwcm9ncmVzcy4NCjwvVEQ+DQo8VEQgQUxJR04gPSAiY2VudGVyIj4NCjxwPg0KPHA+PGlucHV0IHR5cGU9IkJVVFRPTiIgdmFsdWU9IlVwZGF0ZSBZb3VyIEhlYWx0aGNhcmUgUHJvZmlsZSIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6bGlnaHRibHVlOyBmb250LXNpemU6IGxhcmdlIiBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0naHR0cHM6Ly93d3cuY29sb3JhZG8uZ292L2RvcmEvbGljZW5zaW5nL0FjdGl2aXRpZXMvUGh5c2ljaWFuUHJvZmlsZS5hc3B4JyI+PHA+DQo8cCBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPlNlbGVjdCB0aGlzIHRvIHVwZGF0ZSB5b3VyIEhlYWx0aGNhcmUgUHJvZmVzc2lvbnMgUHJvZmlsZS4NCjwvVEQ+DQo8L1RSPg0KPC9jZW50ZXI+DQo8L1RBQkxFPg0KDQo8SFI+DQo8dWw+DQo8bGk+PHAgc3R5bGU9ImZvbnQtc2l6ZTogc21hbGw7Ij5UbyBlbnN1cmUgeW91IGFyZSByZWNlaXZpbmcgY29tbXVuaWNhdGlvbiBmcm9tIHRoZSBEaXZpc2lvbiwgdmVyaWZ5IHlvdXIgZW1haWwgYWRkcmVzcyBieSB2aXNpdGluZzogPGEgaHJlZj0iaHR0cHM6Ly9hcHBzLmNvbG9yYWRvLmdvdi9kb3JhL2xpY2Vuc2luZy9BY2NvdW50L1VzZXJBY2NvdW50LmFzcHgidGFyZ2V0PSJfYmxhbmsiPjxiPjx1Pk9ubGluZSBTZXJ2aWNlcyBDaGFuZ2UgRW1haWw8L3U+PC9iPjwvYT4NCjxsaT48cCBzdHlsZT0iZm9udC1zaXplOiBzbWFsbDsiPlRoZSBsaWNlbnNlL3JlZ2lzdHJhdGlvbiByZW5ld2FsIHBlcmlvZCBvcGVucyBhYm91dCA0IHdlZWtzIGJlZm9yZSB0aGUgZXhwaXJhdGlvbiBkYXRlLiBZb3UgbWF5IG9ubHkgcmVuZXcgeW91ciBsaWNlbnNlIGR1cmluZyB0aGUgcmVuZXdhbCBwZXJpb2QuIA0KPGxpPjxwIHN0eWxlPSJmb250LXNpemU6IHNtYWxsOyI+SWYgeW91IGhhdmUgcXVlc3Rpb25zIGFib3V0IHlvdXIgbGljZW5zZSwgcGxlYXNlIGNvbnRhY3QgdGhlIERpdmlzaW9uIG9mIFByb2Zlc3Npb25zIGFuZCBPY2N1cGF0aW9ucyBhdDogPGEgaHJlZj0ibWFpbHRvOmRvcmFfZHBvX2xpY2Vuc2luZ0BzdGF0ZS5jby51cyJ0YXJnZXQ9X2JsYW5rPmRvcmFfZHBvX2xpY2Vuc2luZ0BzdGF0ZS5jby51cy48L2E+IG9yIDMwMy04OTQtNzgwMC4NCjwvdWw+ZAIFDw8WAh8FZWRkAgYPFgIfA2gWAgIBDxYCHgtfIUl0ZW1Db3VudGZkAgcPDxYCHwNoZGQCCA8PFgIfA2hkFgICAw8PZBYCHgVzdHlsZQUjcGFkZGluZzozMHB4IDVweCA1cHggNXB4OyBsZWZ0OjVweDsWAgIBDw8WAh8FBbYBPGI+PGZvbnQgY29sb3I9IkdyZWVuIj5HbyBHcmVlbiE8L2ZvbnQ+Jm5ic3A7VGFrZSBhZHZhbnRhZ2Ugb2Ygb3VyIHBhcGVybGVzcyBFbWFpbCBSZW5ld2FsIE5vdGlmaWNhdGlvbnMuPGJyIC8+V291bGQgeW91IGxpa2UgdG8gbWFrZSB0aGlzIHlvdXIgcHJlZmVycmVkIG1ldGhvZCBvZiBjb21tdW5pY2F0aW9uPzwvYj5kZAIIDxYCHwNoZAIKDxYCHglpbm5lcmh0bWwFQTxzcGFuIHRpdGxlPSJicmFuY2ggNy4yLjAuMjU1MDgiPlYyMDE0MDYwMV9SZWxlYXNlLjEuMjU1MDg8L3NwYW4+ZAILDxYCHwNoZGR5b55CSrgOS0Pd2DMNlFHDw2FikERGbYf37cG2melUCQ==" />
+
+
+<script src="/DORA/licensing/ScriptResource.axd?d=JZvrK4SjW3m80ALjkUFrRnUPE7fVQwFLkSxrwuFqGI3UNS3G5Y9w47YJZtHb8fi7VqJBppFLEOpj04E02hYf8dkIYt5oFa4Z8r5vVds9jEiEWQ6a_AJ3sWWcJnYHym0lHlAI3BN7_gYg7WqASe7PEzsgH_8G1--zxqUIu9_7_E81&amp;t=2e7d0aca" type="text/javascript"></script>
+<script src="Assets/thirdparty/modernizr-2.8.3/modernizr-2.8.3.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/jquery-3.6.0/jquery-3.6.0.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/jquery-ui-1-11.3/jquery-ui.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/jquery-migrate-1.2.1/jquery-migrate-1.2.1.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/toastr-2.1.1/toastr.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/bootstrap-3.3.2/js/bootstrap.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/respond-1.4.2/respond.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/kendoui-core-2014.3.1119/js/kendo.ui.core.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/js/AjaxPatchForWebKit.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/js/bs.pagination.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/bootbox-4.4.0/bootbox.min.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/js/Global.js?ver=25508" type="text/javascript"></script>
+<script src="Assets/thirdparty/jquery-migrate-3.0.0.min/jquery-migrate-3.0.0.min.js?ver=25508" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=UfnX0o7EeCGkcJ7fjoWC_hSqQ5kKW9OFSamzjYyiQO9RLEDcc9ywrh61k1NjHvkJTp-KP4tOkvxU5VfxUMLGKCObCUW-tmSxk2lYHeqCEL8Sem14S48hr8UhnKA1yZeTs_Hi3I-8J3lP-vdOu1bCHw2&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=J3FUBsDkf6hI7f_PURUvtJDbzGc0S2wYJViuTHJY59dHMAObk1eJBQkv47LGScUD0b5IimLYQFbBZ2uq74L7IpzgNTrqePXW9nvZr0QTGIz44wojLaj_ByfAn4_8DjU-0&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=kvAYwFAtfoPfACR1OjtbH9lt2RytUBHwPh1sBrywhzroGa4z7JHdgevCbgqLnKA5FlLHJx7RHMOoMI9DTZ375zeUgxOWareXXPoFVJSKhTEKR4ARS1J1O4v-B8TDEy7Y0&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=L3zaxbeB02ABHhrsmKZj_FbzP05CfZfJ8tPrLmOpPKXrwEXIEzpK9gdsuSl0FGdPQ-YnHOfuUMutF6jBlRAmbmmkJC6B0eDGZLIK2-IGTRvNBDmd4sd8OdPHDryf7rtd0&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=bhPGGCO-SdXBtU3o2wNKej9Ip2xaQ1oOu5XB2klykpk8nW98J_xtBNvmWvqPfHx3anWOjWjXHgSx1S0oDYRVMkBbHGZEaSANPcXOUHcLetNWdRnOosG0WCZzPqPh4dS10&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=v5xDgv7GvSm4wehBWrcvnN4wBjqTuuXos3wHPPOtfu0NpZTkrfWHsEHE3QsF5zATa6vAdWS9bBesJVQCbs3wN3mfIL8EjQAUG7qb_bu_ntuAo8CXdr5D7jhGYxaesTPG0&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=SDb2FeiOP1Usbc0HFPrkdDpPx-t8LNeB4S31Jzl1RMnh1df00jxzinxTWZeNlQBL4bqi9mQKintNdusjGVRKaygqnHRcwf4XCbCjpqoP25RatRZrrvVc3TQcDXJ5FtYQF-tk4_11Ue9xg5oq_Ucbsg2&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=Aay0VeGOtEZBmFOOIJ8nYIp-gDk6Jsdkwf7oEPIe54Q9gYl_n2wHSOrmbUrMGqi2LMxDHpTHiz7W1R_XafTz_4DW4vJ6pQO_k8WgYcNu9TbOFs1jYanjfmIaDwill8y80&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=qmYLP2s0VruwMHBaqga3W2AToN9zLzBaB4Te3QKoKb0MOhEnxKBkQCh0F59iGe4NLd19WD3i9Oot5FfXKghQ6t5v8IUrePR0LGI350PqU6tR_Z0OxF4dojWvm98hjK840&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=bRjSu1sZrhd4zsZr_6xs710lO_Sx7er1jGljXrVXVDz0-cI3q-W4whE5LDTqgZUKYNV47Hbxql_vixCiLgHo9O0eAqYU_3RT6Q-owtxnvpKq--5gA3pDpyAhno8YhjC9Frxk4SG7IFc4ZKApv35ThQ2&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=aiMW0JVD3dQlpjxqPjzSTWIH1_LyemmBkzh_FNwWsYqEQz4pG3zS2OAX_XYo6o3TIf8Kc4WfKzBPaMzedL8gSEKCAULEX6dv2MKrRI1Jm6D0e159584Bzw6HZwguZU670&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=77E2fwtnvOcpz92LptaR1X8Q0VcFNmvpgJwqfr8KOESnM_A-gxT9zix-fz7PZITmWy9KcI9SUD0o2D9ABJfl5v8ZKQS3pVFrKoPDLceZHU59z3sOI40JX0VaJkBxNjCz0&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="/DORA/licensing/ScriptResource.axd?d=nWkRGnrj6aJ15bPo__ezP8IjhdoRtsL4q3Y_p39pAtUUO_dreHyyXQ3KQA0nfafBLiURHjhjKTXUzbMIu1quLT04mBEB52iUB3tunBkPbBZfhJuBPFh5atM4l2ku1btJ0&amp;t=ffffffff8adef0c9" type="text/javascript"></script>
+<script src="AjaxWebServices/CommonService.svc/js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D28DB579" />
+		
+
+		<script type="text/javascript">
+			// fix service URL
+			if (CavuCommonService && CavuCommonService.CommonService)
+				CavuCommonService.CommonService.set_path('/DORA/licensing/' + 'AjaxWebServices/CommonService.svc');
+		</script>
+
+		<!-- ********** END Common Part with Empty.Master ********** -->
+		<header class="navbar-fixed-top">
+			<div class="navbar navbar-account">
+				<div class="container">
+					
+					<ul class="nav navbar-nav">
+						<li><a id='lbtnLogin' href="/DORA/licensing/Login.aspx">Login</a></li>
+								
+						<li><a href="/DORA/licensing/Account/AcctMatching.aspx">Register</a></li>
+						
+					</ul>
+					
+				</div>
+			</div>
+			<div class="navbar yamm navbar-default" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<a href="/DORA/licensing/Default.aspx">
+                            
+							<img class="navbar-logo" alt=""
+								src="/DORA/licensing/Images/Logo_CO_DORA.png" style="max-height:89px"/>
+						</a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-right">
+						<nav>
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="/DORA/licensing/Default.aspx">Home</a></li>
+								<li>
+									<a id="ctl00_dvMyAccount" href="/DORA/licensing/Account/UserAccount.aspx">My Account
+										<span id="ctl00_AccountAlertErrors" class="badge"></span></a></li>
+								<li class="dropdown yamm-fw"><a class="dropdown-toggle" data-toggle="dropdown" style="cursor:pointer">Online Services <b class="caret"></b></a>
+									<div class="dropdown-menu">
+										<div class="container">
+											<div class="row yamm-content">
+												
+														<div class="col-md-4">
+															<h4>License Verification</h4>
+															<ul class="list-unstyled">
+																
+																		<li><a href='/DORA/licensing/Lookup/LicenseLookup.aspx' title='' >Verify a Colorado License</a></li>
+																	
+															</ul>
+														</div>
+													
+														<div class="col-md-4">
+															<h4>Online Complaint Submission</h4>
+															<ul class="list-unstyled">
+																
+																		<li><a href='/DORA/licensing/Activities/Complaint.aspx' title='' >File a Complaint</a></li>
+																	
+															</ul>
+														</div>
+													
+														<div class="col-md-4">
+															<h4>Licensee/Discipline List Downloads</h4>
+															<ul class="list-unstyled">
+																
+																		<li><a href='/DORA/licensing/Lookup/GenerateRoster.aspx' title='' >Download a List of Licensee/Discipline Information</a></li>
+																	
+															</ul>
+														</div>
+													
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		
+
+		
+
+		
+		
+    <section class="cover" id="Cover">
+      <div class="container">
+        
+                <div class="col-md-4">
+                  
+
+<script language="javascript" type="text/javascript">
+    var _curTblLogin = null;
+    var _sTblAccountLogin0_ID = "ctl00_MainContentPlaceHolder_LoginPanel__Login_tblAccountLogin0";
+    function clickRadioLogin(loginIndex, buttonText) {
+        if (_curTblLogin == null)
+            _curTblLogin = document.getElementById('ctl00_MainContentPlaceHolder_LoginPanel__Login_tblAccountLogin0');
+
+        _curTblLogin.style.display = "none";
+        var tblToShow = document.getElementById(loginIndex == 0 ? _sTblAccountLogin0_ID : "tblAccountLogin" + loginIndex);
+        tblToShow.style.display = "";
+        _curTblLogin = tblToShow;
+
+        var loginBtn = document.getElementById("ctl00_MainContentPlaceHolder_LoginPanel__Login_LoginButton");
+        loginBtn.value = buttonText;
+        loginBtn.onclick = function () {
+            // function WebForm_PostBackOptions(eventTarget, eventArgument, validation, validationGroup, actionUrl, trackFocus, clientSubmit)
+            WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("LoginButton", "", true, "ValidGroupLogin_" + loginIndex, "", false, false));
+        }
+    }
+</script>
+<br />
+<div id="ctl00_MainContentPlaceHolder_LoginPanel_pblLoginContent">
+	
+	
+    <div class="panel panel-login">
+        <div class="panel-heading">
+            <i class="fa fa-lock"></i> Access Your Account
+        </div>
+		
+		    <div  style='display:none'  class="text-center">
+			    
+		    </div>
+		
+	    
+        
+        <div id="ctl00_MainContentPlaceHolder_LoginPanel_panelLogin">
+		
+		    <table id="ctl00_MainContentPlaceHolder_LoginPanel__Login" cellspacing="0" cellpadding="0" border="0" width="100%">
+			<tr>
+				<td>
+                    <div class="panel-body">
+
+					    <div id="ctl00_MainContentPlaceHolder_LoginPanel__Login_tblAccountLogin0">
+                            <span style="color:#cc0000;">
+                                
+                            </span>
+                            <!-- First row -->
+						    <div class="form-group">
+                                <input type="text" style="display:none;" />
+                                <input type="password" style="display:none;" />
+                                <label for="ctl00_MainContentPlaceHolder_LoginPanel__Login_UserName" id="ctl00_MainContentPlaceHolder_LoginPanel__Login_UserNameLabel">User ID</label>
+                                <input name="ctl00$MainContentPlaceHolder$LoginPanel$_Login$UserName" type="text" id="ctl00_MainContentPlaceHolder_LoginPanel__Login_UserName" autocomplete="off" class="form-control" placeholder="User ID" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ctl00_MainContentPlaceHolder_LoginPanel__Login_Password" id="ctl00_MainContentPlaceHolder_LoginPanel__Login_PasswordLabel">Password</label>
+                                <input name="ctl00$MainContentPlaceHolder$LoginPanel$_Login$Password" type="password" id="ctl00_MainContentPlaceHolder_LoginPanel__Login_Password" class="form-control" placeholder="Password" autocomplete="off" />
+                            </div>
+                        </div>
+
+					    
+
+                        <input type="submit" name="ctl00$MainContentPlaceHolder$LoginPanel$_Login$LoginButton" value="Log In" id="ctl00_MainContentPlaceHolder_LoginPanel__Login_LoginButton" class="btn btn-login" /><br>
+                        <br>
+                        <p>
+                            <span id="ctl00_MainContentPlaceHolder_LoginPanel__Login_divCreateUser">
+                                <small>
+                                    Don't have an account? <a id="ctl00_MainContentPlaceHolder_LoginPanel__Login_CreateUserLink" href="Account/AcctMatching.aspx">Register</a>
+                                </small>
+                            </span><br>
+                            <small>
+                                <span id="ctl00_MainContentPlaceHolder_LoginPanel__Login_divPasswordRecover">
+                                    <a id="ctl00_MainContentPlaceHolder_LoginPanel__Login_PasswordRecoveryLink" href="Account/PasswordRecoveryViaEmail.aspx">Forgot Password?</a>
+                                </span>
+                                <span id="ctl00_MainContentPlaceHolder_LoginPanel__Login_divUserIDRecover">
+                                    <a id="ctl00_MainContentPlaceHolder_LoginPanel__Login_UserIdRecoveryLink" href="Account/UserIDRecoveryViaEmail.aspx">Forgot User ID?</a>
+                                </span>
+                            </small>
+                        </p>
+
+                    </div>
+			    </td>
+			</tr>
+		</table>
+	    
+	</div>
+    </div>
+	
+</div>
+
+                </div>
+            
+        <div class="col-md-8">
+        
+            <div class="nav-tabs-container">
+                <header class="header-cur-info">
+                <a class="tab-info"></a>
+                <!-- Hamburger icon -->
+                <input class="side-menu" type="checkbox" id="side-menu"/>
+                <label class="hamb" for="side-menu"><span class="hamb-line"></span><span class="hamb-line"></span><span class="hamb-line"></span></label>
+             
+                <nav class="nav-cur-info">
+                    <ul class="nav nav-tabs menu-info">
+                        
+                            <li id="li-welcome-text"><a href="#welcome-text" data-toggle="tab" onclick="changeTab(this,0);"><i class="fa fa-info"></i> Welcome</a></li>
+                        
+                    </ul>
+                    </nav>
+            </header>
+            <div class="tab-content">
+                <div class="tab-pane fade" id="system-message">
+                    
+                </div>
+                <div class="tab-pane fade" id="welcome-text">
+                    <font color="#4682B4"><H2><p style="text-align:center;"><B>Colorado Division of Professions and Occupations Online Services</B></font color="#4682B4"></p style="text-align:center;"></H2>
+<HR>
+
+<b>Welcome to the Division of Professions and Occupations Online Services Portal</b><p>
+
+To access all Online Services including Online New Applications, Online License Renewal*, Online Reinstatement or Online Address Change, please log in on the left hand side module.<p>
+<b>*Note:</b> Online License Renewal does not open until approximately 4-6 weeks prior to your expiration date.<p>
+
+To access Online License Verification, Online Roster/Discipline Downloads or to File an Online Complaint, please use the drop down menu on the upper right labeled "Online Services".<p>
+
+<b>IMPORTANT NOTICE:</b> Our Online Services is <u>not compatible</u> with mobile devices.  We recommend using a laptop or desktop computer with the most up to date version of Google Chrome or Microsoft Edge.  As most applications require some time to review and the ability to upload documents (pdf, docx, rtf, etc.), please <u>do not</u> use a smartphone or tablet to complete this process.<p>
+
+Need help logging in? Review our  <a href="https://docs.google.com/document/d/1IyJLAoMOmNxB04XMzaMxvomaX5yX01Doj4CmORW_Xkg/edit?ts=5c3d0f69"target="_blank"> Online Services Account Access Help Steps</a>.
+                </div>
+                <div class="tab-pane fade" id="current-info-tab">
+                    <div id="ctl00_MainContentPlaceHolder_TabsUPanel">
+	
+			                <div id="ctl00_MainContentPlaceHolder_pnlTextContent">
+		
+				                <TABLE BORDER="1" CELLSPACING="20" CELLPADDING="20">
+<CAPTION><font color="#4682B4"><H3><center><B>Colorado Division of Professions and Occupations Online Services</B></font color="#4682B4"></H3><p>
+<p>
+<TR>
+<TD ALIGN = center WIDTH="20%">
+<p>
+<p><input type="BUTTON" value="Renew Your License" style="background-color:lightblue; font-size: large" onclick="window.location.href='https://apps.colorado.gov/dora/licensing/Activities/Listing.aspx?ID=20'"><p>
+<p style="font-size: small;">Select this to Renew your license.
+</TD>
+<TD ALIGN = center WIDTH="20%">
+<p>
+<p><input type="BUTTON" value="Apply for a New License" style="background-color:lightblue; font-size: large" onclick="window.location.href='https://www.colorado.gov/dora/licensing/Activities/Listing.aspx?ID=10'"><p>
+<p style="font-size: small;">Select this to start or continue a New license application.
+</TD>
+<TD ALIGN = center WIDTH="20%">
+<p>
+<p><input type="BUTTON" value="Reinstate Your Expired License" style="background-color:lightblue; font-size: large" onclick="window.location.href='https://apps.colorado.gov/dora/licensing/Activities/Listing.aspx?ID=210'"><p>
+<p style="font-size: small;">Select this to Reinstate an Expired License.
+</TD>
+</TR>
+<TR>
+<TD ALIGN = "center">
+<p>
+<p><input type="BUTTON" value="Update Your Contact Information" style="background-color:lightblue; font-size: large" onclick="window.location.href='https://apps.colorado.gov/dora/licensing/Activities/Listing.aspx?ID=40'"><p>
+<p style="font-size: small;">Select this to update your contact information.
+</TD>
+<TD ALIGN = "center">
+<p>
+<p><input type="BUTTON" value="Check Your Application Status" style="background-color:lightblue; font-size: large" onclick="window.location.href='https://apps.colorado.gov/dora/licensing/Activities/LicenseStatus.aspx'"><p>
+<p style="font-size: small;">Select this to view a pending application progress.
+</TD>
+<TD ALIGN = "center">
+<p>
+<p><input type="BUTTON" value="Update Your Healthcare Profile" style="background-color:lightblue; font-size: large" onclick="window.location.href='https://www.colorado.gov/dora/licensing/Activities/PhysicianProfile.aspx'"><p>
+<p style="font-size: small;">Select this to update your Healthcare Professions Profile.
+</TD>
+</TR>
+</center>
+</TABLE>
+
+<HR>
+<ul>
+<li><p style="font-size: small;">To ensure you are receiving communication from the Division, verify your email address by visiting: <a href="https://apps.colorado.gov/dora/licensing/Account/UserAccount.aspx"target="_blank"><b><u>Online Services Change Email</u></b></a>
+<li><p style="font-size: small;">The license/registration renewal period opens about 4 weeks before the expiration date. You may only renew your license during the renewal period. 
+<li><p style="font-size: small;">If you have questions about your license, please contact the Division of Professions and Occupations at: <a href="mailto:dora_dpo_licensing@state.co.us"target=_blank>dora_dpo_licensing@state.co.us.</a> or 303-894-7800.
+</ul>
+			                
+	</div>
+			                <div id="ctl00_MainContentPlaceHolder_pnlSQLContent">
+		
+				                
+			                
+	</div>
+			                <span id="ctl00_MainContentPlaceHolder_lblSQLError" class="ErrorLabel"></span>
+                        
+</div>
+                </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- 
+    
+
+    -->
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            var welcome = 'True';
+            var sytemmessage = 'False';
+
+            if (sytemmessage.toUpperCase() == "TRUE") {
+                $("#system-message").addClass("active in");
+                $("#li-system-message").addClass("active");
+                $(".tab-info").html($(".menu-info #li-system-message a").html());
+            }
+            else if (welcome.toUpperCase() == "TRUE") {
+                $("#welcome-text").addClass("active in");
+                $("#li-welcome-text").addClass("active");
+                $(".tab-info").html($(".menu-info #li-welcome-text a").html());
+            }
+            else 
+                $("#current-info-tab").addClass("active in");
+        });
+
+        function changeTab(obj, tabIdnt) {
+            __doPostBack('ctl00$MainContentPlaceHolder$TabsUPanel', tabIdnt);
+            $('.tab-info').html($(obj).html());
+            //Close the tab
+            $(".hamb").click();
+        }
+
+        function ViewReceipt(QaNoFeeProcess, ModuleDesc, cartHeaderIdnt) {
+            window.open("Invoice/PrintReceipt.aspx?QaNoFeeProcess=" + QaNoFeeProcess + "&ModuleDesc=" + ModuleDesc + "&id=" + cartHeaderIdnt);
+            return false;
+        }
+	</script>
+
+		
+
+		<main>
+      <section class="primary">
+        <div class="container">
+          <div class="row text-left">
+            <div class="col-md-12">
+              <h3>More Online Services</h3>
+            </div>
+          </div>
+          <div class="row text-left">
+            
+                    <div class="col-md-4">
+                        <h4>License Verification</h4>
+                        <ul class="list-unstyled"  >
+						    
+                                 
+                                 <li style="font-weight:normal !important;"><a href='/DORA/licensing/Lookup/LicenseLookup.aspx' title='' >Verify a Colorado License</a></li>
+							    
+                        </ul>
+                    </div>
+			    
+                    <div class="col-md-4">
+                        <h4>Online Complaint Submission</h4>
+                        <ul class="list-unstyled"  >
+						    
+                                 
+                                 <li style="font-weight:normal !important;"><a href='/DORA/licensing/Activities/Complaint.aspx' title='' >File a Complaint</a></li>
+							    
+                        </ul>
+                    </div>
+			    
+                    <div class="col-md-4">
+                        <h4>Licensee/Discipline List Downloads</h4>
+                        <ul class="list-unstyled"  >
+						    
+                                 
+                                 <li style="font-weight:normal !important;"><a href='/DORA/licensing/Lookup/GenerateRoster.aspx' title='' >Download a List of Licensee/Discipline Information</a></li>
+							    
+                        </ul>
+                    </div>
+			    
+          </div>
+        </div>
+      </section>
+    </main>
+
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<h3>About Us</h3>
+							<p>
+								<i>DORA's Division of Professions and Occupations licenses over 50 professions, occupations and businesses in Colorado.<br>
+<br>
+Review our <a href="https://dora.colorado.gov/accessibility-statement">Accessibility Statement</a>.</i>
+							</p>
+						</div>
+						<div class="col-md-8">
+							<h3>Contact Us</h3>
+							<div class="row">
+								<div class="col-md-6">
+									<p>
+										<strong>Find us at:</strong><br>
+										<i>1560 Broadway, Suite 1350, Denver, CO 80202</i><br>
+										<br>
+										<strong>Send mail to:</strong><br>
+										<i>Colorado Department of Regulatory Agencies<br>
+Division of Professions and Occupations<br>
+1560 Broadway, Suite 1350, Denver, CO 80202</i>
+									</p>
+								</div>
+								<div class="col-md-6">
+									<ul class="list-unstyled">
+										
+										<li><i class="fa fa-envelope fa-fw"></i><a href="#"><i><a HREF="mailto:dora_dpo_licensing@state.co.us">dora_dpo_licensing@state.co.us</a></i></a></li>
+										<li><i class="fa fa-phone fa-fw"></i><a href="#"><i>303-894-7800</i></a></li>
+										<li><i class="fa fa-fax fa-fw"></i><a href="#"><i>303-894-7693</i></a></li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="container">
+					<p>
+						Copyright &copy; 1997-2024 Iron Data Solutions All Rights Reserved
+            <span id="ctl00_versionNumber" class="pull-right"><span title="branch 7.2.0.25508">V20140601_Release.1.25508</span></span>
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<div id="dialog-overlay"></div>
+		<div id="dialog-box">
+			<div class="dialog-content">
+				<div id="dialog-message">
+					<img src="/DORA/licensing/Images/Wait.gif" alt="Waiting for response..." id="ModalWaitImg" /></div>
+				<a href="#" class="button">Close</a>
+			</div>
+		</div>
+
+		<!--
+    
+    <div id="ctl00_divInvoiceBannerBox"></div>
+    <br />    
+			
+				<div class="nav-header-main">Online Services</div>
+				
+			
+	    </div>
+
+        <div id="content-pane">
+            <a name="MainContent" style="position:fixed;left:-999999;display:none;">Main Content</a>
+            
+            
+            <div class="PageContent"></div>
+        </div>
+
+	</div>
+    -->
+
+		
+
+	
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {Sys.Extended.UI.ModalPopupBehavior.invokeViaServer('ctl00_MainContentPlaceHolder_mpeContactMethod', false); Sys.Application.remove_load(fn);};Sys.Application.add_load(fn);})();//]]>
+</script>
+</form>
+</body>
+</html>

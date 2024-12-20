@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>
+	Colorado Nutrition Portal
+</title><meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; *.linq.com *.typekit.net;" /><meta name="Child Nutrition Program Entry" http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><meta name="referrer" content="same-origin" /><link rel="shortcut icon" href="Images/shortcut_icon.ico" /><link rel="stylesheet" type="text/css" href="styles/master.css" media="screen, print" /> <link href="/Colorado/Styles/blue-macaroon.css" media='all' rel='stylesheet' /> 
+ <script language='javascript' type='text/javascript' src="/Colorado/JS/jquery.js"></script>  
+ <script language='javascript' type='text/javascript' src="/Colorado/JS/tabbable.js"></script> 
+ <script language='javascript' type='text/javascript' src="/Colorado/JS/focus-trap.js"></script>  
+ <script language='javascript' type='text/javascript' src="/Colorado/JS/accessibility.js"></script>  
+
+
+	<script src="JS/jquery.js" type="text/javascript"></script>
+    <script language='JavaScript' type='text/javascript'>
+		
+
+    function WcfUtilityService(serviceMethod, serviceParameters, serviceSuccess, serviceError) {
+    	var sURL;
+
+    	sURL = '/Colorado/WcfUtilityService.svc' + '/ajax/' + serviceMethod;
+
+    	$.ajax(
+		{
+			contentType: "application/json; charset=utf-8",
+			data: serviceParameters,
+			dataType: "json",
+			error: serviceError,
+			success: serviceSuccess,
+			type: "POST",
+			url: sURL
+		});
+    }
+
+    function WcfUtilityService_Success(result, status, jqXHR) {
+    	return (result);
+    }
+
+    function WcfUtilityService_Error(jqXHR, status, error) {
+    	var sMessage = '';
+    	if (jqXHR.status === 0) {
+    		sMessage = 'Not connected.\n Verify Network.';
+    	} else if (jqXHR.status == 404) {
+    		sMessage = 'Requested page not found. [404]';
+    	} else if (jqXHR.status == 415) {
+    		sMessage = 'Unsupported Media Type. [415]';
+    	} else if (jqXHR.status == 500) {
+    		sMessage = 'Internal Server Error [500].';
+    	} else if (status === 'parsererror') {
+    		sMessage = 'Requested JSON parse failed.';
+    	} else if (status === 'timeout') {
+    		sMessage = 'Time out error.';
+    	} else if (status === 'abort') {
+    		sMessage = 'Ajax request aborted.';
+    	} else {
+    		sMessage = jqXHR.status + ': ' + status + ', ' + error;
+    	}
+
+    	return ('FAIL: ' + sMessage);
+    }
+
+				
+    	function ValidateWindow() {
+
+    		var oParameters = {
+    			"windowName": window.name
+            };
+			var sParameters = JSON.stringify(oParameters);
+			WcfUtilityService('ValidateWindowName', sParameters, ValidateWindowWCF_Success, ValidateWindowWCF_Error);
+		}
+
+		function ValidateWindowWCF_Success(result, status, jqXHR) {
+			var newWindowName = WcfUtilityService_Success(result, status, jqXHR);
+        	ValidateWindow_Success(newWindowName);
+		}
+
+    	function ValidateWindowWCF_Error(jqXHR, status, error) {
+    		var sMessage = WcfUtilityService_Error(jqXHR, status, error);
+            ValidateWindow_Error(sMessage);
+		}
+
+				
+
+        function ValidateWindow_Success(newWindowName) {
+        	if (newWindowName == "Invalid") {
+                window.open("SessionConflict.aspx", "_self");
+            }
+            else {
+        		if (newWindowName != window.name) {
+        			window.name = newWindowName;
+            		window.open("Splash.aspx", window.name);
+            	}
+            	else {
+            		document.getElementById("btnSubmit").disabled = false;
+				}
+            }
+        }
+
+        function ValidateWindow_Error(message) {
+            alert(message);
+        }
+				
+    </script>
+
+    <script language='JavaScript' type='text/javascript'>
+        function MasterPage_onLoad() {
+            document.getElementById('leftcol-splash').style.height=
+                document.getElementById('rightcol-splash').style.height=
+                document.getElementById('midcol-splash').offsetHeight+"px";
+            
+                document.getElementById('UserName').focus();
+            
+                document.getElementById("btnSubmit").disabled = false;
+            
+        }
+    </script>
+
+</head>
+<body onload="MasterPage_onLoad();">
+    <a href="#maincontent" class="skip">Skip to content</a>
+    <form name="Form1" method="post" action="./Splash.aspx" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="MearbVEBAgqCW74vGYpES1mKX55uDurl4us1s5jDoVjikytyjloWMIZFCMm0S7uBT9+zHr4PnN97S3Nq0KMCrZt7kIerhuX+lSEbK4XBPu/6eWUqd0iqhX0/oSrxsLYvDHM9hrQB3/VO3MTfwJcfgC51gidafjJLl3dZk7ar5CyGGsnM+X3bvjPPY813H9+vQLzMmCK/xCsiO0gTEaSuis40mpoBeMZXEFfO55Ry4SqngdqAxXs9U5hAOo3HzG4bwfi9a2Je/zTeubpVGkjGug==" />
+
+
+<script src="Scripts/WebForms/MsAjax/MicrosoftAjax.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var UtilityService=function() {
+UtilityService.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+UtilityService.prototype={
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return UtilityService._staticInstance.get_path();},
+GetAssemblyInfo:function(succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'GetAssemblyInfo',false,{},succeededCallback,failedCallback,userContext); },
+GetReportStageID:function(CnpObjectID,parameters,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'GetReportStageID',false,{CnpObjectID:CnpObjectID,parameters:parameters},succeededCallback,failedCallback,userContext); },
+DoSomething:function(sMethod,lParameters,dtSubmittedDate,sPassPhrase,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'DoSomething',false,{sMethod:sMethod,lParameters:lParameters,dtSubmittedDate:dtSubmittedDate,sPassPhrase:sPassPhrase},succeededCallback,failedCallback,userContext); },
+SendEmail:function(addressMode,addressReplyToAddress,addressTo,addressCC,addressBCC,subject,body,isBodyHTML,userID,dtSubmittedDate,sPassPhrase,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'SendEmail',false,{addressMode:addressMode,addressReplyToAddress:addressReplyToAddress,addressTo:addressTo,addressCC:addressCC,addressBCC:addressBCC,subject:subject,body:body,isBodyHTML:isBodyHTML,userID:userID,dtSubmittedDate:dtSubmittedDate,sPassPhrase:sPassPhrase},succeededCallback,failedCallback,userContext); },
+SendEmailWithAttachments:function(addressMode,addressReplyToAddress,addressTo,addressCC,addressBCC,subject,body,isBodyHTML,userID,attachmentIDs,dtSubmittedDate,sPassPhrase,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'SendEmailWithAttachments',false,{addressMode:addressMode,addressReplyToAddress:addressReplyToAddress,addressTo:addressTo,addressCC:addressCC,addressBCC:addressBCC,subject:subject,body:body,isBodyHTML:isBodyHTML,userID:userID,attachmentIDs:attachmentIDs,dtSubmittedDate:dtSubmittedDate,sPassPhrase:sPassPhrase},succeededCallback,failedCallback,userContext); },
+ValidateWindowName:function(windowName,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'ValidateWindowName',false,{windowName:windowName},succeededCallback,failedCallback,userContext); }}
+UtilityService.registerClass('UtilityService',Sys.Net.WebServiceProxy);
+UtilityService._staticInstance = new UtilityService();
+UtilityService.set_path = function(value) { UtilityService._staticInstance.set_path(value); }
+UtilityService.get_path = function() { return UtilityService._staticInstance.get_path(); }
+UtilityService.set_timeout = function(value) { UtilityService._staticInstance.set_timeout(value); }
+UtilityService.get_timeout = function() { return UtilityService._staticInstance.get_timeout(); }
+UtilityService.set_defaultUserContext = function(value) { UtilityService._staticInstance.set_defaultUserContext(value); }
+UtilityService.get_defaultUserContext = function() { return UtilityService._staticInstance.get_defaultUserContext(); }
+UtilityService.set_defaultSucceededCallback = function(value) { UtilityService._staticInstance.set_defaultSucceededCallback(value); }
+UtilityService.get_defaultSucceededCallback = function() { return UtilityService._staticInstance.get_defaultSucceededCallback(); }
+UtilityService.set_defaultFailedCallback = function(value) { UtilityService._staticInstance.set_defaultFailedCallback(value); }
+UtilityService.get_defaultFailedCallback = function() { return UtilityService._staticInstance.get_defaultFailedCallback(); }
+UtilityService.set_enableJsonp = function(value) { UtilityService._staticInstance.set_enableJsonp(value); }
+UtilityService.get_enableJsonp = function() { return UtilityService._staticInstance.get_enableJsonp(); }
+UtilityService.set_jsonpCallbackParameter = function(value) { UtilityService._staticInstance.set_jsonpCallbackParameter(value); }
+UtilityService.get_jsonpCallbackParameter = function() { return UtilityService._staticInstance.get_jsonpCallbackParameter(); }
+UtilityService.set_path("/Colorado/Common/UtilityService.asmx");
+UtilityService.GetAssemblyInfo= function(onSuccess,onFailed,userContext) {UtilityService._staticInstance.GetAssemblyInfo(onSuccess,onFailed,userContext); }
+UtilityService.GetReportStageID= function(CnpObjectID,parameters,onSuccess,onFailed,userContext) {UtilityService._staticInstance.GetReportStageID(CnpObjectID,parameters,onSuccess,onFailed,userContext); }
+UtilityService.DoSomething= function(sMethod,lParameters,dtSubmittedDate,sPassPhrase,onSuccess,onFailed,userContext) {UtilityService._staticInstance.DoSomething(sMethod,lParameters,dtSubmittedDate,sPassPhrase,onSuccess,onFailed,userContext); }
+UtilityService.SendEmail= function(addressMode,addressReplyToAddress,addressTo,addressCC,addressBCC,subject,body,isBodyHTML,userID,dtSubmittedDate,sPassPhrase,onSuccess,onFailed,userContext) {UtilityService._staticInstance.SendEmail(addressMode,addressReplyToAddress,addressTo,addressCC,addressBCC,subject,body,isBodyHTML,userID,dtSubmittedDate,sPassPhrase,onSuccess,onFailed,userContext); }
+UtilityService.SendEmailWithAttachments= function(addressMode,addressReplyToAddress,addressTo,addressCC,addressBCC,subject,body,isBodyHTML,userID,attachmentIDs,dtSubmittedDate,sPassPhrase,onSuccess,onFailed,userContext) {UtilityService._staticInstance.SendEmailWithAttachments(addressMode,addressReplyToAddress,addressTo,addressCC,addressBCC,subject,body,isBodyHTML,userID,attachmentIDs,dtSubmittedDate,sPassPhrase,onSuccess,onFailed,userContext); }
+UtilityService.ValidateWindowName= function(windowName,onSuccess,onFailed,userContext) {UtilityService._staticInstance.ValidateWindowName(windowName,onSuccess,onFailed,userContext); }
+Type.registerNamespace('CNP.Includes');
+if (typeof(CNP.Includes.EmailAddressModes) === 'undefined') {
+CNP.Includes.EmailAddressModes = function() { throw Error.invalidOperation(); }
+CNP.Includes.EmailAddressModes.prototype = {EmailAddressModeNormal: 0,EmailAddressModeTest: 1}
+CNP.Includes.EmailAddressModes.registerEnum('CNP.Includes.EmailAddressModes', true);
+}
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="83C5AB2A" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+        
+
+        <div id="maincontent">
+        
+            <div id="header-login"></div>
+        
+            <div id='leftcol-splash'>&nbsp;</div>
+        
+            <div id='midcol-splash'>
+                <div id="loginRightContainer">
+
+                    
+
+                    <div id="newsbox">
+                        <div style='text-align: center; width: 400px;'><div style='width: 400px; float: left; padding: 0px; margin: 0px;' >
+<img src='Images/MessageBoard/Peppers.jpg' alt='Message Board Image' /><img src='Images/MessageBoard/Peppers.jpg' alt='Message Board Image' /><img src='Images/MessageBoard/Peppers.jpg' alt='Message Board Image' /></div>
+<div style='width: 400px; float: left; padding: 0px; margin: 0px; text-align: left; word-wrap:break-word;' >
+<h3 style="margin: 0px; text-align: center;"><span style="font-size: 9pt; font-family: 'Times New Roman'; color: #000000;"><strong>Welcome to the Colorado Nutrition Portal</strong></span></h3>
+<p class="MsoPlainText" style="text-align: left;"><span style="font-size: 9pt; font-family: 'Times New Roman'; color: #000000;"><span style="text-indent: -0.25in;">If you have been </span><span style="text-indent: -0.25in;">locked out</span><span style="text-indent: -0.25in;">, please click on the "Forgot Your Password?" link to reset your password.&nbsp;<br />
+<br />
+</span><span style="text-indent: -0.25in; font-variant-numeric: normal; font-stretch: normal; line-height: normal;">If&nbsp;</span><span style="text-indent: -0.25in;">you need access for a new user,&nbsp;<a href="https://app.smartsheet.com/b/form/dfb3a3d8b17647faad9d84f925325f58" style="font-size: 10pt;">please complete this form</a>.&nbsp;(Do not use this form to request a password reset.)<br />
+</span></span></p>
+<p><span style="font-size: 9pt; font-family: 'Times New Roman';"><span style="text-indent: -24px;"> Find CACFP 2024 claim due dates&nbsp;</span><strong style="font-size: 10.6667px; text-indent: -24px;"><a href="https://docs.google.com/document/d/e/2PACX-1vQOM0MyAYEPQU_ULiCYnuHyikAH1PMT6f1_eIO-UGIlxyRairAIDKe5qHemOvHgh9K4Rm1JF0D86zbP/pub">HERE</a></strong><span style="text-indent: -24px;">.<br />
+<br />
+</span></span><span style="font-size: 9pt; font-family: 'Times New Roman';"><strong>CDE Only: SFSP Applications for PY24 are now open! </strong>Applications for returning sponsors are due on May 1st. <a href="https://www.cde.state.co.us/nutrition/summer-food-service-program#howtoapply">View application instructions here</a>. <strong><br />
+</strong></span></p>
+<p class="MsoPlainText"><span style="font-size: 9pt; font-family: 'Times New Roman';"><span style="text-indent: -24px;"><strong>CDE Only:&nbsp;</strong>If you need to add a new site,&nbsp;</span><a href="https://app.smartsheet.com/b/form/7c5af9ee1bc44fa795efb6b20dff6ba0" style="text-indent: -24px;">please complete this form</a><span style="text-indent: -24px;">.<br />
+<br />
+<strong>CDE Only:</strong> </span>Information collected in the portal is approved by the Education Data Advisory Committee.<br />
+<span style="text-indent: -24px;">
+<br />
+</span>USDA is an equal opportunity provider, employer and lender. The USDA Nondiscrimination Statement and the procedures for filing a complaint can be found online&nbsp;<a href="https://drive.google.com/file/d/1z1Fx0KDlvcrBW_aKkbXxLJgDHRegWRtR/view" style="font-size: 9pt;">here</a>.<br />
+<br />
+<strong><a href="https://cdphe.colorado.gov/accessibility">CDPHE's&nbsp;</a></strong></span><span style="font-size: 10.5pt; font-family: 'Times New Roman';"><strong><a href="https://cdphe.colorado.gov/accessibility">Accessibility Statement</a></strong></span></p>
+<p class="MsoPlainText"><span style="font-size: 9pt; text-indent: -24px; font-family: 'Times New Roman';">
+<br />
+</span></p>
+<p style="text-align: center;"><span style="font-size: 9pt; font-family: 'Times New Roman'; color: #000000;"><em><strong><br />
+</strong></em></span></p> <br /></div>
+</div>
+                    </div>
+        
+                </div>
+                
+                <div id="loginLeftContainer">
+                    <div id="login">
+
+                        <div style="text-align: center; margin-top: 40px; float: left; width: 200px; line-height: 130%;">
+                            <h3>Returning Users: Log On</h3>
+                        </div>
+                        <div id="loginformfields">
+                            <div id="loginform" >
+
+                                <label for="UserName" id="UserNameLabel">User ID:</label><br />
+                                <input name="UserName" type="text" maxlength="128" size="20" id="UserName" />
+                                <br />
+                                <label for="Password" id="PasswordLabel">Password:</label><br />
+                                <input name="Password" type="password" maxlength="64" size="20" id="Password" />
+
+								<div id="pnlProblemWithLogin" style=" margin-left: 5px;  ">
+	
+										<a href="./Security/ForgotPassword.aspx">Forgot Your Password?</a>
+                                        <br />
+                                         
+                                
+</div>
+                                
+                                <div id="RememberLoginPanelFiller">
+	
+                                    <br />
+                                    <br />
+                                
+</div>
+                                
+
+                                
+                                
+
+				
+                                <input type="submit" name="btnSubmit" value="Log On" id="btnSubmit" disabled="disabled" style="font-weight: bold; color: White; background-color: Green; margin-left: 30px; margin-top: 25px;" />
+                                <br />
+                                <br />
+								&nbsp;
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="miscLeftLogin">
+  <h3 class="mischead">
+    Links
+  </h3>
+  <div style="float:left;">
+    <ul class="misclinks">
+      <li class="misclinks"><a href="https://cdphe.colorado.gov/CACFP" target="_blank">CACFP Website</a></li>
+      <li class="misclinks"><a href="https://www.colorado.gov/pacific/cdphe/cacfp-training" target="_blank">CACFP Training Registration</a></li>
+      <li class="misclinks"><a href="http://www.cde.state.co.us/nutrition" target="_blank">CDE Website</a></li>
+      <li class="misclinks"><a href="Training/training/trainingRegistration_2.aspx" target="_blank">CDE Training Registration</a></li>
+      <li class="misclinks"><a href="Transparency/AdministrativeReviewSummaryList.aspx" target="_blank">CDE Admin Review Transparency</a></li>
+    </ul>
+  </div>
+</div>
+
+
+                    <br />
+                    <br />
+                </div>
+
+   
+            
+                <div id='midcol-nslplogo'>
+                    <div id="imgCnpExpress" align="left" class="logo" style="margin-left: 0px;">
+                        <div id="ImgLogoCont" style="width: 208px; text-align: center; margin-left: 10px;"><a href="https://www.linq.com/states/state-child-nutrition-programs/"><img src="images/logo-cobrand-150x30.png" title="Colyar Technology Solutions, A LINQ Solution"></img></a></div>
+                    </div>
+                    <div align="center" class="copyright">Copyright &copy; 2024 Colyar Technology Solutions</div>
+                </div>
+            </div>
+
+            <div id='rightcol-splash'>&nbsp;</div>
+            
+            <div id="footer-login">&nbsp;</div>
+            
+        </div>
+    </form>
+</body>
+</html>
+        
+        
+        

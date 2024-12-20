@@ -1,0 +1,375 @@
+<!-- DOCNet web site template
+ *
+ * Colorado Department of Corrections
+ *
+ * This system is provided for authorized use and personnel only.
+ * Any other use is STRICTLY prohibited.
+ *
+ * @copyright Colorado Department of Corrections
+ * @author Colorado Department of Corrections Business Technologies
+ * @link http://www.doc.state.co.us/
+ *
+ * Written by: SHANNAN LAHN
+ * Created: 03/25/2010
+ *
+ *
+ *----------------------------------------------------------
+ *
+ *          OFFENDER SEARCH APPLICATION
+ * test
+ *
+ *----------------------------------------------------------
+ *-->
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+<head>
+	<title>CDOC Offender Search</title>
+
+
+	<!-- CSS FILES -->
+	<link href="/1_docnet_templ/common/css/main.css" rel="stylesheet" type="text/css">
+	<link href="/1_docnet_templ/common/css/dialog_box.css" rel="stylesheet" type="text/css">
+
+	<!-- JAVASCRIPT FILES -->
+	<script type="text/javascript" src="/1_docnet_templ/common/scripts/checkbox.js"></script>
+	<script type="text/javascript" src="/1_docnet_templ/common/scripts/prototype.js"></script>
+	<script type="text/javascript" src="/1_docnet_templ/common/scripts/tooltips.js"></script>
+	<script type="text/javascript" src="/1_docnet_templ/common/scripts/dialog_box.js"></script>	
+	<script type="text/javascript" src="/1_docnet_templ/common/scripts/common_functions.js"></script>
+	<link rel="icon" 
+      type="image/png" 
+      href="/1_docnet_templ/common/images/docnet_fav.ico">
+</head>
+<body>
+<div id="wait_mask" align="center" style="display: none;">
+	<div id="sub_mask" align="center">
+		Please Wait . . .
+		<br><br>
+		<img src="/1_docnet_templ/common/images/img_wait_org_sm.gif" alt="" border="no">
+	</div>
+</div>
+<div id="login_mask" align="center" style="display: none;">
+	<div id="sub_login_mask" align="center">
+		<input type="hidden" id="docnet_app" name="docnet_app" value="oss">
+		<table>
+			<tr>
+			<td style="color: #fff; padding-right: 3px;" align="right">
+				User ID: 
+			</td>
+			<td>
+				<input class="text_box" type="text" value="" name="userName" id="userName" maxlength="14">
+			</td>
+			</tr>
+			<tr>
+			<Td style="color: #fff; padding-right: 3px;" align="right">
+				Password:
+			</td>
+			<td> 
+				<input class="text_box" type="password" value="" name="password" id="password" >
+			</tr>
+			</table>
+			<div align="center">
+				<button name="btnLogin" id="btnLogin" class="btn_blu" onclick="get_login();">&nbsp;&nbsp;Login&nbsp;&nbsp;</button>	
+			</div>
+			<br><br>
+			<div align="center">
+			 	<!--<a href="http://docnet/" style="text-decoration: none;"  class="btn_blu">  Return to DOCNet </a>-->
+				<a href="" style="text-decoration: none;"  class="btn_blu">  Return to DOCNet </a>
+			</div>
+		
+		<br>
+		<input id="login_count" type="hidden" value=0>
+		<div id='login_msg'>&nbsp;</div>
+	</div>
+</div>
+<div id="header">
+	&nbsp;&nbsp;Colorado Department of Corrections<span style="margin-left: 50px;">Saturday, July 20, 2024, 3:56 pm </span><br>
+	<img src="/oss/common/images/img_docnet_app_title.png" align="Offender Search">
+
+</div>
+
+<div id="doc_shield">
+	<!--<a href="http://docnet/">
+		<img src="/1_docnet_templ/common/images/img_doc_shield.png" alt="" border="no">
+	</a>-->
+	<a href="">
+		<img src="/1_docnet_templ/common/images/img_doc_shield.png" alt="" border="no">
+	</a>
+</div>
+
+<div style="position: absolute; top: 20px; right: 20px; color:#fff; z-index: 9999;">
+	</div>
+
+<div id="menu">
+<span><img src="/1_docnet_templ/common/images/btn_brdr_blk.png" alt="" border="no" align="absmiddle"><a href='/oss/index.php?ref=home' class='active' >New Search</a></span><span><img src="/1_docnet_templ/common/images/btn_brdr_blk.png" alt="" border="no" align="absmiddle"><a href='/oss/index.php?ref=pblist'>Par. Board</a></span><span><img src="/1_docnet_templ/common/images/btn_brdr_blk.png" alt="" border="no" align="absmiddle"><a href='/oss/index.php?ref=search_tips'>Search Tips</a></span><span><img src="/1_docnet_templ/common/images/btn_brdr_blk.png" alt="" border="no" align="absmiddle"><a href='/oss/index.php?ref=disclaimer'>Disclaimer</a></span><img src="/1_docnet_templ/common/images/btn_brdr_blk.png" alt="" border="no" align="absmiddle"></div><div id="content">
+	<div id="win_nav_bar">
+	<span id="btn_search_txt" 
+		onclick="get_offender_list('/oss/controller/ctl_ajax.php','true',0);" 
+		
+		style="cursor: pointer;"><b>SUBMIT</b></span>
+		<img src="/1_docnet_templ/common/images/btn_ylw.png" alt="Search Offender" border="no"	>
+		
+	</div>
+	<!--   Added 2022-12-02 per CA ticket 1378546 (rmw) -->
+	<!-- Removed 2023-04-20 per CA ticket 4365066 (rmw)
+	<div style="margin-top: 0.5em; margin-bottom: 1em; text-align: center; font-size: small;">
+		This information changes frequently. If you require an official record of time calculation, please contact
+		Time & Release operations at <a href="mailto:doc_open_records@state.co.us">doc_open_records@state.co.us</a>
+	</div>
+	-->
+	<div id="win_content">
+	<div align="center" style="padding-right: 100px;">
+<form id="search_form"  style="display:block;">
+Please enter your search criteria into one or more of the following fields:
+<br>
+<br>
+<table cellpadding="5" cellspacing="0" border="0" width="600">
+<!--
+	<tr><td width="200">
+	&nbsp;
+	</td>
+	<td width="400"><div class="form_txt">
+	<input type="checkbox" name="show_photos" class="styled" /> Show Photos on the Result Page</div>
+	</td></tr>
+-->
+	<tr><td valign="top">
+		<div class="form_lbl">
+		DOCNO:
+		</div>
+	</td>
+	<td><div class="form_txt">
+	&nbsp;<input type="text" id="docno" name="docno" maxlength="6">
+	</td></tr>
+
+	<tr><td>
+		<div class="form_lbl">
+		LAST NAME:
+		</div>
+	</td>
+	<td><div class="form_txt"></div>
+		&nbsp;<input type="text" name="last_name" id="last_name" maxlength="24"/></div>
+	</td></tr>
+
+	<tr><td>
+		<div class="form_lbl">
+		FIRST NAME:
+		</div>
+	</td>
+	<td><div class="form_txt">
+	&nbsp;<input type="text" name="first_name" id="first_name" maxlength="24"/></div>
+	</td></tr>
+
+<!-- 	<tr><td valign="top"> -->
+<!-- 		<div class="form_lbl"> -->
+<!-- 		DOB: -->
+<!-- 		</div> -->
+<!-- 	</td> -->
+<!-- 	<td><div class="form_txt"> -->
+<!-- 	&nbsp;<input type="text" name="dob" id="dob" style="margin-bottom: 5px;" maxlength="10"/> (mm/dd/yyyy)<br> -->
+<!-- 	<input type="checkbox" name="search_months" id="s_months" class="styled" align="right"/>Search +/- 6 Months</div> -->
+
+<!-- 	</td></tr> -->
+<!--
+	<tr><td valign="top">
+		<div class="form_lbl" style="margin-top: 5px;">
+		ETHNICITY:
+		</div>
+	</td>
+	<td>
+		<table cellspacing="5" cellpadding="0">
+			<tr>
+				<td width="125"><div class="form_txt">
+					<input type="radio" name="a" class="styled" checked/> ALL</div>
+				</td>
+				<td width="150"><div class="form_txt">
+					<input type="radio" name="a" class="styled" /> AM INDIAN</div>
+				</td>
+				<td width="125"><div class="form_txt">
+					<input type="radio" name="a" class="styled" /> ASIAN</div>
+				</td>
+			</tr>
+			<tr>
+				<td><div class="form_txt">
+					<input type="radio" name="a" class="styled" /> BLACK</div>
+				</td>
+				<td><div class="form_txt">
+					<input type="radio" name="a" class="styled" /> HISPANIC</div>
+				</td>
+				<td><div class="form_txt">
+					<input type="radio" name="a" class="styled" /> WHITE</div>
+				</td>
+			</tr>
+			<tr>
+				<td><div class="form_txt">
+					<input type="radio" name="a" class="styled" />  OTHER</div>
+				</td>
+				<td><div class="form_txt">
+					<input type="radio" name="a" class="styled" /> UNKNOWN</div>
+				</td>
+				<td>
+					&nbsp;
+				</td>
+			</tr>
+		</table>
+	</td></tr>
+-->
+	<tr><td>
+		<div class="form_lbl">
+		GENDER:
+		</div>
+	</td>
+	<td>
+		<div  style="border: 1px solid #7e87a8; border-right: none; border-left: none;padding-top: 5px;">
+			<table cellspacing="5" cellpadding="0">
+				<tr>
+					<td width="125"><div class="form_txt">
+						<input type="radio" name="gender" id="g_all" class="styled" checked/> ALL</div>
+					</td>
+					<td width="150"><div class="form_txt">
+						<input type="radio" name="gender" id="g_male" class="styled" /> MALE</div>
+					</td>
+					<td width="125"><div class="form_txt">
+						<input type="radio" name="gender" id="g_female" class="styled" /> FEMALE</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td></tr>
+	<tr>
+		<td></td>
+		<td><div id='captcha_image' class='captcha_class' style='display:none;'>&nbsp;</div></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><div class='captcha_class' style='display:none;'><span>Please count the number of <span id='captcha_shape' style='font-weight:bold'></span> and type the answer below:</span></div></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<div class='captcha_class' style='display:none'>
+				<input type="text" id="captcha_answer" name="captcha_answer" maxlength="6" value="" disabled>
+				<input type="hidden" id="captcha_required" name="captcha_required" value="required" disabled>
+			</div>
+		</td>
+		<td></td>
+	</tr>
+<!--
+	<tr><td>
+	<div class="form_lbl">
+	# Results per page:
+	</div>
+	</td><td>
+	<div class="form_txt">
+	&nbsp;<select id="num results">	
+	<option value="20">20</option>
+	<option value="40">40</option>
+	<option value="60">60</option>
+	<option value="80">80</option>
+	</select>
+	</div>
+	</td></tr>
+	
+	<tr><td>
+	<div class="form_lbl">
+	COUNTIES:
+	</div>
+	</td><td>
+	<div class="form_txt">
+	&nbsp;<select id="counties">	
+	<option value="20">20</option>
+	<option value="40">40</option>
+	<option value="60">60</option>
+	<option value="80">80</option>
+	</select>
+	</div>
+	</td></tr>
+	
+	<tr><td>
+	<div class="form_lbl">
+	CURRENT OFFENSES:
+	</div>
+	</td><td>
+	<div class="form_txt">
+	&nbsp;<select id="offenses">	
+	<option value="20">20</option>
+	<option value="40">40</option>
+	<option value="60">60</option>
+	<option value="80">80</option>
+	</select>
+	</div>
+	</td></tr>
+	
+	
+	
+	<tr><td>
+	<div class="form_lbl">
+	FACILITIES:
+	</div>
+	</td><td>
+	<div class="form_txt">
+	&nbsp;<select id="facs">	
+	<option value="20">20</option>
+	<option value="40">40</option>
+	<option value="60">60</option>
+	<option value="80">80</option>
+	</select>
+	</div>
+	</td></tr>
+	
+	 -->
+	<tr><td colspan="2">
+	&nbsp;
+
+	</td></tr>
+
+</table>
+</form>
+
+</div>
+<div id="search_container" style="display:none;">&nbsp;</div>
+<div id="profile_container" style="display:none;">&nbsp;</div>
+	<script type="text/javascript">
+		Event.observe(window, 'load', function() {
+		//-- allows user to hit the enter key on a docno search without cause the browser to fire the event twice, 
+		//-- thus causing the page to refresh and lose all the data.
+		  	Event.observe('docno', "keypress", function(e){
+				if(e && e.keyCode == 13){
+					get_offender_list('/oss/controller/ctl_ajax.php','true',0);
+				}
+			});	
+			Event.observe('last_name', "keypress", function(e){
+				if(e && e.keyCode == 13){
+					get_offender_list('/oss/controller/ctl_ajax.php','true',0);
+				}
+			});
+			Event.observe('first_name', "keypress", function(e){
+				if(e && e.keyCode == 13){
+					get_offender_list('/oss/controller/ctl_ajax.php','true',0);
+				}
+			});
+//			Event.observe('dob', "keypress", function(e){
+//				if(e && e.keyCode == 13){
+//					get_offender_list('/oss/controller/ctl_ajax.php','true',0);
+//				}
+//			});
+			
+		});
+		</script>
+
+	</div>
+</div>
+</body></HTML><!-- LOCAL FILES //-->
+<link href="/oss/common/css/oss.css?v=2.2" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/oss/common/scripts/oss_ajax.js?v=2.2"></script>
+<script>
+document.observe("dom:loaded", function() {
+	
+});
+</script>

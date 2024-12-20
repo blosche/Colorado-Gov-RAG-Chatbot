@@ -1,0 +1,12 @@
+define flow self check input
+  $allowed = execute self_check_input
+
+  if not $allowed
+    bot refuse to respond
+    stop
+#  else
+#    $answer = execute return_answer(question=$user_message)
+#    bot $answer
+
+define bot refuse to respond
+  "I am sorry, I am not allowed to answer about this topic."

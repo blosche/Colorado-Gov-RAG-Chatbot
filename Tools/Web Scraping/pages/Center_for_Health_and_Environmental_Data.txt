@@ -1,0 +1,304 @@
+Center for Health and Environmental Data | Department of Public Health & Environment
+Skip to main content
+Search
+Search
+Menu
+Home
+About CDPHE
+Toggle submenu
+Leadership
+Divisions
+Strategic plan
+Environmental Justice
+Nondiscrimination policy and procedures
+Office of Health Equity
+Office of Public Health Practice, Planning, and Local Partnerships
+Emergency preparedness and response
+Toggle submenu
+Hospital medical surge
+Payment portal
+Contact us
+Public information
+Toggle submenu
+Press releases
+Public records and requests
+Find your local public health agency
+Boards and Commissions
+Toggle submenu
+Regulatory documents
+Regulations
+Data
+Health
+Toggle submenu
+Animal-related diseases
+Birth, death, and other vital records
+Communicable Diseases
+Emergency care
+Foodborne illness
+Health facilities
+Laboratory services
+Medical marijuana
+Prevention and wellness
+Toggle submenu
+Babies
+Toggle submenu
+Formula shortage resources
+Chronic diseases
+Health access
+Healthy eating and active living
+Toggle submenu
+Celebrate 6 Award of Breastfeeding Excellence
+Immunization
+Injury prevention
+Marijuana
+Maternal and child health
+Nurturing families and communities
+Nutrition services
+Office of Gun Violence Prevention
+Oral health
+Suicide prevention
+Tobacco
+Women's health
+Sexual and reproductive health
+Sexually transmitted infections and HIV
+Tuberculosis (TB)
+Environment
+Toggle submenu
+Air pollution
+Toggle submenu
+Climate Change
+Toggle submenu
+Colorado Greenhouse Gas Inventory
+Chemicals from firefighting foam & other sources
+Child care and school regulations
+Commerce City - North Denver
+Environmental agriculture
+Environmental health and sustainability
+Food safety and licensing
+Hazardous materials and waste management
+Toggle submenu
+Environmental cleanup
+Hazardous waste management
+Radiation control program
+Toggle submenu
+Colorado Legacy Land/Lincoln Park Superfund site
+Solid waste management
+Laboratory services
+Lead safety
+Toggle submenu
+Test and Fix Water for Kids
+Toggle submenu
+Test & Fix Water for Kids at Family Child Care Homes
+Mercury
+Self audit reporting
+Sustainability programs
+Toxicology and environmental epidemiology
+Toggle submenu
+Oil and gas and your health
+Water quality
+Toggle submenu
+Clean water
+Toggle submenu
+Water Quality - Permits
+Water Quality Standards
+Drinking water – consumers
+Drinking water – public water systems
+Search records
+Engage with the Water Quality Control Division
+Funding - Grants and Loans
+Payment portal
+Report a concern or emergency
+0
+Home
+Center for Health and Environmental Data
+Center for Health and Environmental Data
+Menu Reference Left
+CHED - Center for Health and Environmental Data
+COHID - Colorado Health Information Dataset
+Survey Research and Data
+Pregnancy Risk Assessment Monitoring System - pregnancy and maternal health)
+Baby and You Survey
+Bebe y Tu Survey
+Child Health Survey - child health
+Health eMoms
+Health eMoms survey data
+Health eMoms 2020 Survey Data
+Health eMoms COVID-19 Survey Data
+Health eMoms 2019 survey data
+Health eMoms 2018 survey data
+Healthy Kids Colorado Survey
+Behavioral Risk Factor Surveillance System - adult health
+Colorado Health Study
+Data Source Fact Sheets
+Registries and Vital Statistics
+Vital statistics - births, deaths, fetal deaths, abortions, marriages, divorces
+Birth defects
+Colorado Autism and Developmental Disabilities Monitoring
+Muscular dystrophy resources
+Newborn hearing screening
+Colorado Infant Hearing Advisory Committee
+Newborn hearing screening provider resources
+Cancer - cancer incidence, survival and mortality
+Meaningful use guidance for the Cancer Registry
+Colorado Central Cancer Registry information for cancer reporters
+Colorado Central Cancer Registry information for registrars
+Community cancer investigations
+Violent deaths - suicide, homicide, firearm-related deaths
+Medical aid-in-dying
+State Unintentional Drug Overdose Reporting System (SUDORS)
+Explore Data
+CHED Publications
+Contact Us
+About CHED
+The Center for Health and Environmental Data strives to provide timely, innovative and high-quality public health data collection, analysis and reporting services to drive evidence-based decisions, translate data into action and support policy development to protect and improve the health and environment of all Coloradans.
+CHED Strategic Framework
+#FFFFFF
+CoHID
+(Colorado Health Information Dataset)
+The NEW Colorado Health Information Dataset (CoHID) site provides improved access to state and local-level data and resources compiled by the Colorado Department of Public Health and Environment and its partners to help understand health and related issues affecting people in Colorado. On CoHID you will find information about:
+Live birth data.
+Death data.
+Cancer incidence data.
+Birth defects data.
+Suicide data.
+Drug overdose data.
+Child fatality.
+Population estimates.
+Chronic disease data.
+Maternal health data.
+Colorado health indicators.
+Adolescent and student health data.
+Environmental epidemiology data.
+Communicable disease and STI/HIV data.
+Immunization data.
+Marijuana and health data.
+Community health equity maps.
+Community inclusion and resource maps.
+CDPHE open data.
+This new COHID site
+improves upon its long-standing predecessor, continuing to provide data collected through a variety of CHED’s public health surveillance programs and its public health partners:
+Behavioral Risk Factor Surveillance System (BRFSS).
+Colorado Central Cancer Registry.
+Colorado Responds to Children With Special Needs.
+Colorado Violent Death Reporting System.
+Colorado Vital Statistics Program.
+Healthy Kids Colorado Survey (HKCS).
+Pregnancy Risk Assessment Monitoring System (PRAMS).
+Colorado Child Fatality Prevention System.
+Colorado Immunization Information Service (CIIS).
+Colorado Opioid Overdose Prevention Program.
+Environmental Public Health Tracking Network Program (EPHTN).
+Retail Marijuana Health Monitoring Program.
+Demography Office, Colorado Department of Local Affairs.
+Communicable Disease and STI/HIV/Vital Hepatitis Branches, CDPHE.
+Visit the new CoHID portal here
+Topics
+Birth, death, marriage, divorce, adoption and other vital records.
+Medical Marijuana Registry
+.
+Pregnancy Risk Assessment Monitoring System
+(pregnancy and maternal health).
+Health eMoms
+|
+En español
+​
+New survey data
+.
+Child Health Survey
+(child health).
+Healthy Kids Colorado Survey data
+(adolescent health).
+Behavioral Risk Factor Surveillance System
+(adult health).
+Survey research
+.
+eLPHA Project.
+Registries and Vital Statistics
+Vital statistics
+(births, deaths, fetal deaths, abortions, marriages, divorces).
+Children with special needs
+.
+Autism.
+Birth defects
+.
+Muscular dystrophy
+.
+Newborn hearing screening
+.
+Cancer
+(cancer incidence, survival and mortality).
+Violent deaths
+(suicide, homicide, firearm-related deaths).
+Medical aid-in-dying
+.
+Public Health Informatics
+Explore data
+Data source factsheets
+.
+VISION
+(Visual Information System for Identifying Opportunities and Needs. Chronic disease and behavioral health measures. Prioritized and presented with interactive data visualizations).
+Colorado health indicators
+(Interactive dashboard for exploring multiple indicators, including county-, regional- and state-level data on a variety of health, environmental and social topics).
+CoHiD
+(Colorado Health Information Dataset).
+Colorado suicide data dashboard
+.
+Healthy Kids Colorado Survey data dashboard
+.
+Health maps and GIS.
+Colorado BMI monitoring project
+(Community-level overweight and obesity prevalence estimates).
+Community level estimates
+(Community-level estimates for important health conditions and risk behavior indicators).
+Community health equity map
+(A platform for visualizing geographic disparities for selected social determinants of health and key health conditions/outcomes across Colorado).
+Community inclusion resources and maps
+(Easy-to-access, location-based community information for emergency preparedness and response planning).
+CDPHE open data
+(Selected geospatial data sets, maps, visualization tools, and web-based mapping applications that are published by CDPHE).
+Publications
+Health Watch reports, fact sheets and peer-reviewed manuscripts.
+Submit a data request
+.
+Contact
+Email:
+cdphe.healthstatistics@state.co.us
+/ Phone: 303-692-2160
+#FFFFFF
+#FFFFFF
+4300 Cherry Creek Drive South Denver, CO 80246
+#FFFFFF
+: 303-692-2000
+Information
+About CDPHE
+Get in touch
+Locations
+Press releases
+Careers
+CDPHE privacy notice
+Payment portal
+Nondiscrimination
+Funding opportunities
+Resources
+Find your local public health agency
+Marijuana Health Info
+Colorado Health Information Data Set (CoHID)
+Environmental Public Health Tracking
+Office of Public Health Practice, Planning, and Local Partnerships (OPHP)
+Air Quality - Monitoring, Modeling and Data
+Connect with us
+Facebook
+|
+Twitter
+|
+YouTube
+|
+Instagram
+Google translate
+Accessibility statement and support
+#FFFFFF
+placeholder
+© 2024 State of Colorado
+Transparency Online
+General Notices
+Colorado Official State Web Portal

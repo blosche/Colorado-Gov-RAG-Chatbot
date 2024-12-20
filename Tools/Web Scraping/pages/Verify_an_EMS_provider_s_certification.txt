@@ -1,0 +1,80 @@
+Public Portal
+Session Timeout
+Caution: The current session is approaching the idle timeout limit. To remain logged in, click the button below.
+Mobile Menu
+Account Login
+Lookup
+Personnel
+Services
+Public Lookup
+Mobile Filter
+TIP:
+You can use this Public Lookup to find individual providers, specific agencies/facilities or to view all agencies/facilities for certain types.
+EMS Providers/EMR/Medical Directors: To verify the certification/license/registration of an individual, select "Personnel" from the Type dropdown menu and fill out the First and Last Name fields.
+Air Ambulance Agencies: To verify the license of an air ambulance agency, select "Service" from the Type dropdown menu and fill out the Name field. For a complete listing of all air ambulance agencies, type "Air" in the Name field.
+Education Programs: To verify the recognition of an EMS education program, select "Service" from the Type dropdown menu and fill out the Name field. For a complete listing of all EMS education programs, type "Education" in the Name field.
+Ground Ambulance Services: To verify the license of a ground ambulance service, select "Service" from the Type dropdown menu and fill out the License Level field. For a complete listing of all ground ambulance services, select "Licensed Ground Ambulance Service" for the License Level.
+Trauma Facilities: To find general information for a trauma facility, select "Service" from the Type dropdown menu and fill out the Name field. For a complete listing of all trauma facilities, type "Trauma" in the Name field.
+Validation
+Type:
+Personnel
+Services
+Primary Certification Number:
+License Number:
+Name:
+Birth Date:
+/
+/
+First Name:
+License Level:
+Last Name:
+Training Levels:
+Suffix:
+Name:
+Number:
+City:
+County:
+Service Permit Level:
+Select Service Permit Level
+First Responder
+Emergency Medical Responder (EMR)
+Emergency Medical Technician (EMT)
+Advanced Emergency Medical Technician (AEMT)
+EMT-Intermediate
+Paramedic
+Paramedic with Critical Care Endorsement
+Paramedic with Community Paramedic Endorsement
+Nurse
+Physician
+Class:
+Select Class
+Education Program
+Licensed/Recognized Air Ambulance Agency
+Licensed Ground Ambulance Agency
+Other EMS Service Agency
+Trauma Facility
+Training Level:
+Select Training Level
+EMR Education Group
+EMR Education Center
+EMT Education Group
+EMT Education Center
+EMT IV Therapy Group
+AEMT Education Group
+AEMT Education Center
+EMT-I Education Group
+EMT-I Education Center
+Paramedic Education Group
+Paramedic Education Center
+Training:
+© 2024
+ImageTrend, Inc.
+EMS Operations Sections
+Emergency Medical and Trauma Services Branch
+Colorado Department of Public Health and Environment
+4300 Cherry Creek Drive South
+Denver, CO 80246
+303-691-4932 | 303-691-7720 FAX
+www.coems.info
+|
+cdphe.emtcert@state.co.us

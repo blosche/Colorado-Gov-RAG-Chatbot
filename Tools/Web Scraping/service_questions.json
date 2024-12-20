@@ -1,0 +1,772 @@
+[
+    {
+        "mainText": "Access College in Colorado planning resources",
+        "mainURL": "https://www.mycoloradojourney.com/journey",
+        "deptName": "Department of Higher Education",
+        "deptURL": "https://cdhe.colorado.gov/",
+        "questions": "1. How can My Colorado Journey help students?\n2. Are career planning tools available on My Colorado Journey?\n3. Can My Colorado Journey assist in finding work?\n4. Does My Colorado Journey connect users to education resources?\n5. Are personalized goals part of My Colorado Journey?"
+    },
+    {
+        "mainText": "Apply for an educator license",
+        "mainURL": "https://cool.randasolutions.com/Account/Login?ReturnUrl=/",
+        "deptName": "Department of Education",
+        "deptURL": "https://www.cde.state.co.us/",
+        "questions": "1. How do I apply for an educator license?\n2. What information do I need to provide?\n3. Can I check the status of my application?\n4. Are there specific qualifications required to apply?\n5. How long does the application process take?"
+    },
+    {
+        "mainText": "Apply for Health First Colorado and Child Health Plan Plus",
+        "mainURL": "https://www.colorado.gov/hcpf/how-to-apply",
+        "deptName": "Department of Health Care Policy & Financing",
+        "deptURL": "https://hcpf.colorado.gov/",
+        "questions": "1. How to apply for Health First Colorado?\n2. Where to apply for Child Health Plan Plus?\n3. Can I check my application status?\n4. What are my Health First Colorado options?\n5. How to apply for Child Health Plan Plus?"
+    },
+    {
+        "mainText": "Apply for the College Opportunity Fund",
+        "mainURL": "https://cof.college-assist.org/",
+        "deptName": "Department of Higher Education",
+        "deptURL": "https://cdhe.colorado.gov/",
+        "questions": "1. How do I apply for the College Opportunity Fund?\n2. What are the eligibility requirements for COF?\n3. How much is the stipend for COF?\n4. Can I transfer my COF to a new college?\n5. Can I receive COF at multiple colleges?"
+    },
+    {
+        "mainText": "Apply online for a Work Opportunity Tax Credit",
+        "mainURL": "https://cdle.colorado.gov/work-opportunity-tax-credit",
+        "deptName": "Department of Labor & Employment",
+        "deptURL": "https://cdle.colorado.gov/",
+        "questions": "1. How do I qualify for WOTC credits?\n2. Where can I apply for WOTC online?\n3. Who are the targeted WOTC groups?\n4. What forms are needed for WOTC?\n5. Can I contact WOTC staff for help?"
+    },
+    {
+        "mainText": "Apply to be a methamphetamine labs cleanup instructor or training provider",
+        "mainURL": "https://cdphe.colorado.gov/methlabcleanup",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How can I become a meth lab cleanup instructor?\n2. Where can I apply for meth lab cleanup training?\n3. What are the requirements for meth lab cleanup certification?\n4. How do I get certified to clean meth-affected properties?\n5. Can I provide meth lab cleanup training services?"
+    },
+    {
+        "mainText": "Begin health facility licensing process",
+        "mainURL": "https://cdphe.colorado.gov/health-facilities-licensure-certification-and-registration",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How to start health facility licensing process?\n2. What is Medicare and Medicaid certification process?\n3. Where to find Medicare and Medicaid guidelines?\n4. How to file a health facility complaint?\n5. Can I apply for a mandatory vaccination waiver?"
+    },
+    {
+        "mainText": "Bid on work with the state",
+        "mainURL": "https://osc.colorado.gov/spco/accesscolorado",
+        "deptName": "Department of Personnel & Administration",
+        "deptURL": "https://dpa.colorado.gov/",
+        "questions": "1. How do I register on ColoradoVSS for solicitations?\n2. Where can I find State agency contacts?\n3. What are the Three Steps for suppliers?\n4. Where can I access State price agreements?\n5. How can I research past agency purchases?"
+    },
+    {
+        "mainText": "Center for Health and Environmental Data",
+        "mainURL": "https://cdphe.colorado.gov/center-for-health-and-environmental-data",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. What data does CHED provide for health? \n2. How can I access CoHID resources? \n3. What surveys are available on CHED? \n4. Which registries does CHED offer data from? \n5. Where can I find cancer statistics data?"
+    },
+    {
+        "mainText": "Check the status of a tax refund",
+        "mainURL": "https://tax.colorado.gov/where-is-my-refund",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://tax.colorado.gov/",
+        "questions": "1. How do I check my refund status?\n2. Where's my refund check in the mail?\n3. Why was my direct deposit changed?\n4. Does an identity verification letter delay refunds?\n5. How can I get a refund reissued?"
+    },
+    {
+        "mainText": "Colorado Child Support Services Application",
+        "mainURL": "https://childsupport.state.co.us/siteuser/do/general/application/eAppforservices",
+        "deptName": "Department of Human Services",
+        "deptURL": "https://cdhs.colorado.gov/",
+        "questions": "1. How to apply for child support services online?\n2. When can we expect the county review?\n3. What if I'm receiving TANF benefits?\n4. Are printable applications available in Spanish?\n5. Why should I complete the online application?"
+    },
+    {
+        "mainText": "Colorado Cold Case Database",
+        "mainURL": "https://apps.colorado.gov/apps/coldcase/index.html",
+        "deptName": "Colorado Bureau of Investigation",
+        "deptURL": "https://cbi.colorado.gov/",
+        "questions": "1. \"How can I submit a tip?\"\n2. \"What types of cases are listed?\"\n3. \"Can I view solved cases?\"\n4. \"Which agencies can I contact?\"\n5. \"Are missing persons cases included?\""
+    },
+    {
+        "mainText": "Search for convicted sex offenders in the state of Colorado",
+        "mainURL": "https://www.colorado.gov/apps/cdps/sor/search-agreement.jsf",
+        "deptName": "Department of Public Safety",
+        "deptURL": "https://publicsafety.colorado.gov/",
+        "questions": "1. How can I search for sex offenders?\n2. Can I find sex offenders in Colorado?\n3. Are there convicted sex offenders in Colorado?\n4. How can I get sex offender information?\n5. Where can I find sex offender records?"
+    },
+    {
+        "mainText": "Colorado Division of Professions and Occupations Online Services Portal",
+        "mainURL": "https://apps.colorado.gov/dora/licensing/Default.aspx",
+        "deptName": "Department of Education",
+        "deptURL": "https://www.cde.state.co.us/",
+        "questions": "1. How can I renew my professional license?\n2. How do I apply for a new license?\n3. Can I reinstate an expired license online?\n4. How do I update my contact information?\n5. How can I track my application progress?"
+    },
+    {
+        "mainText": "Colorado Courts",
+        "mainURL": "https://www.courts.state.co.us/",
+        "deptName": "Colorado Judicial Branch",
+        "deptURL": "https://www.courts.state.co.us/",
+        "questions": "1. How do I find my court date?\n2. How can I pay fines online?\n3. Where to find Virtual Courtrooms?\n4. What are Colorado's Trial Courts specialties?\n5. Who serves on Colorado Supreme Court?"
+    },
+    {
+        "mainText": "Colorado Law Help",
+        "mainURL": "https://lawhelp.colorado.gov/",
+        "deptName": "Colorado Judicial Branch",
+        "deptURL": "https://www.courts.state.co.us/",
+        "questions": "1. \"How can I find a lawyer?\"\n2. \"Where can I learn about legal topics?\"\n3. \"How do I access legal materials?\"\n4. \"How can I find free legal events?\"\n5. \"Where can I get in-person legal help?\""
+    },
+    {
+        "mainText": "Colorado Nutrition Portal",
+        "mainURL": "https://co.cnpus.com/Colorado/Splash.aspx",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How do I access CACFP claim due dates?\n2. When are SFSP Applications for PY24 open?\n3. How can I submit a new SFSP site?\n4. What information is needed for CACFP applications?\n5. Who approves data collected in the portal?"
+    },
+    {
+        "mainText": "Colorado PEAK",
+        "mainURL": "https://peak--coloradopeak.force.com/peak/s/peak-landing-page?language=en_US",
+        "deptName": "Colorado Department of Health Care Policy & Financing",
+        "deptURL": "https://hcpf.colorado.gov/contact-hcpf",
+        "questions": "1. How to apply for Colorado PEAK benefits?\n2. What are Colorado PEAK eligibility requirements?\n3. How to renew benefits on Colorado PEAK?\n4. Can I check my Colorado PEAK application status?\n5. Where can I get help with Colorado PEAK?"
+    },
+    {
+        "mainText": "Colorado QuitLine",
+        "mainURL": "https://www.coquitline.org/",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How can I enroll in Colorado QuitLine?\n2. What resources are available for quitting tobacco?\n3. Can I receive free coaching and quit medications?\n4. Is lung cancer screening offered by QuitLine?\n5. How can QuitLine help me quit smoking?"
+    },
+    {
+        "mainText": "Colorado Shines",
+        "mainURL": "https://www.coloradoshines.com",
+        "deptName": "Department of Human Services",
+        "deptURL": "https://cdhs.colorado.gov/",
+        "questions": "1. How can I improve my child's early learning?\n2. What resources are available for child care providers?\n3. How can I find quality child care?\n4. Are there costs for Colorado Shines services?\n5. What support does Colorado Shines offer families?"
+    },
+    {
+        "mainText": "Colorado Volunteer Mobilizer",
+        "mainURL": "https://covolunteers.state.co.us/",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How to register for Colorado Volunteer Mobilizer?\n2. What types of volunteers does CVM need?\n3. How does CVM verify licenses and background?\n4. What kind of emergencies could CVM respond to?\n5. How does CVM notify volunteers during emergencies?"
+    },
+    {
+        "mainText": "Connect for Health Colorado",
+        "mainURL": "http://www.connectforhealthco.com/",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. When can I buy insurance?\n2. Can someone help me enroll?\n3. Where can I find my 1095-A form?\n4. How do I change my information?\n5. What events qualify for special enrollment?"
+    },
+    {
+        "mainText": "Connecting Colorado",
+        "mainURL": "https://www.connectingcolorado.com/",
+        "deptName": "Department of Labor and Employment",
+        "deptURL": "https://cdle.colorado.gov/",
+        "questions": "1. How can I post my r\u00e9sum\u00e9 on ConnectingColorado?\n2. What is the process to apply for a job through ConnectingColorado?\n3. How can employers post job openings on ConnectingColorado?\n4. Can ConnectingColorado help employers connect with qualified workers?\n5. Is ConnectingColorado accessible on mobile devices?"
+    },
+    {
+        "mainText": "Control noxious weeds",
+        "mainURL": "https://ag.colorado.gov/conservation/noxious-weeds",
+        "deptName": "Department of Agriculture",
+        "deptURL": "https://ag.colorado.gov/",
+        "questions": "1. How do I control noxious weeds?\n2. What is the purpose of the Noxious Weeds Program?\n3. How can I prevent invasive species?\n4. What funding is available for weed management?\n5. How does the program educate about weeds?"
+    },
+    {
+        "mainText": "Division of Local Government",
+        "mainURL": "https://cdola.colorado.gov/local-government",
+        "deptName": "Colorado Department of Local Affairs",
+        "deptURL": "https://cdola.colorado.gov/",
+        "questions": "1. How can I access affordable housing funding?\n2. What resources are available for local governments?\n3. Where can I find technical assistance programs?\n4. How does the agency support disaster recovery?\n5. What educational opportunities are offered for local officials?"
+    },
+    {
+        "mainText": "Driver License and ID Card Renewal",
+        "mainURL": "https://mydmv.colorado.gov/",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://cdor.colorado.gov/",
+        "questions": "1. How can I renew my driver's license?\n2. What is the process for ID card renewal?\n3. Where can I go for license renewal?\n4. How often do I need to renew?\n5. Can I renew my license online?"
+    },
+    {
+        "mainText": "EMS Provider Certification",
+        "mainURL": "https://cdphe.colorado.gov/emergency-care/emergency-medical-services/ems-providers/ems-provider-certification",
+        "deptName": "Department of Regulatory Agencies",
+        "deptURL": "https://dora.colorado.gov/",
+        "questions": "1. How do I apply for EMS provider certification?\n2. What are the initial certification requirements for EMS providers?\n3. How can I renew my EMS provider certification?\n4. What is the process for upgrading EMS certification level?\n5. What should I do to reinstate my EMS certification?"
+    },
+    {
+        "mainText": "Explore and file business forms",
+        "mainURL": "https://www.sos.state.co.us/pubs/business/forms_main.html",
+        "deptName": "Department of State",
+        "deptURL": "https://www.sos.state.co.us/",
+        "questions": "1. How do I file a Statement of Trade Name Renewal?\n2. Where can I find a Statement of Change form?\n3. What is the process to Register as a Limited Liability Limited Partnership?\n4. How do I correct the Address for Service of Process on a Trademark?\n5. Can I file a Certificate of Good Standing online?"
+    },
+    {
+        "mainText": "Explore solid waste forms and applications",
+        "mainURL": "https://cdphe.colorado.gov/swforms",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov",
+        "questions": "1. How to compost at home?\n2. What is e-waste recycling?\n3. Where to recycle waste tires?\n4. How to dispose of medical waste?\n5. How to apply for solid waste user fee?"
+    },
+    {
+        "mainText": "Explore the Colorado Fishing Atlas",
+        "mainURL": "http://ndismaps.nrel.colostate.edu/fishingatlas/",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How do I access the Colorado Fishing Atlas?\n2. Can I find fishing locations on the Atlas?\n3. Are there regulations listed on the Atlas?\n4. Can I view fishing reports on the Atlas?\n5. Is the Colorado Fishing Atlas free to use?"
+    },
+    {
+        "mainText": "Explore the Colorado Hunting Atlas",
+        "mainURL": "http://ndismaps.nrel.colostate.edu/huntingatlas",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How do I access the Hunting Atlas?\n2. What information is available on the Atlas?\n3. Can I find hunting regulations on the Atlas?\n4. Are there interactive maps on the Atlas?\n5. Is the Hunting Atlas mobile-friendly?"
+    },
+    {
+        "mainText": "Explore veterans employment resources",
+        "mainURL": "https://vets.colorado.gov/employment-0",
+        "deptName": "Department of Military and Veterans Affairs",
+        "deptURL": "https://vets.colorado.gov/",
+        "questions": "1. Do veterans receive priority in job services?\n2. How can veterans get one-on-one career coaching?\n3. What types of workshops do Workforce Centers offer?\n4. Where can veterans find vocational rehabilitation services?\n5. What are the contact details for veterans' employment services?"
+    },
+    {
+        "mainText": "Explore veterans employment resources",
+        "mainURL": "https://cdle.colorado.gov/jobs-training/veterans",
+        "deptName": "Department of Labor and Employment",
+        "deptURL": "https://cdle.colorado.gov/",
+        "questions": "1. How do veterans access employment assistance services?\n2. What services are offered to eligible spouses?\n3. Where can veterans get help with resume writing?\n4. Can veterans receive vocational guidance at Workforce Centers?\n5. Are veteran services provided free of charge?"
+    },
+    {
+        "mainText": "File a fraud report form",
+        "mainURL": "https://www.stopfraudcolorado.gov/about-consumer-protection/report-fraud.html",
+        "deptName": "Department of Law",
+        "deptURL": "https://coag.gov/",
+        "questions": "1. How to file a complaint with Attorney General?\n2. What types of complaints can be filed?\n3. Can I file a complaint about data breach?\n4. How to report Medicaid fraud and abuse?\n5. Can I file a complaint about insurance fraud?"
+    },
+    {
+        "mainText": "File an online crash report",
+        "mainURL": "https://mydmv.colorado.gov/?Link=AccidentCounterReport",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://dmv.colorado.gov/",
+        "questions": "1. Can I file a CO crash report online?\n2. How to submit a CO crash report?\n3. What information do I need for the online crash report?\n4. Is the online crash report process fast?\n5. Are online crash reports accepted statewide?"
+    },
+    {
+        "mainText": "File your state income taxes online",
+        "mainURL": "http://www.colorado.gov/RevenueOnline",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://tax.colorado.gov/",
+        "questions": "1. How do I file Colorado state taxes online?\n2. Can I e-file my state income taxes?\n3. What are the benefits of Revenue Online?\n4. Is Revenue Online secure for tax filings?\n5. Are there resources for state tax assistance?"
+    },
+    {
+        "mainText": "Find a child car seat fitting station by county",
+        "mainURL": "https://www.codot.gov/safety/carseats/car-seat-fit-recommendations",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://www.codot.gov/",
+        "questions": "1. Where can I find a child car seat fitting station?\n2. How can I ensure my child's seat meets safety standards?\n3. Are there specific size requirements for car seats?\n4. How do I know if my child's seat is installed correctly?\n5. Who can I speak to about car seat recalls?"
+    },
+    {
+        "mainText": "Find a DMV location",
+        "mainURL": "https://dmv.colorado.gov/driver-license-office-locations",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://dmv.colorado.gov/",
+        "questions": "1. Where are Driver License Office Locations?\n2. Which services are provided at DMV locations?\n3. How do I renew my driver license?\n4. What are the hours of operation?\n5. Can I schedule an appointment online?"
+    },
+    {
+        "mainText": "Find a driving class",
+        "mainURL": "https://www.coloradosafedriver.org/",
+        "deptName": "Department of Public Safety",
+        "deptURL": "https://csp.colorado.gov/",
+        "questions": "1. How long is the Alive at 25 course?\n2. What age group is the Attitudinal Dynamics of Driving course for?\n3. What is the duration of the Distracted Driving course?\n4. Can I take the DDC Online course in Spanish?\n5. How many modules are in the Defensive Driving program?"
+    },
+    {
+        "mainText": "Find a WIC Clinic",
+        "mainURL": "https://www.coloradowic.gov/find-wic-clinic",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. \"How do I find a WIC Clinic?\"\n2. \"What services does WIC Clinic offer?\"\n3. \"Are WIC Clinics open on weekends?\"\n4. \"Can I apply for WIC benefits online?\"\n5. \"Which WIC Clinic is nearest to me?\""
+    },
+    {
+        "mainText": "Find a workforce center",
+        "mainURL": "https://cdle.colorado.gov/wfc",
+        "deptName": "Department of Labor and Employment",
+        "deptURL": "https://cdle.colorado.gov/",
+        "questions": "1. Where can I find job listings?\n2. How do I get career counseling?\n3. Are there free training programs available?\n4. Can employers get tax credits?\n5. What are Workforce Center's hours of operation?"
+    },
+    {
+        "mainText": "Find active water rights calls",
+        "mainURL": "https://dwr.state.co.us/Tools/AdministrativeCalls/Active",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. \"How to find active water rights calls?\"\n2. \"What are futile water rights calls?\"\n3. \"Can I search for nonconsumptive water calls?\"\n4. \"Where to locate water source call analysis?\"\n5. \"How to view historical structure call analysis?\""
+    },
+    {
+        "mainText": "Find an Inmate",
+        "mainURL": "http://www.doc.state.co.us/oss/",
+        "deptName": "Department of Corrections",
+        "deptURL": "https://cdoc.colorado.gov/",
+        "questions": "1. How can I search for an inmate?\n2. What information do I need to search?\n3. Can I search by DOC number?\n4. How do I find an inmate's name?\n5. What inmate details can I access?"
+    },
+    {
+        "mainText": "Find and Compare Health Facilities",
+        "mainURL": "https://cdphe.colorado.gov/find-and-compare-facilities",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How to find health facility vaccination reporting?\n2. Where to compare Medicare-certified health facilities?\n3. How to verify QMAP in health facilities?\n4. Where to file complaints about health facilities?\n5. How to access health care facility guidelines?"
+    },
+    {
+        "mainText": "Find health facilities by type and by city or county",
+        "mainURL": "https://cdphe.colorado.gov/find-and-compare-facilities",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. \"How to find health facilities by city?\"\n2. \"Where can I compare health facilities?\"\n3. \"How to locate health facilities by type?\"\n4. \"Can I search for facilities by county?\"\n5. \"Where to find city-specific health facilities?\""
+    },
+    {
+        "mainText": "Find out if a site is contaminated",
+        "mainURL": "https://cdphe.colorado.gov/if-site-contaminated",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How to check if a site is contaminated?\n2. How to find contaminated site information?\n3. How to locate leaking petroleum storage tanks?\n4. How to review hazardous waste inspection reports?\n5. How to get information on radioactive materials sites?"
+    },
+    {
+        "mainText": "Get copies of occupational school student transcripts",
+        "mainURL": "https://highered.colorado.gov/DPOS/Payments/Transcript_Request.aspx",
+        "deptName": "Department of Higher Education",
+        "deptURL": "https://cdhe.colorado.gov/",
+        "questions": "1. How to request DHE student transcripts?\n2. Where to select occupational school for request?\n3. How to obtain student records from DPOS?\n4. How to begin transcript request process?\n5. What are DPOS student record options?"
+    },
+    {
+        "mainText": "Get Vaccinated",
+        "mainURL": "https://cdphe.colorado.gov/immunizations/get-vaccinated",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. Where can I get free vaccines?\n2. How to find vaccine clinics for kids?\n3. Are vaccines covered by my insurance?\n4. How to locate a flu vaccine?\n5. Where can I get a COVID-19 vaccine?"
+    },
+    {
+        "mainText": "HIV Linkage to Care",
+        "mainURL": "https://cdphe.colorado.gov/living-with-hiv",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. What is Linkage to Care?\n2. How to find a Linkage to Care Specialist?\n3. What is case management for people with HIV?\n4. How to get help covering medication costs?\n5. How to find an Infectious Disease Provider?"
+    },
+    {
+        "mainText": "Learn about animal importing",
+        "mainURL": "https://ag.colorado.gov/animals/import-requirements",
+        "deptName": "Department of Agriculture",
+        "deptURL": "https://ag.colorado.gov/",
+        "questions": "1. What are Colorado's animal import rules?\n2. How can I obtain an import permit?\n3. What are Approved Tagging Sites in Colorado?\n4. How do veterinarians get entry permits?\n5. How can I learn regulations for moving livestock?"
+    },
+    {
+        "mainText": "Learn About WIC",
+        "mainURL": "https://www.coloradowic.gov/about",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How can I apply for WIC benefits?\n2. What kind of food does WIC provide?\n3. Can WIC help with breastfeeding support?\n4. What kind of nutrition education does WIC offer?\n5. Are there additional services beyond WIC benefits?"
+    },
+    {
+        "mainText": "License a measurement standards device",
+        "mainURL": "https://ag.colorado.gov/ics/measurement-standards",
+        "deptName": "Department of Agriculture",
+        "deptURL": "https://ag.colorado.gov/",
+        "questions": "1. How do I certify measuring devices?\n2. What is the method of sale enforcement?\n3. What happens during label inspections?\n4. Who conducts price verification inspections?\n5. What are the unit pricing requirements?"
+    },
+    {
+        "mainText": "Locate Medicaid and Child Health Plan Plus providers",
+        "mainURL": "https://www.colorado.gov/hcpf/find-doctor",
+        "deptName": "Department of Health Care Policy & Financing",
+        "deptURL": "https://hcpf.colorado.gov/",
+        "questions": "1. How do I find Medicaid providers?\n2. Does Child Health Plan Plus cover pharmacies?\n3. Where can I search for Health First Colorado doctors?\n4. Can I locate behavioral health services providers?\n5. How can I find a new doctor?"
+    },
+    {
+        "mainText": "Make a camping reservation",
+        "mainURL": "https://www.cpwshop.com/campinghome.page",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How do I reserve a camping spot?\n2. Is camping available this weekend?\n3. Can I book a day-use site?\n4. What are the camping reservation options?\n5. Where can I find a campground?"
+    },
+    {
+        "mainText": "Make a Department of Corrections request for records",
+        "mainURL": "https://cdoc.colorado.gov/news-and-records/cora/ccjra",
+        "deptName": "Department of Corrections",
+        "deptURL": "https://cdoc.colorado.gov/",
+        "questions": "1. How do I request Department of Corrections records?\n2. What information do I need to provide?\n3. Where should I send my email request?\n4. How will my request be responded to?\n5. Is there a specific email for record requests?"
+    },
+    {
+        "mainText": "Make a hazardous materials public records request",
+        "mainURL": "https://cdphe.colorado.gov/hmwmd-records-review",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. How can I request hazardous waste records?\n2. What type of records does HMWMD maintain?\n3. When will HMWMD respond to record requests?\n4. Are there fees for file reviews?\n5. Can I submit a records review request online?"
+    },
+    {
+        "mainText": "Manage livestock brands",
+        "mainURL": "https://ag.colorado.gov/brands",
+        "deptName": "Department of Agriculture",
+        "deptURL": "https://ag.colorado.gov/",
+        "questions": "1. How to search for livestock brands?\n2. Can I request a brand inspection?\n3. Where to report missing livestock?\n4. What are the laws on livestock brands?\n5. How to contact the Brand Inspection Division?"
+    },
+    {
+        "mainText": "Manage my tax account",
+        "mainURL": "https://tax.colorado.gov/ROL-help",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://tax.colorado.gov/",
+        "questions": "1. How do I set up my tax account online?\n2. Can I manage my tax payments through this?\n3. What options are available for tax refunds?\n4. How can I access online tax forms?\n5. How can I check my tax payment status?"
+    },
+    {
+        "mainText": "Manage or renew your real estate license",
+        "mainURL": "https://dre.colorado.gov/",
+        "deptName": "Department of Regulatory Agencies",
+        "deptURL": "https://dre.colorado.gov/",
+        "questions": "1. How do I renew my real estate license?\n2. Can I manage my real estate license online?\n3. Where can I apply for real estate license renewal?\n4. What are the steps for license renewal?\n5. How do I check my license status?"
+    },
+    {
+        "mainText": "Manage your insurance producer license",
+        "mainURL": "https://www.sircon.com/landingPages/states/colorado/content.jsp",
+        "deptName": "Department of Regulatory Agencies",
+        "deptURL": "https://dora.colorado.gov/",
+        "questions": "1. How can I renew my insurance license?\n2. Can I change my agency email address?\n3. Where can I check license application status?\n4. What's the process for changing agency associations?\n5. How do I print a license online?"
+    },
+    {
+        "mainText": "MyBizColorado",
+        "mainURL": "https://mybiz.colorado.gov/",
+        "deptName": "Department of State",
+        "deptURL": "https://www.sos.state.co.us/",
+        "questions": "1. How do I register my business online?\n2. Can I file my business taxes online?\n3. Where can I find resources for hiring?\n4. How do I renew my business license?\n5. What services does MyBizColorado offer business owners?"
+    },
+    {
+        "mainText": "Notify gaming officials of an arrest",
+        "mainURL": "https://sbg.colorado.gov/arrest-notification-form",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://cdor.colorado.gov/",
+        "questions": "1. How do I notify gaming officials of an arrest?\n2. What should I do after getting arrested?\n3. How can I report a criminal conviction?\n4. Where should I send arrest-related documentation?\n5. What can happen if I don't report an arrest?"
+    },
+    {
+        "mainText": "Pay a City of Denver parking ticket",
+        "mainURL": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Parking-Division/Tickets-and-Towing/Pay-a-Parking-Ticket",
+        "deptName": "City and County of Denver",
+        "deptURL": "https://www.denvergov.org/Home",
+        "questions": "1. How can I pay a Denver parking ticket online?\n2. What payment methods are accepted for parking tickets?\n3. Can I dispute a Denver parking citation online?\n4. What happens if I don't pay my parking ticket within 20 days?\n5. How do I contact the Parking Violations Bureau?"
+    },
+    {
+        "mainText": "Pay a debt owed to the State of Colorado",
+        "mainURL": "https://tax.colorado.gov/collections",
+        "deptName": "Department of Personnel & Administration",
+        "deptURL": "https://dpa.colorado.gov/",
+        "questions": "1. How to make a tax payment?\n2. Can I set up a payment plan?\n3. What happens if I owe taxes?\n4. How do I dispute a tax bill?\n5. What are refund interception options?"
+    },
+    {
+        "mainText": "Pay taxes online",
+        "mainURL": "https://tax.colorado.gov/pay",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://tax.colorado.gov",
+        "questions": "1. How can I pay my taxes online?\n2. What payment methods are accepted online?\n3. Can I set up a payment plan?\n4. Are there options for international payments?\n5. How do I check my refund status?"
+    },
+    {
+        "mainText": "Pay your boiler inspection invoice online",
+        "mainURL": "https://joportal.com/CO",
+        "deptName": "Department of Labor and Employment",
+        "deptURL": "https://cdle.colorado.gov/",
+        "questions": "1. How can I pay my boiler inspection invoice online?\n2. Where can I find unpaid invoices to pay?\n3. What actions can I take with my invoices?\n4. Can I search for boiler locations online?\n5. How do I register for the eCommerce site?"
+    },
+    {
+        "mainText": "Pay your petroleum tank invoice online",
+        "mainURL": "https://www.colorado.gov/apps/cdle/ops/payment/storagetanks/index.jsf",
+        "deptName": "Department of Labor and Employment",
+        "deptURL": "https://cdle.colorado.gov/",
+        "questions": "1. How can I pay my petroleum tank invoice online?\n2. What information do I need to provide for payment?\n3. Can I select which invoices to pay online?\n4. Is there a way to dispute any errors?\n5. How do I contact support for additional assistance?"
+    },
+    {
+        "mainText": "Purchase a fishing license online",
+        "mainURL": "https://cpw.state.co.us/buyapply/Pages/Fishing.aspx",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How can I buy a fishing license?\n2. Can I purchase a license online?\n3. What are the payment options for licenses?\n4. Are there different types of fishing licenses?\n5. Where can I go to buy licenses in person?"
+    },
+    {
+        "mainText": "Purchase a hunting license online",
+        "mainURL": "https://cpw.state.co.us/buyapply/pages/hunting.aspx",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. Where can I buy a hunting license in person?\n2. How can I purchase a hunting license online?\n3. What are the payment options for hunting licenses?\n4. Do I need Hunter Education before buying a license?\n5. What is required to access State Wildlife Areas?"
+    },
+    {
+        "mainText": "Purchase Colorado State Parks gift certificates",
+        "mainURL": "https://www.cpwshop.com/giftcertificates.page",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How do I purchase Colorado State Parks gift certificates?\n2. Can I buy Colorado State Parks gift certificates online?\n3. Are Colorado State Parks gift certificates available for purchase?\n4. Where can I get Colorado State Parks gift certificates?\n5. How can I buy gift certificates for Colorado State Parks?"
+    },
+    {
+        "mainText": "Purchase your annual parks pass online",
+        "mainURL": "https://www.cpwshop.com/privilegepos.page",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How do I purchase a Colorado parks pass?\n2. Can I buy an annual pass online?\n3. Where can I complete my parks pass purchase?\n4. Why am I in a queue to buy a parks pass?\n5. What should I do to keep my place in line for the parks pass purchase?"
+    },
+    {
+        "mainText": "Register for electronic funds transfer",
+        "mainURL": "https://tax.colorado.gov/electronic-funds-transfer",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://tax.colorado.gov/",
+        "questions": "1. How do I schedule future payments online?\n2. Can I view payment history online?\n3. What is the EFT Helpline phone number?\n4. How to create a Revenue Online account?\n5. Is there a Service Center appointment required?"
+    },
+    {
+        "mainText": "Register for hazardous waste workshops and training",
+        "mainURL": "https://cdphe.colorado.gov/colorado-haz-waste-reg-training",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. What is the cost of online training?\n2. Where to register for hazardous waste workshops?\n3. How can I contact Laura Gurule?\n4. When is the in-person hazardous waste training?\n5. What topics are covered in the 2023 training?"
+    },
+    {
+        "mainText": "Register for real time alerts from CDOT",
+        "mainURL": "http://subscription.cotrip.org/",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://www.codot.gov/",
+        "questions": "1. How do I sign up for CDOT alerts?\n2. What types of alerts can I receive?\n3. How can I get specific construction updates?\n4. Are there trucker alerts available?\n5. Can I get notified about regional news?"
+    },
+    {
+        "mainText": "Renew your boat registration online",
+        "mainURL": "https://cpw.state.co.us/buyapply/Pages/BoatingRegistrations.aspx",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How do I renew my boat registration online?\n2. What is the fee for boat registration renewal?\n3. Where can I get an ANS stamp?\n4. What are the registration requirements for non-residents?\n5. Can I register my boat at CPW offices?"
+    },
+    {
+        "mainText": "Renew your OHV registration online",
+        "mainURL": "https://cpw.state.co.us/buyapply/Pages/RegistrationsOHV.aspx",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How do I renew my OHV registration online?\n2. What is needed to operate an OHV in Colorado?\n3. How long is an OHV registration valid?\n4. Where should OHV registration decals be placed?\n5. How can I get a duplicate OHV registration?"
+    },
+    {
+        "mainText": "Renew your snowmobile registration online",
+        "mainURL": "https://cpw.state.co.us/buyapply/Pages/SnowmobileRegistrations.aspx",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How do I renew my snowmobile registration?\n2. What is the annual registration fee?\n3. Where can I register my snowmobile?\n4. Do non-residents need to purchase a permit?\n5. How do I handle out-of-state snowmobiles?"
+    },
+    {
+        "mainText": "Renew your vehicle registration online",
+        "mainURL": "https://www.colorado.gov/apps/dor/dmv/vehicle/registration/renewal/welcome.jsf",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://dmv.colorado.gov/",
+        "questions": "1. Renew vehicle registration online without delay?\n2. Can I update vehicle registration information online?\n3. Any discounts for renewing vehicle registration online?\n4. How do I renew vehicle registration digitally?\n5. Quick steps to complete vehicle registration renewal?"
+    },
+    {
+        "mainText": "Report suspicious activity",
+        "mainURL": "https://ciacco.org/default.aspx?menuitemid=61",
+        "deptName": "Department of Public Safety",
+        "deptURL": "https://publicsafety.colorado.gov/",
+        "questions": "1. How do I report suspicious activity online?\n2. Who should I contact for reporting fraud?\n3. Can I report suspicious claims anonymously?\n4. What type of activities should I report?\n5. Is there a way to report scams?"
+    },
+    {
+        "mainText": "Report employer fraud",
+        "mainURL": "https://cdle.colorado.gov/fraud-prevention",
+        "deptName": "Department of Labor and Employment",
+        "deptURL": "https://cdle.colorado.gov/",
+        "questions": "1. How do I report unemployment fraud?\n2. What steps should I take for identity theft?\n3. Where can I report employer fraud?\n4. How can I protect against fraud?\n5. Are there resources for fraud recovery?"
+    },
+    {
+        "mainText": "Request a biocontrol bug",
+        "mainURL": "https://ag.colorado.gov/conservation/biocontrol/request-a-bug",
+        "deptName": "Department of Agriculture",
+        "deptURL": "https://ag.colorado.gov/",
+        "questions": "1. How to join Biocontrol Request-A-Bug waitlist?\n2. Can private landowners request Dalmatian Toadflax biocontrol?\n3. What are the fees for Russian Knapweed biocontrol?\n4. Who should be contacted for Puncturevine biocontrol?\n5. Are Tamarisk beetles available for public land managers?"
+    },
+    {
+        "mainText": "Request a military retirement letter from the Governor",
+        "mainURL": "https://www.colorado.gov/governor/letter-request",
+        "deptName": "Office of the Governor",
+        "deptURL": "https://www.colorado.gov/governor",
+        "questions": "1. How to request a military retirement letter?\n2. Can the Governor provide military retirement letters?\n3. Where to request military retirement letters?\n4. Need help getting a military retirement letter?\n5. How to contact Governor Polis for letters?"
+    },
+    {
+        "mainText": "Request public records through the Colorado Open Records Act",
+        "mainURL": "https://cdor.colorado.gov/cora-request-form",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://cdor.colorado.gov/",
+        "questions": "1. How do I request public records?\n2. What is the Colorado Open Records Act?\n3. What type of information can I request?\n4. How are requested reports delivered?\n5. Which personal information is redacted?"
+    },
+    {
+        "mainText": "Revenue Online",
+        "mainURL": "https://www.colorado.gov/revenueonline",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://cdor.colorado.gov/",
+        "questions": "1. How can I file taxes online?\n2. What types of payments can be made?\n3. Are business taxes supported on Revenue Online?\n4. Is there a deadline for tax filing?\n5. Can I find previous tax returns online?"
+    },
+    {
+        "mainText": "Review Colorado Department of Public Safety rules in development",
+        "mainURL": "https://publicsafety.colorado.gov/get-involved/rules-and-regulations",
+        "deptName": "Department of Public Safety",
+        "deptURL": "https://publicsafety.colorado.gov/",
+        "questions": "1. How can I participate in CDPS rulemaking?\n2. Where are upcoming CDPS rule hearings?\n3. How do I submit comments on rules?\n4. Who should I contact for rule info?\n5. What are upcoming CDPS rule updates?"
+    },
+    {
+        "mainText": "Review limited license draw results and preference point status",
+        "mainURL": "http://cpw.state.co.us/thingstodo/Pages/DrawResults_PreferencePoints.aspx",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. When are limited license draw results posted?\n2. What happens if I miss the payment deadline?\n3. How can I check my preference points?\n4. How can I report incorrect information?\n5. Where can I find hunting statistics data?"
+    },
+    {
+        "mainText": "Review resources for commercial pesticide applicators",
+        "mainURL": "https://ag.colorado.gov/plants/pesticides",
+        "deptName": "Department of Agriculture",
+        "deptURL": "https://ag.colorado.gov/",
+        "questions": "1. How do I find licensed commercial applicators?\n2. What are the requirements for dicamba training?\n3. How can I file a complaint about pesticide misuse?\n4. What are the neonicotinoid limited-use pesticides?\n5. How do I apply for the Pesticide Sensitive Registry?"
+    },
+    {
+        "mainText": "Safe2Tell",
+        "mainURL": "https://safe2tell.org/",
+        "deptName": "Department of Law",
+        "deptURL": "https://coag.gov/",
+        "questions": "1. How can I report anonymously to Safe2Tell?\n2. What kind of concerns can I report?\n3. How can I submit a report?\n4. What happens after I make a report?\n5. Who receives the reports at Safe2Tell?"
+    },
+    {
+        "mainText": "Schedule a DMV appointment",
+        "mainURL": "https://dmv.colorado.gov/AppointmentScheduling",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://dmv.colorado.gov/",
+        "questions": "1. How can I schedule a DMV appointment?\n2. What services can I access online?\n3. Do I need an appointment for DMV services?\n4. How do I cancel a DMV appointment?\n5. Can I check my license status online?"
+    },
+    {
+        "mainText": "SchoolView",
+        "mainURL": "https://www.cde.state.co.us/schoolview",
+        "deptName": "Department of Education",
+        "deptURL": "https://www.cde.state.co.us/",
+        "questions": "1. \"How to search for a public school?\"\n2. \"Can I view district financial transparency?\"\n3. \"What data is included in SchoolView?\"\n4. \"Where can I find educator talent data?\"\n5. \"How to access assessment information?\""
+    },
+    {
+        "mainText": "Search for business records",
+        "mainURL": "http://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do",
+        "deptName": "Department of State",
+        "deptURL": "https://www.sos.state.co.us/",
+        "questions": "1. How can I search for a business?\n2. What information can I find through search?\n3. Can I search businesses by ID number?\n4. How do I check a business' trademark?\n5. Can I search for business survey information?"
+    },
+    {
+        "mainText": "Search for oil and gas drilling permits",
+        "mainURL": "https://cogcc.state.co.us/permits/",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. Where can I search for Oil & Gas Development Plans (OGDP)?\n2. How can I find pending Oil & Gas Location Assessments?\n3. Which counties have approved Oil & Gas Location Assessments?\n4. What is the process for Form 2C Completeness Review?\n5. How can I locate Form 2As approved recently?"
+    },
+    {
+        "mainText": "Search for Veterans Service Officers by county",
+        "mainURL": "https://vets.colorado.gov/services/county-veterans-service-offices",
+        "deptName": "Department of Military and Veterans Affairs",
+        "deptURL": "https://vets.colorado.gov/",
+        "questions": "1. \"How can I contact County Veterans Service Offices?\"\n2. \"When are County Veterans Service Offices open?\"\n3. \"What assistance do County Veterans Service Officers provide?\"\n4. \"Which county has a Veterans Service Office?\"\n5. \"Do County Veterans Service Offices offer appeals assistance?\""
+    },
+    {
+        "mainText": "Search the Colorado State Publications Library catalog",
+        "mainURL": "https://athena.cde.state.co.us/screens/opacmenu_s1.html",
+        "deptName": "Department of Education",
+        "deptURL": "https://www.cde.state.co.us/",
+        "questions": "1. How do I search the State Publications Library catalog?  \n2. What type of materials can I find?  \n3. Can I search by author or subject?  \n4. How can I find specific government documents?  \n5. Is the catalog accessible to all users?"
+    },
+    {
+        "mainText": "Search water diversions data",
+        "mainURL": "https://dwr.state.co.us/Tools/Structures",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How can I access water diversions data?\n2. Where can I find diversion record details?\n3. Can I search water diversion records by date?\n4. How do I view water source call alerts?\n5. Is there a way to analyze water source calls?"
+    },
+    {
+        "mainText": "Search water rights data",
+        "mainURL": "https://dwr.state.co.us/Tools/WaterRights/Transactions",
+        "deptName": "Department of Natural Resources",
+        "deptURL": "https://dnr.colorado.gov/",
+        "questions": "1. How to search water rights data?\n2. What are water rights transactions?\n3. Can I view well permits information?\n4. How to check water diversion records?\n5. Where can I find water source data?"
+    },
+    {
+        "mainText": "Second Chance",
+        "mainURL": "http://www.secondchancetobacco.org/",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. What is Second Chance rental assistance program?\n2. How can I qualify for Second Chance program?\n3. Does Second Chance offer financial support for rent?\n4. How do I apply for Second Chance help?\n5. Can Second Chance assist with housing stability?"
+    },
+    {
+        "mainText": "State of Colorado Job Opportunities",
+        "mainURL": "https://www.governmentjobs.com/careers/Colorado",
+        "deptName": "Department of Personnel & Administration",
+        "deptURL": "https://dpa.colorado.gov/",
+        "questions": "1. How do I view State of Colorado job opportunities?\n2. What are the State of Colorado job categories?\n3. Can I apply for State of Colorado job promotions?\n4. What are the requirements for State job applications?\n5. Where can I find State of Colorado job descriptions?"
+    },
+    {
+        "mainText": "Subscribe to receive tax news",
+        "mainURL": "https://tax.colorado.gov/email-sign-up",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://tax.colorado.gov/",
+        "questions": "1. How do I sign up for tax news alerts?\n2. Can I receive tax information by email?\n3. What types of tax alerts are available?\n4. How can I subscribe to multiple lists?\n5. How can I prevent email alerts from spam?"
+    },
+    {
+        "mainText": "Subscribe to Safe2Tell",
+        "mainURL": "https://visitor.r20.constantcontact.com/manage/optin?v=001c5nCkPxO9LdrF0AG4XP7-6Erx-M58_jKOd8BjN0900AQE9q4hTBHSH8DoS4MApkLFGMOfWiCOC-Yh9Q_au5aXVJ88rMjEwNN",
+        "deptName": "Department of Law",
+        "deptURL": "https://coag.gov/",
+        "questions": "1. How can I subscribe to Safe2Tell emails?\n2. What information is needed for Safe2Tell subscription?\n3. How do I stay updated with Safe2Tell?\n4. Can I receive Safe2Tell communications by text?\n5. Is there an option for Safe2Tell newsletters?"
+    },
+    {
+        "mainText": "Access TobaccoFreeCO resources",
+        "mainURL": "http://www.tobaccofreeco.org/",
+        "deptName": "Department of Public Health & Environment",
+        "deptURL": "https://cdphe.colorado.gov/",
+        "questions": "1. Where can I find free quit resources?\n2. How can I support someone quitting?\n3. How do I talk to youth about vaping?\n4. What tobacco use resources are available?\n5. How can I access coaching and patches?"
+    },
+    {
+        "mainText": "Transparency Online Project",
+        "mainURL": "https://data.colorado.gov/Government/Transparency-Online-Project-TOPS-State-Government-/rifs-n6ib",
+        "deptName": "Department of Personnel & Administration",
+        "deptURL": "https://dpa.colorado.gov/",
+        "questions": "1. What information does TOPS provide about Colorado's revenue?\n2. How does TOPS track Colorado's budget expenditures?\n3. Is TOPS still operational for revenue data?\n4. Can I find detailed expense breakdowns on TOPS?\n5. Does TOPS show current Colorado financial data?"
+    },
+    {
+        "mainText": "Vehicle Registration Renewal",
+        "mainURL": "http://www.colorado.gov/renewplates",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://cdor.colorado.gov/",
+        "questions": "- How do I renew my vehicle registration?\n- When is my vehicle registration due?\n- What documents do I need to renew?\n- Can I renew my registration online?\n- Where can I get my new registration?"
+    },
+    {
+        "mainText": "View information for truckers",
+        "mainURL": "https://cotrip.org/truckers.htm",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://www.codot.gov",
+        "questions": "- What trucker information is available on COtrip?\n- How can truckers access updates on COtrip?\n- Are there specific services for truckers on COtrip?\n- Where can truckers find route information on COtrip?\n- How does COtrip assist truck drivers?"
+    },
+    {
+        "mainText": "View road conditions throughout the state",
+        "mainURL": "https://cotrip.org/map.htm#/roadConditions",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://www.codot.gov/",
+        "questions": "1. What are current road conditions in Colorado?\n2. How can I check road conditions statewide?\n3. Where can I find real-time traffic updates?\n4. Is there a way to view road closures?\n5. How do I access COtrip traveler information?"
+    },
+    {
+        "mainText": "View road conditions throughout the state",
+        "mainURL": "https://cotrip.org/map.htm#/roadConditions",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://www.codot.gov/",
+        "questions": "1. How to view COtrip road conditions?\n2. Where are COtrip travel updates shown?\n3. How to check COtrip highway status?\n4. Where can I see COtrip traffic info?\n5. How to access COtrip road updates?"
+    },
+    {
+        "mainText": "View road work throughout the state",
+        "mainURL": "https://cotrip.org/map.htm#/roadWork",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://www.codot.gov/",
+        "questions": "1. \"Where can I view road work status?\"\n2. \"How to track statewide road construction?\"\n3. \"Can I see ongoing state road projects?\"\n4. \"How to check road work updates?\"\n5. \"Where to find Colorado road work information?\""
+    },
+    {
+        "mainText": "View speeds throughout the state",
+        "mainURL": "https://cotrip.org/map.htm#/speed",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://www.codot.gov/",
+        "questions": "1. \"How can I view Colorado travel speeds?\"\n2. \"Where can I check Colorado highway speeds?\"\n3. \"How to access COtrip traveler speed information?\"\n4. \"What speeds can I view across Colorado?\"\n5. \"How to see statewide speeds on COtrip?\""
+    },
+    {
+        "mainText": "View travel alerts throughout the state",
+        "mainURL": "https://cotrip.org/travelAlerts.htm#?roadId=",
+        "deptName": "Department of Transportation",
+        "deptURL": "https://www.codot.gov/",
+        "questions": "1. How do I view travel alerts in Colorado?\n2. Where can I find state travel updates?\n3. Can I access travel info statewide?\n4. What alerts are available for travelers?\n5. How can I check Colorado travel updates?"
+    },
+    {
+        "mainText": "View where your tax dollars go with Colorado Tax Tracks",
+        "mainURL": "https://apps.colorado.gov/apps/treasury/taxpayer/profile/",
+        "deptName": "Department of Revenue",
+        "deptURL": "https://www.colorado.gov/taxtracks/",
+        "questions": "1. How can I view my state tax breakdown?\n2. What is Annual Adjusted Money Income used for?\n3. Where do I find where my tax dollars go?\n4. Can I see a breakdown of tax allocations?\n5. How high does the income limit go?"
+    }
+]

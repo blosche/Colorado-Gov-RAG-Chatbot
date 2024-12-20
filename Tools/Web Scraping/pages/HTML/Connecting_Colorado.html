@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>ConnectingColorado</title>
+<meta name="description" content="Search for Jobs in Colorado">
+<meta name="author" content="Colorado Department of Labor and Employment, CSDC">
+<meta name="viewport" content="width=device-width">
+<meta name="copyright" content="Computer Systems Design Company, 2023">
+<!-- Copyright 2023 by Computer Systems Design Company -->
+<link href="/css/mobile_test.css" rel="stylesheet" type="text/css">
+<link href="/css/buttons2020.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+      rel="stylesheet">
+<link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="/keytabz.js"></script>
+<script src="/g_app_ret_1_login_m.js?1"></script>
+<script src="/js_edit/f_emp_ret_1_login_m.js"></script>
+<script type="text/Javascript">
+<!--
+
+function app_getenter(check)
+{if((check.keyCode && check.keyCode==13) ||
+    (check.which && check.which==13))
+ {if(g_app_ret_1_login())document.appret1login.submit();}}
+
+function emp_getenter(check)
+{if((check.keyCode && check.keyCode==13) ||
+    (check.which && check.which==13))
+ {if(f_emp_ret_1_login())document.empret1login.submit();}}
+
+window.onload = function() {
+  init();
+  getBrowser();
+}
+
+function init() {
+    var x = document.getElementsByTagName("input")[0];
+    var style = window.getComputedStyle(x);
+    console.log(style);
+
+    if (style.webkitTextSecurity) {
+        // Do nothing
+    } else {
+        x.setAttribute("type", "password");
+    }
+}
+
+function getBrowser() {
+  const { userAgent } = navigator;
+  if(userAgent.includes('Firefox/')){
+    console.log(userAgent);
+    var verStart = userAgent.indexOf("Firefox/");
+    var trimVer = userAgent.slice(verStart,verStart+11);
+    var version = trimVer.slice(8,11);
+    console.log('Firefox version ' + version);
+    var num = Number.parseInt(version);
+    if(num < 85){
+      document.getElementById('google_translate_element').outerHTML="";
+    alert("If you are running Mozilla Firefox, the Google Translate function " +
+            "of ConnectingColorado.com requires that you use version 85 " +
+            "or newer.\n\nPlease update your browser.");
+    }
+  }
+}
+
+function show_pwd_field(field,whicheye)
+{if(field.type == "password")
+   {field.type = "text";
+    document.getElementById(whicheye).classList.remove("fa-eye");
+    document.getElementById(whicheye).classList.add("fa-eye-slash");}
+ else
+   { field.type = "password";
+    document.getElementById(whicheye).classList.add("fa-eye");
+    document.getElementById(whicheye).classList.remove("fa-eye-slash");
+    }}
+
+// -->
+</script>
+<script type="text/JavaScript">
+window.addEventListener("touchend", function(event) {
+ if(event.target.className !== "tooltip") {
+    document.getElementById("openjobs").style.visibility = "hidden";}});
+
+window.addEventListener("touchend", function(event) {
+ if(event.target.className !== "tooltip") {
+    document.getElementById("openneut").style.visibility = "hidden";}});
+
+window.addEventListener("touchend", function(event) {
+ if(event.target.className !== "tooltip") {
+    document.getElementById("monthjobs").style.visibility = "hidden";}});
+</script>
+<style>
+.bluetiptext {
+    box-shadow: 3px 3px 8px #333333;
+}
+
+</style>
+
+</head>
+<body bgcolor="#86a0c3">
+<div class="mobile-form" style="z-index: -2; max-width: 900px !important;">
+<header>
+ <div id="header" style="display: block; z-index: 1; min-height: 70px;">
+  <div id="logospot" class="logospot">
+   <img src="https://www.connectingcolorado.com/images/cwf2_03.png" 
+       alt="Connecting Colorado Logo" class="cclogo"
+       style="width: 100%; padding-top: 10px; padding-left: 10px;">
+  </div>
+  <div id="google_translate_element" class="translate">
+   <script type="text/javascript">
+    function googleTranslateElementInit() {
+     new google.translate.TranslateElement({pageLanguage: 'en'}, 
+     'google_translate_element');
+     }
+   </script>
+   <script type="text/javascript" 
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </div>
+  <div id="TitleLine">
+   <h1 style="margin-bottom: 10px; line-height: 18px; font-style: italic;">
+    Connecting Talent with Opportunity!</h1>
+  </div>
+ </div>
+</header>
+<main>
+ <div name="backgroundimage" align="center" width="100%" 
+      style="padding: 0; border: 0; display: block; z-index: 1; height: 480px;
+      background: url('../images/content_bg.jpg') no-repeat center top;">
+  <div class="clearfix  flip-card" style="background: transparent;">
+   <div class="flipper" id="loginbox">
+<style>
+@media only screen and (min-width: 800px) {
+	.flip-card-front {
+		transform: none !important;
+		width: 49.5% !important;
+	        backface-visibility: visible;
+	        -webkit-backface-visibility: visible;
+	        -moz-backface-visibility: visible;
+		position: relative;
+		display: inline-block;
+	}
+	.flip-card-back {
+		transform: none !important;
+		width: 49.5% !important;
+	        backface-visibility: visible;
+	        -webkit-backface-visibility: visible;
+	        -moz-backface-visibility: visible;
+		position: relative;
+		display: inline-block;
+	}
+	.col-2-1 {
+	margin: 60px 0px !important;
+	display: inline-block !important;
+	position: relative !important;
+	z-index: 2;
+	}
+}
+</style>
+    <div class="flip-card-front" id="ClientLogin">
+     <div class="col-2-1">
+      <span class="box-title">Job Seekers</span>
+      <div class="box-content">
+       <p>
+        <span style="padding-bottom: 3px; display: block;">
+         ConnectingColorado is part of a state- and county-run system that
+          delivers immediate, tangible results for your future.
+        </span>
+        <span style="display: block;">
+          You can <strong>post your r&#233;sum&#233;</strong>,
+          <strong>apply for a specific job</strong> or
+          <strong>do a self-directed job search</strong> through our jobs database.
+        </span>
+       </p>
+      </div><!-- box-content-->
+      <button type="button" onclick="window.open('/g_app_quick_js.html')"
+         class="indexbutton-white" alt="Quick Job Search">
+         QUICK JOB SEARCH &#9658;</button>
+      <button type="button" onclick="document.appnewaccount.submit();"
+         class="indexbutton-white" alt="Register">REGISTER &#9658</button>
+      <form name="appnewaccount" method="post" action="/cgi-bin/g_app_new_begin">
+      </form>
+      <form onSubmit="return g_app_ret_1_login();" name="appret1login"
+       method="post" action="/cgi-bin/g_app_ret_1_login?s=xxxx&amp;h=yyyyyyyyyyyyyyyyyyy">
+      <div class="control-group" style="z-index: 3;">
+<style>
+#SSNalt {
+  text-security: disc;
+    -webkit-text-security: disc;
+    -moz-text-security: disc;
+          }
+</style>
+       <label class="hiddenlabel" for="SSNalt">Username/SSN:</label>
+       <input name="SSNalt" id="SSNalt" onfocus="select()"
+              size="13" label="Username" placeholder="Username/SSN" 
+              alt="Username/SSN field" type="password"
+              style="position: relative;"
+              maxlength="12" onkeypress="app_getenter(event)">
+      <div id="appPWwrapper" style="position: relative;">
+        <i class="fa fa-eye eyeball" id="appeye" 
+           style="position: absolute; top: 12px; 
+                  font-size: 14px; z-index: 1;"
+           onclick="show_pwd_field(document.appret1login.Password,'appeye')"></i>
+       <label class="hiddenlabel" for="AppPassword">Password:</label>
+       <input type="password" name="Password" id="AppPassword" 
+              onfocus="select();"
+              size="13" placeholder="Password" maxlength="12" 
+              style="position: relative;"
+              onkeypress="app_getenter(event)">
+       </div>
+       <button class="signinbutton" type="button" name="appsub" 
+               style="margin-bottom: 4px; -webkit-appearance: none; 
+                      margin-left: 5px;"
+               onclick="javascript:document.appret1login.login_type.value='LOG';
+               if(g_app_ret_1_login())document.appret1login.submit();">
+        Sign In</button>
+       <div class="inline-forgot">
+<!--!!!!REPLACEAP -->&nbsp;
+        <a href="#" class="secondary" onclick="window.open(
+'/cgi-bin/g_just_copy?pagename=g_app_forgot_passwordZZZ')">Forgot Password</a>
+        <input type="hidden" name="script_ok">
+        <input type="hidden" name="login_type">
+       </div>
+      </div><!-- control-group -->
+      </form>
+<style>
+.rotator {
+	width: 100%; max-width: 325px; 
+	top: 10px; 
+        height: 64px; display: inline-block; 
+        position: relative; object-fit: cover;
+        background: url('../images/box.png') no-repeat center top;
+        transform: rotate(180deg); text-align: center;
+}
+
+.oppositerotator {
+	margin: 0px !important;
+	width: 100%; max-width: 325px; 
+        height: 50px; display: inline-block; 
+        position: relative; object-fit: cover;
+        background: url('../images/box.png') no-repeat center top;
+        transform: rotate(180deg); text-align: center;
+}
+@media only screen and (min-width: 800px) {
+	.rotator {
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 799px) {
+.oppositerotator {
+	display: none !important;
+}}
+</style>
+     <div class="oppositerotator" class="box-title"
+          style="top: 6px;">
+     </div>
+     <div class="rotator">
+      <span style="transform: rotate(180deg); text-align: center; 
+                   font-size: 18px !important; cursor: pointer;" 
+            class="box-title flip-card-trigger"
+            onclick="
+document.getElementById('ClientLogin').style.transform = 'rotateY(180deg)'; 
+document.getElementById('EmployerLogin').style.transform = 'rotateY(0deg)'"
+>
+       Employers, click <em>here</em>
+      </span>
+     </div><!-- Employer label/rotator -->
+     </div><!-- col-2-1 -->
+    </div><!-- flip-card-front -->
+    <div class="flip-card-back" id="EmployerLogin">
+     <div class="col-2-1" style="z-index: 2;">
+      <span class="box-title">Employers</span>
+      <div class="box-content">
+       <p>
+        <span style="padding-bottom: 3px; display: block;">
+         We can help you <strong>find and hire</strong> the right people for your
+         business.</span>
+        <span>
+          ConnectingColorado offers a more cost-effective way of
+          recruiting and hiring. Here, you can <strong>post job openings</strong>,
+          <strong>review r&#233;sum&#233;s</strong>, and
+          <strong>connect with qualified workers</strong>.
+        </span>
+       </p>
+      </div>
+      <a href="/f_emp_learn_services.html" class="indexbutton-white">
+       LEARN ABOUT OUR SERVICES &#9658;</a>
+      <a href="e_emp_new_1_login.html" class="indexbutton-white">
+       REGISTER &amp; POST A JOB &#9658;</a>
+      <form onSubmit="return f_emp_ret_1_login();" name="empret1login"
+            method="post" action="/cgi-bin/f_emp_ret_1_login">
+      <div class="control-group" style="z-index: 3;">
+       <label class="hiddenlabel" for="EMP">Username:</label>
+       <input type="text" name="EMP" id="EMP" onfocus="select()"
+              style="position: relative;"
+              placeholder="Username" maxlength="12">
+      <div id="empPWwrapper" style="position: relative;">
+        <i class="fa fa-eye eyeball" id="empeye" 
+           style="position: absolute; top: 12px;
+                  font-size: 14px; z-index: 1;"
+           onclick="show_pwd_field(document.empret1login.password,'empeye')"></i>
+       <label class="hiddenlabel" for="EmpPassword">Password:</label>
+       <input type="password" name="password" id="EmpPassword" 
+              onfocus="select()"
+              style="position: relative;"
+              placeholder="Password" maxlength="12" 
+              onkeypress="emp_getenter(event)">
+       </div>
+       <button class="signinbutton" type="submit" name="empsub" 
+               style="margin-bottom: 4px;  -webkit-appearance: none;"
+               onclick="return f_emp_ret_1_login();">
+       Sign In</button>
+       <div class="inline-forgot">
+        <a href="#" class="secondary" onclick="window.open(
+         '/cgi-bin/e_just_copy?pagename=e_emp_ret_email_passwordZZZ')">
+          Forgot Password</a>
+       </div>
+      </div>
+      </form>
+      <div class="oppositerotator" class="box-title"
+           style="top: 6px;">
+      </div>
+      <div class="rotator">
+      <span style="transform: rotate(180deg); font-size: 18px !important;
+                   cursor: pointer;"
+            class="box-title flip-card-trigger" 
+            onclick="
+document.getElementById('ClientLogin').style.transform = 'rotateY(0deg)'; 
+document.getElementById('EmployerLogin').style.transform = 'rotateY(180deg)'"
+>
+       Job Seekers, click <em>here</em>
+       </span>
+      </div><!-- other side label -->
+     </div><!-- col-2-1 -->
+    </div><!-- flip-card-back -->
+   </div><!-- flipper -->
+  </div><!-- clearfix flip-card-->
+ </div> <!-- backgroundimage -->
+  <div style="text-align: center; align-content: center; width: 70%; 
+              margin: auto;"> 
+   <span style="font-size: 16px; 
+                position: relative; top: 10px; text-align: center;
+                font-weight: bold; color: #08174a;">
+ConnectingColorado.com is mobile-friendly! Job seekers may browse on tablets 
+or smartphones. 
+   </span>
+  </div>
+  <div id="wrap-attention"
+       style="display: block; width: 100%; margin: 30px auto 10px auto;
+              position: static;  border: 0px;">
+   <div id="Covidbanner"
+        style="width: 100%; background-color: #790000; text-align: center;
+               color: white; font-size: 20px; font-weight: bold; 
+               min-height: 28px; 
+               padding-top: 5px;">
+    ConnectingColorado has jobs!
+   </div><!-- Covidbanner -->
+   <div style="width: 100%; height: 10px; background-color: #14317D;
+               border: 1px 0 1px 0 solid black; margin: auto">
+   </div>
+   <div class="box-content-covid"  
+        style="text-align: left; border: 0 !important; width: 80%; 
+               margin: auto;">
+   <span style="font-size: .9em;
+              position: relative; text-align: left;
+              color: #6d748a;">
+        (hover over the data for more job information; updated daily)
+     <br><br></span>
+    <div class="tooltip" width="100%">
+     <span
+onmouseover="document.getElementById('openjobs').style.visibility = 'visible';"
+onfocus="document.getElementById('openjobs').style.visibility = 'visible';"
+onclick="document.getElementById('openjobs').style.visibility = 'visible';"
+onmouseout="document.getElementById('openjobs').style.visibility = 'hidden';"
+onblur="document.getElementById('openjobs').style.visibility = 'hidden';">
+      <u>
+      <script type="text/javascript" src="/counts/topen.js"> </script>
+      </u>
+     </span>
+     <div class="bluetiptext" id="openjobs" 
+          style="width: 280px; top: 16px; left: -25px;">
+      <span class="x-out"
+    onclick="document.getElementById('openjobs').style.visibility = 'hidden'">
+       &#10006;
+      </span>
+      <ul class="litebluedotleaders" style="width: 280px;">
+       <script type="text/javascript" src="/counts/open_jobs.js"> </script>
+      </ul>
+     </div>
+    </div>
+    <br><br>
+    <div class="tooltip" width="100%">
+     <span
+onmouseover="document.getElementById('openneut').style.visibility = 'visible';"
+onfocus="document.getElementById('openneut').style.visibility = 'visible';"
+onclick="document.getElementById('openneut').style.visibility = 'visible';"
+onmouseout="document.getElementById('openneut').style.visibility = 'hidden';"
+onblur="document.getElementById('openneut').style.visibility = 'hidden';">
+      <u>
+       <a><script type="text/javascript" src="/counts/tneut.js"> </script></a>
+      </u>
+     </span>
+     <div class="bluetiptext" id="openneut" 
+          style="width: 280px; top: 16px; left: -25px;">
+      <span class="x-out"
+       onclick="document.getElementById('openneut').style.visibility = 'hidden'">
+       &#10006;
+      </span>
+      <ul class="litebluedotleaders" style="width: 280px;">
+     <script type="text/javascript" src="/counts/open_neut.js"> </script>
+      </ul>
+     </div>
+    </div>
+    <br><br>
+    <div class="tooltip" width="100%">
+     <span
+onmouseover="document.getElementById('monthjobs').style.visibility = 'visible';"
+onfocus="document.getElementById('monthjobs').style.visibility = 'visible';"
+onclick="document.getElementById('monthjobs').style.visibility = 'visible';"
+onmouseout="document.getElementById('monthjobs').style.visibility = 'hidden';"
+onblur="document.getElementById('monthjobs').style.visibility = 'hidden';">
+      <u>
+      <script type="text/javascript" src="/counts/lmonth.js"> </script>
+      </u>
+     </span>
+     <div class="bluetiptext" id="monthjobs" 
+          style="width: 280px; top: 16px; left: -25px;">
+       <span class="x-out"
+       onclick="document.getElementById('monthjobs').style.visibility = 'hidden'">
+       &#10006;
+      </span>
+      <ul class="litebluedotleaders" style="width: 280px;">
+      <script type="text/javascript" src="/counts/month_jobs.js"> </script>
+      </ul>
+     </div>
+    </div>    
+    <br><br>
+   </div><!--box-content-covid-->
+   <div style="width: 100%; height: 10px; background-color: #14317D;"></div>
+   <div class="box-content-attention" 
+        style="border: 0 !important; width: 80%; margin: auto;">
+    <p style="width: 100%; padding: 15px 0px 0px 0px; font-size: 15px;">
+     <strong>ATTENTION:</strong>
+Due to current state and federal guidelines regarding COVID-19, it is
+recommended that you contact your local Workforce Center before traveling
+to their location. The Colorado Workforce Centers and their contact
+information can be found on the map connected through the "Find a
+Workforce Center" button provided directly below this message.
+    </p>
+   </div><!--box-content-attention-->
+  </div><!--wrap-attention-->
+  <div style="display: block; margin: auto; width: 90%; max-width: 600px;
+              text-align: center;">
+   <a href="#" onclick="window.open(
+    'http://batchgeo.com/map/04c749f2bb459dd5cb18651f68be6bff',
+      'WfcMap')">
+      <em class="material-icons" 
+          style="font-size: 20px; position: relative; top: 2px;">
+       &#xe55f;</em></a>
+     <span style="padding: 3px; font-size: 20px; font-weight: bold;">
+      <a href="#" onclick="window.open(
+      'http://batchgeo.com/map/04c749f2bb459dd5cb18651f68be6bff',
+      'WfcMap')">Find a Workforce Center</a></span>
+   <a href="#" onclick="window.open(
+    'http://batchgeo.com/map/04c749f2bb459dd5cb18651f68be6bff',
+      'WfcMap')">
+      <em class="material-icons" 
+          style="font-size: 20px; position: relative; top: 2px;">
+       &#xe55f;</em></a>
+  </div>
+  <div style="width: 100%; display: inline-block; margin: 15px auto; 
+       text-align: center;">
+    <a href="#" onclick="window.open(
+       'https://www.virtualjobshadow.com/vs3/portals/license/login/A6B8773A-6BD7-4CC6-9E08-D54EEAB2D8D9/')">
+    <img src="/images/pathful_cdle_banner.png" alt="Pathful career
+         readiness platform"
+         style="width: 92.5%; max-width: 700px; margin-bottom: 10px;
+                vertical-align: middle;" role="button"></a><br>
+     <a href="#" onclick="window.open(
+'https://colorado.teach.org/be-teacher?utm_source=partner-share-connecting-colorado&utm_medium=website&utm_campaign=partner-referral')">
+   <img src="/images/ece_graphic2.jpg" alt="Become a Teacher"
+        style="width: 92.5%; max-width: 290px; margin-bottom: 10px;
+               vertical-align: middle;"></a>
+     <a href="#" onclick="window.open('https://getaheadcolorado.org')">
+      <img src="/images/gac_cdle_web_widget.jpg" 
+        alt="Get Cash Back when you file your taxes - Get Ahead Colorado"
+           style="max-width: 290px; vertical-align: middle;"
+     </a>
+  </div>
+  <div id="banner2" class="noprint" style="text-align: center; width: 95%;
+       margin: 10px 10px 0 10px;">
+   <p class="link-helv-10-on-16-space-after">
+    <a href="https://cdle.colorado.gov/wfc" target="_blank"
+       class="link-helv-10-on-16-space-after">
+       Workforce Centers</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="http://www.colorado.gov/cdle/unemployment" target="_blank"
+       class="link-helv-10-on-16-space-after">
+       Unemployment Insurance Benefits</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="http://www.colmigateway.com" target="_blank"
+       class="link-helv-10-on-16-space-after">
+       Labor Market Information</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="http://www.colorado.gov/cdle" target="_blank"
+       class="link-helv-10-on-16-space-after">
+       Department of Labor and Employment</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="http://www.colorado.gov" target="_blank"
+       class="link-helv-10-on-16-space-after">
+       Colorado State Government</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://careertrailguide.co/#/login"
+       target="_blank" class="link-helv-10-on-16-space-after">
+       CO Career Trails Guide</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://www.connectingcolorado.com/g_app_security_policy.html"
+       target="_blank" class="link-helv-10-on-16-space-after">
+       Security Policy</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://www.connectingcolorado.com/g_app_priority_of_service.html"
+       class="link-helv-10-on-16-space-after" target="_blank">
+       Veterans are Our Priority</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href='https://www.connectingcolorado.com/cgi-bin/g_just_copy.com?
+       pagename=g_app_faq_listZZZ' target="_blank" 
+       class="link-helv-10-on-16-space-after">FAQ</a>
+   </p>
+  </div> 
+  <div style="display: block; text-align: center; margin: 10px auto;">
+   <a href="https://goo.gl/901iWe" target="_blank">
+    <button name="RateOurWebsite" id="RateOurWebsite" type="button"
+      class="bluebtn" style="width: 150px; font-weight: bold;">
+     Rate Our Website
+    </button>
+   </a>
+  </div>
+</main>
+<footer>
+  <div id="footer" style="display: block; clear: both;">
+   <table width="100%" cellpadding="1">
+    <tr>
+     <td align="center" colspan="2">
+      <div style="max-height: 94px;">
+       <br>
+       <a href="https://cdle.colorado.gov/wfc" target="_blank">
+       <img src="/images/workforce_black.png"
+            alt="Colorado Workforce Center Logo" width="27%"
+            style="max-width: 160px; padding-bottom: 10px;
+                   padding-left: 10px; padding-right: 10px;"></a>
+       <a href="https://www.colorado.gov/cdle/" target="_blank">
+        <img src="/images/cdle_logo_full_litebg.png" alt="CDLE Logo"
+             width="54%"  style="max-width: 320px;
+                                 padding-bottom: 10px; padding-right: 10px;">
+       </a>
+      </div>
+     </td>
+    </tr>
+    <tr class="spaceUnder">
+     <td colspan="2" align="center" valign="top" style="height: 30px">
+      <img src="/images/ajcn_logo.png" style="max-width: 400px;" width="70%"
+           alt="American Jobs Center Network Logo">
+     </td>
+    </tr>
+   </table>
+  </div><!--footer-->
+</footer>
+</div><!--mobile-form -->
+</body>
+</html>

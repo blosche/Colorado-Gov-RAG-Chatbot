@@ -1,0 +1,205 @@
+Auto Industry CORA Request | Department of Revenue
+Skip to main content
+Search
+Search
+Menu
+Home
+I'm Looking for...
+Toggle submenu
+Ask a Question
+DMV Forms
+Make a DMV Appointment
+Tax Forms
+Tax Power of Attorney Form
+Sales Tax
+Sales Tax License Application
+Lexipol Policies
+Online Services
+Toggle submenu
+MyDMV
+Revenue Online (Tax)
+Schedule a DMV Appointment
+Schedule a Tax Appointment
+Customer Center
+Toggle submenu
+Ask for Help
+Accessibility & ADA Accommodations
+Active Duty Military & Veterans
+Colorado Open Records Act (CORA)
+What is Rulemaking?
+Data and Reports
+Contact Us
+Toggle submenu
+Taxation Division
+Division of Motor Vehicles (DMV)
+Marijuana Enforcement (MED)
+Specialized Business Group
+Toggle submenu
+Auto Industry
+Gaming & Sports Betting
+Liquor & Tobacco
+Racing
+Colorado Lottery
+Hearings Division
+Executive Director's Office
+Media Center
+Human Resources
+Ask for Help
+0
+Home
+Auto Industry CORA Request
+Auto Industry CORA Request
+The Colorado Auto Industry Division provides public documents from its motor vehicle/powersports records. Document requests can usually be completed within three business days after receipt of request. Unusually large or complicated requests may require up to seven business days to complete.
+Per CRS 24-72-205, the fees for public records are as follows:
+Staff costs: $30/hr. after the first hour
+Photocopies: $0.25 per page
+Media:
+CD $0.50
+DVD  $1.00
+*Note: No fees are required for law enforcement and/or government agency inquires.
+#FFFFFF
+name
+Name
+Company
+Phone
+Address
+City/Town
+State/Province
+- Select -
+Alabama
+Alaska
+American Samoa
+Arizona
+Arkansas
+Armed Forces (Canada, Europe, Africa, or Middle East)
+Armed Forces Americas
+Armed Forces Pacific
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Federate States of Micronesia
+Florida
+Georgia
+Guam
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Marshall Islands
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Northern Mariana Islands
+Ohio
+Oklahoma
+Oregon
+Palau
+Pennsylvania
+Puerto Rico
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virgin Islands
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+ZIP/Postal Code
+Email
+Email
+Confirm email
+Dealer and Wholesaler License Name
+License Number
+Salesperson's Name
+Description of Public Records Request
+Description of Public Records Request
+Stated Use of Requested Information
+Stated Use of Requested Information
+How would you like the report delivered?
+- Select -
+Mail
+Pickup in person
+Submit
+Leave this field blank
+#FFFFFF
+#FFFFFF
+#FFFFFF
+Helpful Links
+About CDOR
+Accessibility Statement
+ADA Digital Services Request
+Careers
+Colorado State Holidays
+Data Terms of Use
+Contact Us
+Taxation Division
+Division of Motor Vehicles (DMV)
+Marijuana Enforcement (MED)
+Specialized Business Group
+Colorado Lottery
+Hearings Division
+Executive Director’s Office
+Media Center
+Ask for Help
+#FFFFFF
+Office Locations
+DMV Locations
+Tax Service Centers
+Lottery Claims Offices
+Marijuana Enforcement (MED)
+Specialized Business Group
+#FFFFFF
+#FFFFFF
+Follow Us
+#FFFFFF
+#FFFFFF
+#FFFFFF
+#FFFFFF
+#FFFFFF
+placeholder
+© 2024 State of Colorado
+Transparency Online
+General Notices
+Colorado Official State Web Portal
+array (
+  'messages' => 
+  array (
+    'error' => 
+    array (
+      0 => 
+      \Drupal\Core\Render\Markup::__set_state(array(
+         'string' => 'Enter some keywords.',
+      )),
+    ),
+  ),
+  'url' => '/search/search',
+  'excluded' => 
+  array (
+    'uid' => false,
+    'page' => false,
+  ),
+)

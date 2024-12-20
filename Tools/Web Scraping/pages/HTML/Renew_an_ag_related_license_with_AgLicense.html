@@ -1,0 +1,240 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head id="ctl00_htmlHead"><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>
+	Colorado Department of Agriculture
+</title><link type="text/css" rel="stylesheet" href="javascripts/jquery-ui.css" />
+    <script type="text/javascript" language="javascript">        
+        if (top.frames.length != 0) {
+            top.location = self.document.location;
+        }
+    </script>
+    <script type="text/javascript">
+        var touchSupported = false;
+        if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
+            touchSupported = true;
+        }
+        if (touchSupported) {
+            var atags = document.getElementsByTagName("a");
+            for (var a = 0; a < atags.length; a++) {
+                atags[a].addEventListener("pointerup", function (e) {
+                    this.click();
+                }, false);
+            }
+        }
+    </script>
+<link href="App_Themes/COTheme/Styles.css" type="text/css" rel="stylesheet" /></head>
+<body class="External" topmargin="0" onunload="UnloadGMap();">
+    
+    <script type="text/javascript">var Q = 0;</script>
+    <form method="post" action="./Index.aspx" id="aspnetForm" onsubmit="Q++; return (Q==1);">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="bjQHdVf5NPfPsjssnGk/55KCIzWTyEQXTiX9m8qBa83MOT1Gsz4ZWLw+bEuDb7uwJ8FNvRNMGIZrPhX6oVESgN+5EUutSO+wFyeu8o+QnUXI81B7gopHzfy+/QC5AXKoysd+jfsMKzU/HQIEphsy+cybLQm+8ag9MgD9xgFbBWIJUXgNx0bIzyMl79B9a2hsUZj3/2Y2jMAgdeNJDp6LB60JoIZYmUp8V8GcHNoANIBIIKnY75KnKLPf/p5hN9Le8Pah+unkXgp7s2lmhUCiRXf/ajEbDK9si3omdyrQ6mUcwK+z0SfPKVq6Dgrthz5o+Bl69DzghlrGGKHifTxRTU4bo/A/U+bFWofWhOZ0j6mtKNNWu5r0Y+vrWi5jcGmdpYjtpzjXNsuLbZoaowOhBE8lIqy5DZ3tf8hqMUJSKBI2EYU0VLSxQhzFUR1Le4mnexotziUIfPeB8fxSM1iCzoM0bbiOxU8PkZE95rFNhAohneqIrNmpP/38t1XV/7XUFhZI20gAVkHJq/a8CcetsQufmxij0aeBRvS/pDOYB8Kh3pPMyNke4ln7d3M3x5K3tCToGKgomUMiQL62rM3UEo1b8AHlfWE/ONp4AY2BOQWDQ4kMgr+90P+fjnjVWh6Bc0wpL1JdkWR9cpYYtOcqviVrAqcL1FRb7G9Ez/GDBdM8qtGp1hLZYna1xAfezJ8AdbIdf7b/cZJaj92wT1ahsN7s+hUe6CpWDd+XYlGJ8upcrXxk29hur9XkPU3fG4RSolmPfvKiOKUg+eRW8CD49V5Zm2/rSANnsWyJ7GV7plkelvxxYhkp1fgxSNzPJnzqJnvid9zuChBqjs67x8VfBSZMykVs853xTGEcWLFEGbANNWy2tMEYvEQ6Wl8HdueRgJ8ahZsUVpAP4v6eBZavlMvruVOVZgEvk8zcPyLKD+1foNI09uQLF/mR1U2oMiSLaRdeD1yV7iZ6iD/kVInmIc+iHPz8Ze1SaBSvC4Yu/L8bNJnKDugohHpziKmS3WC56bV54airs0lOfn1xCkkhuMcolrWPiwdJ5iFRhIsactGjGvmqHP/B9p56aGozk+Y4FWNBw0GcGzLUOSWPUtFQBJIk6T9dyd7Fm3+fj3QjbpZ1kO9NqmlGCN0nIK7AHJLMyYEWFbJZUNtSxOi68CCNKsDd4K4BzhsE3oY9W9pgjcJfZv84BXCcGIX8kuLXRqq6tsYUOgO8TnvEU//aZW9lSL8NecxelAT+/tsu5G2y3tJqV6nfBu3sZ9TPx05+Knc/a+CnPrn64uQImD9pRD2mDx4VI5ADVivnEnQP+ywYqq7C0qkFJCJFkghDkk37vE6fI0t/kmIdS5BqSGSWUq5hZA==" />
+
+<script type='text/javascript'>function PopupDone() { window.document.forms[0].ctl00_PopupSignaller.value = 'True'; __doPostBack('ctl00$PopupSignaller','True') }</script><script type='text/javascript'>function navigateTo(target) { window.document.forms[0].ctl00_MenuClickedSignaller.value = target; __doPostBack('ctl00$MenuClickedSignaller','') }</script><script type="text/javascript">/* Google TRACKING CODE */function gaSSDSLoad (acct) {  var gaJsHost = (('https:' == document.location.protocol) ? 'https://ssl.' : 'http://www.'),      pageTracker,      s;  s = document.createElement('script');  s.src = gaJsHost + 'google-analytics.com/ga.js';  s.type = 'text/javascript';  s.onloadDone = false;  function init() {      if (typeof (_gat) == 'object') {          pageTracker = _gat._getTracker(acct);          pageTracker._trackPageview();      }  }  s.onload = function () {    s.onloadDone = true;    init();  };  s.onreadystatechange = function() {    if (('loaded' === s.readyState || 'complete' === s.readyState) && !s.onloadDone) {      s.onloadDone = true;      init();    }  };  document.getElementsByTagName('head')[0].appendChild(s);}window.onload = function () { gaSSDSLoad("UA-4207695-27"); };/* Google TRACKING CODE */</script><script language='javascript'>   function UnloadGMap() {       var _gMapExists = document.getElementById('ctl00_hdnGMapExists');       if (_gMapExists != null) {           if (_gMapExists.value = 'true') {               if (typeof(GMap) != 'undefined') {                   GUnload();               }           }       }   }</script><script>var AppPath = 'https://cdawbp003/eLicense/';</script>
+<script src="Scripts/jquery-3.6.0.js" type="text/javascript"></script>
+<script src="javascripts/jquery-ui.js" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yBR1wIcKw0HiLdaJHn8bLYJ3C7Sl4DrHy8PWHDKK8B5yRjjiJmh2M5JuMphuymxclHyu10WSQhHByWhIrzeXe6cKY_VdOuruHll72pkFVkcCp1nrdpviW51uYBThn5NgC0eq3QU1DOQz-TYOQ2kuJwY1&amp;t=74258c30" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=1Kg2d72MortYMOaCJVLqj_jS-Jn8dlEHGviVsFItX9YfwJFY8AiefS7KfbaA-v-A2lGYi7bZoiL3kpNh7SdD4a3FJzGNEyDZh6oNUHwUFlSy6vnfEyOzX7zZw3rDmtv1PMC2ia2RmcgUefOy75_95AsdUFlaLG_qLIz-FfV7nq81&amp;t=ffffffffa4ec6fd3" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=jamVmke3tx7utLLzvW5LwwrhtJbKJN83ouPhpu2vIbNCOS2xPVZUQ30qfKf2-_No0fyQ_MEaTHkcCWdEl9-XuU5N58Hx60K0LVmqT0tsekwNzI5gbF2l2pUNTQuqaYecDyS-MkQxQaBZ6UkRH5Iyyv0q1LTK8IzoTzDAKF2mq9M1&amp;t=ffffffffa4ec6fd3" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=Y3m6UrVMbqJVE-kQ9gioH90YNA2V1-K3_1L2yZxGi7iFKAMUvUouQP3I5RV-4rKhwPdW97uHxaERb-oZsSQ5E0wHxPJnGIC8JvFNmqQ467Ccr-LA7EZ8xMOPcvzD1H5A0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=gWcrHB-EGC1p4LtZa-lbjzyPmIu29c_M4fPyXvxXJ-gJ54phxXOqyyHaAfQUI0cCckimEKHahJF7OSpmFFK89yHlHy4sqf-izt4CxdgEQkk1&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=YGQkKErHFDdGeCMY44uk_k-aDj8eOFhi-Jas7M9uMnMJ7ZWp2jIY3oR819Tn0aDNMs7wdwJcNxRcuB6jUwCLH26AFqejCFP4rlGXhTLKlqW4gTEtNQo6wW32uewa_JDH0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=_sGp8_9bNHYNyQqxdvQRqUdOP2cbmQE3ni4bRBLOkHTr4-ZUoz4DiMzX4h1KzisJRm-qyWWGDV4Cvjnqzh60Nj_X13JPDmena1kDDOBgUu-j3c0peKcVDqWADjpzNb_c0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=cIIHhetD0FO8FyFjoi6ghb8fYHmuDMKWL9wla1O52HfoqsYWXPFfLNkOIYlWwKspc645cBh1QYh187meLEdv3tJ5z6uoTzMJI358kWAXo6I7RyxAyZGlWcQURHbNfLCE0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=zhB4TnNg5SCnTud0nPZV0Bt8-_IbqxddOk8ykRgpb0jpaLXQv0tsdIKhOuE2XvgzAElZmZ_0JHqrynCHMY6Ap78jQF3y9UYH8LkY6ZhHf66uJ4HWWGqq02oj-9Td73NS0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=leIq-rn6Nim8cPSe84CIAupE_b8KfQ49IoralXKZAXEkFM3EgcsKBJ9cB1xX9rx0ajIHVLRbEukxiz5eu9LKQfbJ65nWtP-HF-HRVTZV0vHTVPIE_2jAnUmcVl30cGbr0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=6T0HpFRcmR5soosVgefabcIZwaIU698CMMYST2CtaXcqYEurIg83eRLIPkQzYcLz0BrKXsBcyA2O6z136JAVd4rff6zxYGJ6KeFH8dk5xag5AqxIfjCQfh3gnnd7_2be0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=I7Upt9kFVtBZiqZm-4CpKowyTZyKoqf6E5d-jG2SJANr1qU9eEbwC8vQoz9bEtf64q2J7f80UO8-n5GTv90n5ynnW0vTRXtettjSExPqZIZSCNlB9gxKbOEZmHo2m6Of0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=0ZrMKVP2U7wQDZQ-62KUNdFw__-TX2iWLsTNAK1xkdZAYmOB3ymOvFCNvWBZiWLmkjdGeNv2h6P5oQ5TEyUzRa-tMID8bb2Y86LOYo1RB30jGx-OslrcY5xlQqIw1vXU0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=SbtnVWs8LtdvW3GxieYZlfGq5vCN48wBRiCv02EwZ61blP2XBxTZq6UYKRMylkNDHcVW5KI-KYpiURNIamtktMIKe5np8q11COpm5aUK1nlCZJWKUCKo1bcQ7twCgt1Y0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=2GkmNxDF8rvhdbEDDwPqmj1rD2EG0-btD3AhjlSZGgSwG3qqscVX3M-hnb4h8xep3dSTRXCD8qLx3svhfQ7we3XjYgJpLkrp80cEKoUV3Sa8yWqTNsiHz-dt47tOOjHq0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/eLicense/ScriptResource.axd?d=IfGYeQzgq1x-pZCFZaGdA7W8WBZSEdus6bd-Zkq1w-xI-TLa135zgalFgzQxidMFBOorqkblkbFxpOxqDbTmQkZf1xmPOVsjK3p2xlCOQ5k9FHgiLUoin5IfBAqL0tTK0&amp;t=7d5986a" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E3984A77" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="oeurietdvFItQdUCLVPm7h26DSus10+rcAmK48lBDRJ0dSHho27D3B0qDngbQ1keELs9HuWsTxay4KEjtBwvCaoq7TNVskqGI4D+ZjDe/KV2kUCPvI7NkcL5sxUvoEVVMhEwfLokWV24HXVDegnZ+UcC+iTEviwnTyzJuK3ydV6reb8U7jY5EPR84YChoKpDYMTRCZAtcW/P8JUZaBn/GOdUImG1d1E6EqjVkOYohnRw0T/Umw+S8fSgCOtd6ekBOFeg71QE+9D82mP5qA9I/MkvJ+R3O9JReI4s9DbU3a4=" />
+        <span id="ctl00_wucDynamicModalPopup_lblfake" style="display:none"></span>
+    &nbsp;
+    
+    <div id="ctl00_wucDynamicModalPopup_pnlWithMessage" class="modalProgressWithMessage" style="display: none">
+	
+        &nbsp;
+        <label id="lblWithMessage" style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: bold; font-style: normal; color: #000000; text-decoration: none;"></label>
+    
+</div>  
+       
+    
+    <div id="ctl00_wucDynamicModalPopup_pnlWithOutMessage" class="modalProgressWithOutMessage" style="display:none">
+
+</div>
+       
+
+
+        <div id="ctl00_pnlOuter" class="externalOuter" style="margin-left: auto; margin-right: auto;">
+	
+            
+            <img src="images/CO/COLogonHeader.jpg" id="ctl00_imgHeader" tabindex="1" CssClass="loginHeader" alt="If an accommodation or assistance is requested, please contact us directly at cda_a11y@state.co.us or 303-869-9290 or 1-844-235-3815." title="If an accommodation or assistance is requested, please contact us directly at cda_a11y@state.co.us or 303-869-9290 or 1-844-235-3815." style="Height:100%;Width:100%;" />
+            
+            
+            <div id="ctl00_pnlMain">
+		
+                <table  cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                        <td valign="top">
+                            
+
+<script language="javascript" type="text/javascript" src="/eLicense/javascripts/LeftNav.js"></script>
+
+ 
+        <div id="sidebarmenu" class="sidebarmenu">
+            <ul id="sidebarmenu1" class="sidebarmenu ul">
+                
+                        <li class="sidebarmenu ul li">
+                            <a id="ctl00_WucLeftNav1_rptMain_ctl00_rptLeftMenu_ctl00_lnkMenuItem" href="javascript:__doPostBack(&#39;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl00$lnkMenuItem&#39;,&#39;&#39;); ShowModalMsg(&#39;&#39;, new Boolean(false));" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl00$lnkMenuItem&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">AgLicense Home Page</a>
+                            
+
+                            
+                        </li>
+                    
+                        <li class="sidebarmenu ul li">
+                            <a id="ctl00_WucLeftNav1_rptMain_ctl00_rptLeftMenu_ctl01_lnkMenuItem" href="javascript:__doPostBack(&#39;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl01$lnkMenuItem&#39;,&#39;&#39;); ShowModalMsg(&#39;&#39;, new Boolean(false));" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl01$lnkMenuItem&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Department of Agriculture</a>
+                            
+
+                            
+                        </li>
+                    
+                        <li class="sidebarmenu ul li">
+                            <a id="ctl00_WucLeftNav1_rptMain_ctl00_rptLeftMenu_ctl02_lnkMenuItem" href="javascript:__doPostBack(&#39;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl02$lnkMenuItem&#39;,&#39;&#39;); ShowModalMsg(&#39;&#39;, new Boolean(false));" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl02$lnkMenuItem&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Product Search</a>
+                            
+
+                            
+                        </li>
+                    
+                        <li class="sidebarmenu ul li">
+                            <a id="ctl00_WucLeftNav1_rptMain_ctl00_rptLeftMenu_ctl03_lnkMenuItem" href="javascript:__doPostBack(&#39;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl03$lnkMenuItem&#39;,&#39;&#39;); ShowModalMsg(&#39;&#39;, new Boolean(false));" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl03$lnkMenuItem&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Business Search</a>
+                            
+
+                            
+                        </li>
+                    
+                        <li class="sidebarmenu ul li">
+                            <a id="ctl00_WucLeftNav1_rptMain_ctl00_rptLeftMenu_ctl04_lnkMenuItem" href="javascript:__doPostBack(&#39;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl04$lnkMenuItem&#39;,&#39;&#39;); ShowModalMsg(&#39;&#39;, new Boolean(false));" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl04$lnkMenuItem&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Licensed Seed Dealer Search</a>
+                            
+
+                            
+                        </li>
+                    
+                        <li class="sidebarmenu ul li">
+                            <a id="ctl00_WucLeftNav1_rptMain_ctl00_rptLeftMenu_ctl05_lnkMenuItem" href="javascript:__doPostBack(&#39;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl05$lnkMenuItem&#39;,&#39;&#39;); ShowModalMsg(&#39;&#39;, new Boolean(false));" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$WucLeftNav1$rptMain$ctl00$rptLeftMenu$ctl05$lnkMenuItem&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Logon / Register</a>
+                            
+
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    
+                        </td>
+                        <td valign="top" width="75%">
+                            <div>
+                                
+     
+    <div class="externalInner">
+        <div style="padding: 10px;color:red; font-size:16px;">            
+            <noscript>
+                JavaScript is not enabled! 
+                The website may not work properly with JavaScript disabled.
+            </noscript>            
+        </div>
+        
+        
+        
+        
+        
+        
+        <div id="ctl00_cphContentMain_pnlCO">
+			
+            <p class="pageheading" align="center">
+               Welcome to the Department of Agriculture AgLicense system.
+            </p>
+            <p class="label" style="font-size:small;margin-left:2em;">
+                Use the links at left for information on licensed pesticide applicators and dealers.
+            </p>
+            <p class="label" style="font-size:small;margin-left:2em; width:90%;">
+                If you received a mailer with your registration information click the <strong>Logon/Register</strong> link on the left to create your user account.
+            </p>
+            <br />
+            <p class="label" style="font-size:small;margin-left:2em;">
+                To find out more about the Department of Agriculture click <a href="http://www.colorado.gov/ag" target="_blank" style="font-size:small;">here</a>.
+            </p>
+        
+		</div>
+        
+        
+    </div>
+
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            
+	</div>
+    	    <div class="label">
+                <table width="100%">
+                    <tr>
+                        <td valign="top" width="100%">
+                            <div>
+                                
+                                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+	        </div>	
+            <br />
+            <div id="ctl00_pnlFooter">
+		
+                <hr />
+                <table width="100%" align="center">
+                    <tr>
+                        <td width="100%" align="center">
+	                        <div class="footer">
+                                
+        <a id="ctl00_wucBottomNav_rptBottomNav_ctl00_hlNavigation" href="https://www.ag.state.co.us/eLicense">Home</a>
+    
+	                            <br />         
+	                            <br />
+	                            
+                                <br />    	        
+	                        </div>                    
+                        </td>
+                    </tr>
+                </table>
+            
+	</div>
+            
+            
+        
+</div>
+        <input type="hidden" name="MPF" value="e" />
+        <input type="hidden" name="ctl00$hdnGMapExists" id="ctl00_hdnGMapExists" value="false" />
+    <input name="ctl00$PopupSignaller" type="hidden" id="ctl00_PopupSignaller" value="False" /><input name="ctl00$MenuClickedSignaller" type="hidden" id="ctl00_MenuClickedSignaller" />
+<script type='text/javascript'>
+<!-- Hide code from non-JavaScript browsers.
+history.forward();
+// Stop hiding code -->
+</script>
+<script type="text/javascript">
+//<![CDATA[
+if (window.addEventListener)     window.addEventListener('load', initsidebarmenu, false); else if (window.attachEvent)     window.attachEvent('onload', initsidebarmenu); Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"backgroundCssClass":"modalProgressBodyBackground","dropShadow":true,"dynamicServicePath":"/eLicense/Index.aspx","id":"WithMessage","popupControlID":"ctl00_wucDynamicModalPopup_pnlWithMessage"}, null, null, $get("ctl00_wucDynamicModalPopup_lblfake"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"backgroundCssClass":"modalProgressBodyBackground","dynamicServicePath":"/eLicense/Index.aspx","id":"WithOutMessage","popupControlID":"ctl00_wucDynamicModalPopup_pnlWithOutMessage"}, null, null, $get("ctl00_wucDynamicModalPopup_lblfake"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

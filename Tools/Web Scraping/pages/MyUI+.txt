@@ -1,0 +1,103 @@
+Claimant Login | CDLE
+Column Headers with buttons are sortable, Press Enter key on the column headers or buttons to sort Ascending/Descending
+button
+MM/DD/YYYY
+Notes
+More about Search (opens a dialog)
+Skip to main content
+Logon
+User Inactivity Warning
+For your protection and security you are about to be automatically logged out of your online account. Any information could possibly be lost due to inactivity.
+Please click "Resume" below to resume activity
+                            , or, "Logoff" to safely logout.
+Resume Session
+Logoff Session
+click to view sample opens in new tab
+User Inactivity: Session Expired
+Due to inactivity your session has timed out. Any information could possibly be lost due to inactivity.
+                        Please click logoff below to logon again.
+Logoff
+Warning Message
+Warning! In
+minutes the system will be temporarily unavailable for nightly processing (from 10pm to 3am MST). You will have
+minutes to complete this
+                        screen. If you do not complete this screen and proceed forward in that time, you will need to restart this portion of the application once the system is available
+Resume Session
+Close
+Warning Message
+Warning! In 30 minutes the system will be temporarily unavailable for nightly processing (from 10pm to 3am MST). You will have 30 minutes to complete this
+                        screen. If you do not complete this screen and proceed forward in that time, you will need to restart this portion of the application once the system is available.
+Resume Session
+Close
+Logoff Message
+The system is currently going offline and will be temporarily unavailable for nightly processing (from 10pm to 3am MST). You will be logged off
+                        and any unfinished information on this screen will not be saved. You will need to finish filing the application once the system is available.
+Logoff
+x
+Errors
+Warnings!
+×
+Social Security Number is required (30)
+Password is required (30)
+A claim must be fully processed, and payments are held until all pending issues are resolved.
+While issues are pending or during appeals, you must request payment each week to avoid your claim closing
+. The amount of time claims take to process varies and may take up to 5 to 7 weeks from the file date.
+If you have a Program Integrity Issue on your claim, please ensure you upload a copy of your Driver's License or ID, a picture of yourself, a picture of your Social Security Card or Birth Certificate, and a current bill reflecting your current address matching your claim information at a minimum.  Additional documents may be requested to resolve this issue.  If you do not provide documents requested by us, your claim may be denied.  Uploads can be made directly into the issue in MyUI+ or on our website under the "Upload Documents" section at coloradoui.gov.
+Please Wait
+MFA Validation Successful.
+Find a Job
+Maintaining Eligibility
+Other Assistance & Resources
+Report Fraud
+Privacy Statement
+Viewing Tips
+Accessibility
+CDLE Staff Login
+Existing Claimants Login
+Social Security Number:
+Password:
+Forgot Password
+Apply for Benefits
+If you received $2,500 or more in wages on a W-2 from any employer where taxes were withheld in the last 18 months, you are likely eligible to file a claim for unemployment benefits.
+Before you proceed, gather your income-related information, such as pay stubs. Be prepared to provide information about work you have performed in the last 18 months, including the name and address of the business, dates you worked, and rate of pay
+Apply for Benefits
+Protect Yourself from Scams
+Fraudsters often use spoofed websites - fake sites which copy an official site's 
+                            design - to trick unsuspecting victims into giving up personal or financial information. Remember: CDLE will never send you a text message with a link to log into your account. To be sure that you are accessing the official MyUI+ portal and not a fake site, access your MyUI+ account via CDLE's official website at ColoradoUI.gov.
+Next Steps After Filing Your Claim
+Once you've opened your unemployment claim, there are a few things you need to do in
+                             order to remain eligible for benefits and receive payments on time. You must remain able 
+                             and available to work, and complete weekly work search activities. You're also required to 
+                             register with your local workforce center. Finally, you must request payment each week via your 
+                             MyUI+ account or by phone. For more information, visit the
+Eligibility and Work Search Requirements
+page on our website.
+1099-G Tax Forms Available in MyUI+
+If you received unemployment benefits in 2023, you can download a copy of your 1099-G tax form from your MyUI+ account. 
+                        Please log in and go to "View Correspondences."
+If you believe the 1099-G form you received has an error, or you received a 1099-G form in your name despite not having received
+                            unemployment benefits, please request a correction
+here
+to request a 1099 correction
+.
+WARNING
+This system may contain U.S. Government information, which is restricted to authorized users ONLY. Unauthorized access, use, misuse, or modification of this computer system or of the data contained herein or in transit to/from this system constitutes a violation of Title 18, United States Code, Section 1030, and may subject the individual to Criminal and Civil penalties pursuant to Title 26, United States Code, Sections 7213, 7213A (the Taxpayer Browsing Protection Act), and 7431.
+This system and equipment are subject to monitoring to ensure proper performance of applicable security features or procedures. Such monitoring may result in the acquisition, recording and analysis of all data being communicated, transmitted, processed or stored in this system by a user. If monitoring reveals possible evidence of criminal activity, such evidence may be provided to Law Enforcement Personnel.
+ANYONE USING THIS SYSTEM EXPRESSLY CONSENTS TO SUCH MONITORING.
+This system is for Official Use Only and contains Personally Identifiable Information (PII). Any misuse or unauthorized 
+                            disclosure of information may result in both Civil and Criminal penalties.
+Back to Top
+Accessibility
+Privacy Statement
+Viewing Tips
+© 2023 COLORADO DEPARTMENT OF LABOR AND EMPLOYMENT
+.
+x
+Close
+x
+Close
+Save changes
+You have been inactive for more than system allowed time. For safety reason you have been logged out. Click ok to log in.
+Unemployment system is available from 4:00 AM - 7:00 PM. You will be logged out of the system
+                    at 7:00 PM. Any unsaved data will be lost.
+Unemployment system is available from 4:00 AM - 7:00 PM. You have been logged out of the system.

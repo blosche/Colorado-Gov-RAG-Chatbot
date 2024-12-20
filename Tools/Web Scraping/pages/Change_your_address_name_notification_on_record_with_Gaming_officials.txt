@@ -1,0 +1,324 @@
+Address/Name Change Notification | DOR SBG
+Skip to main content
+Search
+Search
+Menu
+Home
+Auto Industry
+Firearms Dealer
+Gaming
+Toggle submenu
+Fantasy Sports
+Limited Gaming
+Sports Betting
+Liquor & Tobacco
+Toggle submenu
+Liquor
+Tobacco
+Marijuana
+Toggle submenu
+Americans with Disabilities Act Accommodation Request for MED Services
+Racing
+Contact Us
+About SBG
+1
+Home
+Address/Name Change Notification
+Address/Name Change Notification
+#FFFFFF
+Name on License
+Email Address
+Email Address
+Confirm Email Address
+Phone Number
+Gaming License Number
+License Type
+- Select -
+Support
+Key
+Other
+Address Change
+New Street Address
+New Street Address
+City
+State
+- None -
+Alabama
+Alaska
+American Samoa
+Arizona
+Arkansas
+Armed Forces (Canada, Europe, Africa, or Middle East)
+Armed Forces Americas
+Armed Forces Pacific
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Federate States of Micronesia
+Florida
+Georgia
+Guam
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Marshall Islands
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Northern Mariana Islands
+Ohio
+Oklahoma
+Oregon
+Palau
+Pennsylvania
+Puerto Rico
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virgin Islands
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+ZIP/Postal Code
+County
+Mailing Address
+Mailing Address (if different from street address)
+City
+State
+- None -
+Alabama
+Alaska
+American Samoa
+Arizona
+Arkansas
+Armed Forces (Canada, Europe, Africa, or Middle East)
+Armed Forces Americas
+Armed Forces Pacific
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Federate States of Micronesia
+Florida
+Georgia
+Guam
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Marshall Islands
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Northern Mariana Islands
+Ohio
+Oklahoma
+Oregon
+Palau
+Pennsylvania
+Puerto Rico
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virgin Islands
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+ZIP/Postal Code
+County
+Name Change
+New Name
+×
+Status message
+Reason for Name Change (select one):
+Marriage (please enter date)
+Divorce (please enter date)
+Court Order (please enter date)
+×
+Status message
+Submit a copy of the legal documentation reflecting the name change.  Acceptable forms of documentation include:  marriage license, divorce decree, court order, immigration records, or passport. E-mail documentation to Brenda Fredricey at brenda.fredricey@state.co.us, or fax to (303) 205-1342. Please contact Brenda with any questions at (303)866-3442.
+Submit
+Leave this field blank
+#FFFFFF
+#FFFFFF
+Helpful Links
+Accessibility Statement
+ADA Digital Services Request
+Revenue Home
+Careers
+Website Feedback
+Contact Us
+Auto Industry
+Gaming
+Liquor & Tobacco
+Marijuana
+Racing
+Senior Director's Office
+Media Center
+Ask for Help
+Colorado Open Records Act (CORA)
+#FFFFFF
+#FFFFFF
+#FFFFFF
+placeholder
+© 2024 State of Colorado
+Transparency Online
+General Notices
+Colorado Official State Web Portal
+array (
+  'messages' => 
+  array (
+    'status' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          '#theme' => 'webform_html_editor_markup',
+          '#markup' => 'Submit a copy of the legal documentation reflecting the name change. &nbsp;Acceptable forms of documentation include: &nbsp;marriage license, divorce decree, court order, immigration records, or passport. E-mail documentation to Brenda Fredricey at brenda.fredricey@state.co.us, or fax to (303) 205-1342. Please contact Brenda with any questions at (303)866-3442.',
+          '#allowed_tags' => 
+          array (
+            0 => 'a',
+            1 => 'abbr',
+            2 => 'acronym',
+            3 => 'address',
+            4 => 'article',
+            5 => 'aside',
+            6 => 'b',
+            7 => 'bdi',
+            8 => 'bdo',
+            9 => 'big',
+            10 => 'blockquote',
+            11 => 'br',
+            12 => 'caption',
+            13 => 'cite',
+            14 => 'code',
+            15 => 'col',
+            16 => 'colgroup',
+            17 => 'command',
+            18 => 'dd',
+            19 => 'del',
+            20 => 'details',
+            21 => 'dfn',
+            22 => 'div',
+            23 => 'dl',
+            24 => 'dt',
+            25 => 'em',
+            26 => 'figcaption',
+            27 => 'figure',
+            28 => 'footer',
+            29 => 'h1',
+            30 => 'h2',
+            31 => 'h3',
+            32 => 'h4',
+            33 => 'h5',
+            34 => 'h6',
+            35 => 'header',
+            36 => 'hgroup',
+            37 => 'hr',
+            38 => 'i',
+            39 => 'img',
+            40 => 'ins',
+            41 => 'kbd',
+            42 => 'li',
+            43 => 'mark',
+            44 => 'menu',
+            45 => 'meter',
+            46 => 'nav',
+            47 => 'ol',
+            48 => 'output',
+            49 => 'p',
+            50 => 'pre',
+            51 => 'progress',
+            52 => 'q',
+            53 => 'rp',
+            54 => 'rt',
+            55 => 'ruby',
+            56 => 's',
+            57 => 'samp',
+            58 => 'section',
+            59 => 'small',
+            60 => 'span',
+            61 => 'strong',
+            62 => 'sub',
+            63 => 'summary',
+            64 => 'sup',
+            65 => 'table',
+            66 => 'tbody',
+            67 => 'td',
+            68 => 'tfoot',
+            69 => 'th',
+            70 => 'thead',
+            71 => 'time',
+            72 => 'tr',
+            73 => 'tt',
+            74 => 'u',
+            75 => 'ul',
+            76 => 'var',
+            77 => 'wbr',
+            78 => 'label',
+            79 => 'fieldset',
+            80 => 'legend',
+            81 => 'font',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'url' => '/address/name-change-notification',
+  'excluded' => 
+  array (
+    'uid' => false,
+    'page' => false,
+  ),
+)

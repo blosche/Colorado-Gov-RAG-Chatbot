@@ -1,0 +1,667 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+<!-- mainLayout.jsp -->
+
+<html lang="en">
+<HEAD> 
+	<META http-equiv="X-UA-Compatible" content="IE=EmulateIE8" >
+	
+	<TITLE>
+	
+		 
+	   Colorado Secretary of State -
+	   Business Database Search
+	
+	</TITLE>
+
+<LINK rel="stylesheet" href="style.css" type="text/css">
+</HEAD> 
+
+<body>
+<FORM NAME="logoutForm" METHOD="POST" ACTION="Logout.do" style="margin: 0; padding: 0;">
+   <INPUT TYPE="HIDDEN" NAME="logoutExitPage" value="/Welcome.do">  
+</FORM>
+
+<!-- /apps/banner -->
+<style type="text/css">
+#pageHeader { 
+    width: expression( document.body.clientWidth < 1000 ? "1000px" : "auto" ); /* sets max-width for IE */
+}
+
+@media print {
+                #printHeader {
+                                width: 1000px;
+                }
+}
+
+body {
+    margin: 0px;
+    min-width: 1000px;
+
+
+}
+
+.toplinks {
+    color: #FFFFFF;
+}
+
+.toplinks a {
+    text-decoration: none;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.toplinks a:hover {
+    text-decoration: underline;
+}
+
+
+
+.pageBand {
+    background-color: #003767;
+    text-align: center;
+    
+}
+.ADAhidden	{position:absolute; left:-10000px; top:auto; width:1px; height:1px;}
+
+--></style>
+<div id="banner" aria-label="Header" role="region">
+<div id="printHeader">
+    
+<div id="pageHeader" style="position: relative;">
+<div style="background-color: #2c5990; height: 140px;">
+    
+    	<div class="toplinks" style="position: absolute; top: 1px; right: 5px;">
+				<a href="#main">Skip to content</a> &#160;|&#160; 
+				<a href="https://www.coloradosos.gov/pubs/info_center/biography.html">About Secretary Griswold</a> &#160;|&#160; 
+				<a href="https://www.coloradosos.gov/pubs/spanish/spanishHome.html">Espa&#241;ol</a>&#160;
+			</div>
+<div style="float: left;"><a href="https://www.coloradosos.gov/"> <img alt="Colorado Secretary of State - Go to home page" src="https://www.coloradosos.gov/pubs/images/Banner/bannerLeft.png" style="text-decoration: none; border: 0 none; border-width: 0px;" width="332" height="140" /> </a></div>
+<div style="float: right;"><img alt="" src="https://www.coloradosos.gov/pubs/images/Banner/bannerRight.png" />
+
+
+</div>
+</div>
+</div>
+</div></div>
+<a aria-label="Main content" role="region" id="main" name="main"></a>
+<div id="application" style="position: absolute; top: 165px; width: 100%">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="10%" valign="top" bgcolor="#E8E8E8">
+			<div id="leftnav">
+				<!--- leftNav.jsp --->
+
+
+<!--- This table holds the sidebar navigation elements,
+				We use clrdots and a background color of #FFFFFF to achive the box around the links.
+				We also use the clrdot as a spacer between groups of menu items.  Typically 23px.
+				
+				A selected state is archived by changing the style class on the href to "wt" then in the 
+				table cell use the background image menu_arrow.gif. See example below (Menu Item 2).--->
+		<div role="region" aria-label="Left navbar menu">
+		<table align="left" width="138" border="0" cellspacing="0" cellpadding="0" >
+		
+			
+		<tr>
+			<td width="137">&nbsp;</td>
+		</tr>
+		
+			<tr>
+				
+				<td width="137" align="left" ><a href="https://www.coloradosos.gov/pubs/business/main.html" class="leftnav">
+		  Business Home</a>
+					
+				</td>
+			</tr>
+			
+			<tr>
+				
+				<td width="137" align="left" ><a href="BusinessFunctions.do" class="leftnav">Business Information</a>
+					
+				</td>
+			</tr>
+			
+			<tr>
+				
+				<td width="137" align="left" ><a href="BusinessEntityCriteriaExt.do?resetTransTyp=Y" class="leftnav">Business Search</a>
+					
+				</td>
+			</tr>
+			
+	
+	<tr><td><br></td></tr>
+
+		<tr>
+			<td width="137">&nbsp;</td>
+		</tr>
+		
+			<tr>
+				
+				<td width="137" align="left" ><a href="https://www.coloradosos.gov/pubs/business/search_tips.html"  target="_blank" class="leftnav" >
+		  Help on this Page</a>
+					
+				</td>
+			</tr>
+			
+			<tr>
+				
+				<td width="137" align="left" ><a href="https://www.coloradosos.gov/pubs/business/faq_information.html"  target="_blank" class="leftnav" >
+		  FAQs, Glossary and Information</a>
+					
+				</td>
+			</tr>
+			
+	
+	<tr><td><br></td></tr>
+
+		</table>
+		</div>
+			</div>
+		</td>
+		<td>
+			<table border="0" cellspacing="5" cellpadding="5" >
+				<tr>
+					<td>
+
+	   						<h1>Business Database Search</h1>
+	  					 <BR>
+	   					 <DIV class="page_description" id="pageDescription">
+	   							 
+						 </DIV> 					
+					</td>
+				</tr>
+				
+		   							
+				<tr>
+					<td>
+						<form name="BusinessEntityCriteriaForm" method="post" action="/biz/BusinessEntityCriteriaExt.do">
+								
+			<!-- entryForm.jsp -->
+			<Table>
+				 	
+							<TR>
+								<TD align="left"  width="275px">
+									
+													<label for="id_6774457446063026274">
+									           			<span style="font-size: 13px; font-family: Arial, Helvetica, sans-serif;">Business paper documents processed through:</span>
+									           		</label>
+									           		
+									
+								</TD>
+								<TD>
+									<span class="staticTextValue" style="font-family:Times New Roman, Times, serif;">
+									
+										
+									
+
+
+
+
+
+
+
+
+
+<!-- staticText.jsp -->
+
+	
+	
+	
+	
+	07/17/2024
+
+		<input type="hidden" name="docWorkThruDt" value="07/17/2024">
+
+  
+									</span>
+								 
+								</TD>
+							</TR>
+				        <TR><TD colspan="2"><BR></TD></TR>	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 
+
+
+
+
+
+
+
+
+<!-- basicSearch.jsp -->
+
+
+<table>
+	<tr>
+		<td><label for="searchCriteria">Search by business name, trademark, trade name, ID or document number</label></td>
+	</tr>
+	<tr>
+		<td><span style="margin-left: 15px;"><input type="text" name="searchName" maxlength="250" size="65" value="" id="searchCriteria"></span></td>
+	</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+					              </TD>
+				            </TR>
+				        <TR><TD colspan="2"><BR></TD></TR><TR><TD colspan="2"><BR></TD></TR>	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- message.jsp -->
+ <b>More search options</b> 
+
+
+					              </TD>
+				            </TR>
+				        	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 
+
+
+
+
+<!-- verticalMenu.jsp -->
+<style type="text/css">
+	.menu { position: relative; top: 0in; left: 0in; margin: 0px; font-family: sans-serif;
+			font-size: 15px; background-color: white; color: #0000FF; }
+	.box { position: relative; top: 0px; left: 0px } 
+</style>
+<table>
+	<tr>
+
+
+<td valign="top" align="left">
+<div class="box">
+<dl>
+	<dt class="menu"></dt>
+
+		<dd class="hoverlinks-ul-blk">
+			
+						<UL><LI>
+						
+					<a href="NameCriteria.do" class="mainMenu">Name availability search</a>
+			
+	
+            
+						</LI></UL>
+			
+		     		
+		 </dd>
+		
+			
+		<dd class="hoverlinks-ul-blk">
+			
+						<UL><LI>
+						
+					<a href="AdvancedSearchCriteria.do" class="mainMenu">Advanced search</a>
+			
+	
+            
+						</LI></UL>
+			
+		     		
+		 </dd>
+		
+			
+		<dd class="hoverlinks-ul-blk">
+			
+						<UL><LI>
+						
+					<a href="bizSurveySearch.do" class="mainMenu">Business survey information search</a>
+			
+	
+            
+						</LI></UL>
+			
+		     		
+		 </dd>
+		
+			
+		<dd class="hoverlinks-ul-blk">
+			 
+			
+				<UL><li>
+			
+						<a href="AdvancedTrademarkSearchCriteria.do" class="mainMenu">
+		    
+					    Trademark advanced search
+					</a>
+            
+						</LI></UL>
+			
+		     		
+		 </dd>
+		
+				
+	
+</dl>
+</div>
+</td>
+<td>
+   &nbsp;&nbsp;
+</td>
+
+  		</tr>
+	</table>
+  	
+
+
+
+
+					              </TD>
+				            </TR>
+				        	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 		
+
+					              </TD>
+				            </TR>
+				        <TR><TD colspan="2"><BR></TD></TR>	
+							<TR>
+								<TD align="left"  width="275px">
+									
+								</TD>
+								<TD>
+									<span class="staticTextValue" style="font-family:Times New Roman, Times, serif;">
+									
+										
+									
+
+
+
+
+
+
+<!-- text.jsp -->
+
+		<input type="hidden" name="mstrTmkId" value="">
+
+  
+									</span>
+								 
+								</TD>
+							</TR>
+				        	
+							<TR>
+								<TD align="left"  width="275px">
+									
+								</TD>
+								<TD>
+									<span class="staticTextValue" style="font-family:Times New Roman, Times, serif;">
+									
+										
+									
+
+
+
+
+
+
+<!-- text.jsp -->
+
+		<input type="hidden" name="resetTransTyp" value="">
+
+  
+									</span>
+								 
+								</TD>
+							</TR>
+				        	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 		
+
+					              </TD>
+				            </TR>
+				        	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- message.jsp -->
+ <strong>Disclaimer:</strong> The Secretary of State's Office acts as a filing registry for businesses. This office lacks the authority to certify if a business is operating legally. 
+
+
+					              </TD>
+				            </TR>
+				        <TR><TD colspan="2"><BR></TD></TR>	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- message.jsp -->
+ <p style="padding-left: 30px;">Related FAQs:</p> 
+
+
+					              </TD>
+				            </TR>
+				        <TR><TD colspan="2"><BR></TD></TR>	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- message.jsp -->
+ <p style="padding-left: 60px;"><a href="https://www.coloradosos.gov/pubs/business/FAQs/certGoodStanding.html">What does a business in "Good Standing" mean?</a></p> 
+
+
+					              </TD>
+				            </TR>
+				        <TR><TD colspan="2"><BR></TD></TR>	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- message.jsp -->
+ <p style="padding-left: 60px;"><a href="https://www.coloradosos.gov/pubs/business/FAQs/certGoodStanding.html#REPUTABLE">Do your records tell me if a business is reputable?</a></p> 
+
+
+					              </TD>
+				            </TR>
+				        <TR><TD colspan="2"><BR></TD></TR>	
+							<TR>
+					              <TD colspan="2">
+					                 
+					                 	
+					                 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- message.jsp -->
+ Do you have federal <a href="https://www.fincen.gov/boi" target="_blank"><span>Beneficial Ownership Information</span></a> reporting obligations with the Financial Crimes Enforcement Network (FinCEN) of the U.S. Department of Treasury? 
+
+
+					              </TD>
+				            </TR>
+				        	
+							<TR>
+								<TD align="left"  width="275px">
+									
+								</TD>
+								<TD>
+									<span class="staticTextValue" style="font-family:Times New Roman, Times, serif;">
+									
+										
+									
+
+
+
+
+
+
+<!-- text.jsp -->
+
+		<input type="hidden" name="cmd" value="Search">
+
+  
+									</span>
+								 
+								</TD>
+							</TR>
+				        
+
+			</Table>
+			
+
+							<STYLE type="text/css">
+	INPUT.button {width: 1.5in; text-align: center; color: black; font-size: 11px; font-style: normal; font-weight: bold}
+</STYLE>
+
+
+
+  
+<table border="0" width="100%"><tr>
+
+
+	
+		          <td><input type="submit" name="cmd" value="Search" class="button"></td>
+	
+		          <td><input type="submit" name="org.apache.struts.taglib.html.CANCEL" value="Back" onclick="bCancel=true;" class="button"></td>
+	   
+
+
+
+  
+</tr></table>
+
+
+						</form>
+<script type="text/javascript" language="JavaScript">
+  <!--
+  var focusControl = document.forms["BusinessEntityCriteriaForm"].elements["searchName"];
+
+  if (focusControl.type != "hidden" && !focusControl.disabled && focusControl.style.display != "none") {
+     focusControl.focus();
+  }
+  // -->
+</script>
+
+						
+						
+		
+		 				
+						
+		 			</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<!-- /apps/footer.html -->
+<div aria-label="Footer" role="region" style="padding-top: 50px;">
+<div id="pageFooter" class="toplinks pageBand" style="text-align: center;">
+    <a href="https://www.coloradosos.gov/pubs/info_center/terms.html">Terms & conditions</a> | <a href="https://coloradosos.gov/pubs/info_center/accessibility.html">Accessibility statement</a> | <a href="https://www.coloradosos.gov/pubs/info_center/compatibility.html">Browser compatibility</a>
+</div></div></div>
+<!-- NEW Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JDK6PLVHDW"></script>
+<script>// <![CDATA[
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JDK6PLVHDW');
+// ]]></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8a6635a81f5b51e2',t:'MTcyMTUxMjY3NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
